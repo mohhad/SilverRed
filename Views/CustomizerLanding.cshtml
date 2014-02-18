@@ -1,0 +1,94 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Home.cshtml";
+    ViewBag.title = "Cutomize Your Product";
+}
+
+
+<link href="~/Css/ProductStyles.css" rel="stylesheet" type="text/css" />  
+<script type="text/javascript" src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="~/Scripts/NavScript.js"></script>
+<style>
+    body {
+        overflow: hidden;
+    }
+    
+    #FixedHeader:after {
+        content: '';
+        width: 100%;
+        height: 30px;
+        position: fixed;
+        top: 83px;
+        z-index: 9999;
+        opacity: 0.6;
+        background: rgba(0,0,0,1);
+        background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+        background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,0)));
+        background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+        background: -o-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+        background: -ms-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+        background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0 );
+    }
+
+</style>
+
+<div class="Seperator"></div>
+<div class="GreyWide"><p class="CustHeader">SELECT A PRODUCT CATEGORY TO CUSTOMIZE</p></div>
+<div id="CustNavContainer">
+    <div style="z-index: 15" id="LinkContainer">
+         <a href="Customizer?Product=ShirtsPants">
+        <div class="CustNavHover" id="ShirtsPantsClick">
+            <div class="CustNavHover HoverEffect"  id="ShirtsPantsHover" value="ShirtsPantsIconHover"></div>
+        </div>
+        </a>
+        <a href="Customizer?Product=JacketsPants">
+            <div class="CustNavHover" id="JacketsPantsClick">
+                <div class="CustNavHover HoverEffect" id="JacketsPantsHover" value="JacketsPantsIconHover"></div>
+            </div>
+        </a>
+        <a href="Customizer?Product=Coverall">
+            <div class="CustNavHover" id="CoverallClick">
+                <div class="CustNavHover HoverEffect" id="CoverallHover" value="CoverallIconHover"></div>
+            </div>
+        </a>
+        <a href="Customizer?Product=WinterJacket">
+            <div class="CustNavHover" id="WinterJacketClick">
+                <div class="CustNavHover HoverEffect" id="WinterJacketHover" value="WinterJacketIconHover"></div>
+            </div>
+        </a>
+    </div>
+   
+
+    <div id="CustFooter">
+        <div class="CustFooterItem" value="ShirtsPantsHover">
+            <div class="theIcon" id="ShirtsPantsIcon">
+                <div class="theIcon hoverer" id="ShirtsPantsIconHover"></div>
+            </div>
+            <div class="CustFooterText"><p>SHIRTS & PANTS</p></div>
+            <div class="opacityDiv"></div>
+        </div>
+        <div class="CustFooterItem" value="JacketsPantsHover">
+            <div class="theIcon" id="JacketsPantsIcon">
+                <div class="theIcon hoverer" id="JacketsPantsIconHover"></div>
+            </div>
+            <div class="CustFooterText"><p>JACKETS & PANTS</p></div>
+            <div class="opacityDiv"></div>
+        </div>
+        <div class="CustFooterItem" value="CoverallHover">
+            <div class="theIcon" id="CoverallIcon">
+                <div class="theIcon hoverer" id="CoverallIconHover"></div>
+            </div>
+            <div class="CustFooterText"><p>COVERALLS</p></div>
+            <div class="opacityDiv"></div>
+        </div>
+        <div class="CustFooterItem" value="WinterJacketHover">
+            <div class="theIcon" id="WinterJacketIcon">
+                <div class="theIcon hoverer" id="WinterJacketIconHover"></div>
+            </div>
+            <div class="CustFooterText"><p>WINTER</p></div>
+            <div class="opacityDiv"></div>
+        </div>
+    </div>
+
+</div>

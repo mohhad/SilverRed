@@ -1,0 +1,46 @@
+﻿@using umbraco.cms.businesslogic;
+@{
+    string rootKey = "RV.Countries";
+    var languageId = GetLanguageIdByNodeId(Model.Id);
+    Dictionary.DictionaryItem countriesParentNode = new Dictionary.DictionaryItem(rootKey);
+    string rootKeyToReplace = rootKey + ".";
+}
+
+<section class="DropDownContainer">
+    <div class="dropdown dropdown-dark" style="background: none;">
+        <select class="dropdown-select" style="color: #BBBDBF; font-size: 14px; padding: 3px 0 0;" title="Country">
+            <option value="0" disabled="disabled" selected="selected">Country</option>
+            @foreach (Dictionary.DictionaryItem item in countriesParentNode.Children.OrderBy(d => d.Value(languageId)))
+            { 
+                <option value="@item.key.ToString().Replace(rootKeyToReplace, "")">@item.Value(languageId)</option>
+            }
+        </select>
+    </div>
+</section>
+@functions {
+    public int GetLanguageIdByNodeId(int nodeId)
+    {
+        // get the domains for the node Id.
+        var domains = library.GetCurrentDomains(nodeId);
+
+        // check that a domain exists.
+        if (domains != null && domains.Length > 0)
+        {
+            // return the language from the first domain.
+            return domains[0].Language.id;
+        }
+
+        // otherwise return '1' (for the default language).
+        return 1;
+    }
+    public string GetDictionaryItem(string key, int languageId)
+    {
+        string value = string.Empty;
+        if (Dictionary.DictionaryItem.hasKey(key))
+        {
+            var item = new Dictionary.DictionaryItem(key);
+            value = item.Value(languageId);
+        }
+        return value;
+    }
+}

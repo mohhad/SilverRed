@@ -1,0 +1,18 @@
+2013-10-30 11:08:44,960 [47] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 15] Content 'JK 1' with Id '1196' has been published.
+2013-10-30 11:09:26,299 [47] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 15] Content 'JK 1' with Id '1196' has been published.
+2013-10-30 11:09:45,431 [47] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 208] Content 'JK 2' with Id '1197' has been published.
+2013-10-30 11:10:51,010 [47] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 149] Content 'JK 3' with Id '1198' has been published.
+2013-10-30 11:14:52,929 [47] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 101] Content 'JK 4' with Id '1199' has been published.
+2013-10-30 11:17:14,299 [47] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 77] Content 'JK 5' with Id '1200' has been published.
+2013-10-30 11:18:10,799 [47] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 117] Content 'C7' with Id '1207' has been published.
+2013-10-30 11:19:39,016 [47] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 172] Content 'S3' with Id '1211' has been published.
+2013-10-30 11:20:32,132 [47] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 115] Content 'WJ 1' with Id '1296' has been published.
+2013-10-30 11:20:49,576 [47] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 15] Content 'WJ 2' with Id '1297' has been published.
+2013-10-30 11:21:06,003 [47] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 15] Content 'WJ 3' with Id '1298' has been published.
+2013-10-30 11:21:20,465 [47] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 65] Content 'WJ 4' with Id '1299' has been published.
+2013-10-30 11:23:06,575 [47] INFO  umbraco.cms.businesslogic.web.Document - [Thread 115] New document 1400
+2013-10-30 11:23:41,909 [47] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 115] Content 'P1' with Id '1256' has been published.
+2013-10-30 11:24:01,379 [47] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 171] Content 'P2' with Id '1271' has been published.
+2013-10-30 11:24:09,761 [47] INFO  umbraco.cms.businesslogic.web.Document - [Thread 65] New document 1401
+2013-10-30 11:31:16,775 [47] INFO  umbraco.BusinessLogic.Log - [Thread 171] Log scrubbed.  Removed all items older than 2013-08-31 11:31:16
+2013-10-30 11:31:16,777 [47] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 171] Application shutdown. Reason: ConfigurationChange

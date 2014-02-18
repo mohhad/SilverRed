@@ -1,0 +1,32 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = null;
+}
+
+@using Newtonsoft.Json
+@using Formatting = System.Xml.Formatting
+
+
+@{
+
+    string ProdName = Model.Content.GetPropertyValue("ProductName").ToString();
+    string prodDesc = Model.Content.GetPropertyValue("ProductDescription").ToString();
+    string productFeatures = Model.Content.GetPropertyValue("productFeatures").ToString();
+    //string ProductInfoBody = Model.Content.GetPropertyValue("ProductInformationBody").ToString();
+
+   
+    List<Object> Products = new List<Object>();
+
+    Products.Add(
+        new
+        {
+            ProdInfo = new[] { ProdName, prodDesc, productFeatures, @Model.Content.Name }
+        });
+    
+
+    string json = JsonConvert.SerializeObject(Products);
+    
+
+    Response.ContentType = "application/json";
+    }
+@Html.Raw(json)

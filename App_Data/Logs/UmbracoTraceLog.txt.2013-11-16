@@ -1,0 +1,261 @@
+2013-11-16 01:49:14,915 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 62] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-16 01:49:16,865 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 31] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-16 01:49:16,881 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 10] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-16 02:56:44,945 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 26] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-16 02:56:46,895 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 25] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-16 02:57:25,414 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 30] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-16 02:57:25,414 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 40] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-16 02:57:36,225 [8] INFO  Umbraco.Core.PluginManager - [Thread 26] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2013-11-16 02:57:36,256 [8] INFO  Umbraco.Core.PluginManager - [Thread 26] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 23ms)
+2013-11-16 02:57:43,994 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 69] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-16 04:41:01,521 [8] INFO  umbraco.BusinessLogic.Log - [Thread 22] Log scrubbed.  Removed all items older than 2013-09-17 04:41:00
+2013-11-16 05:20:35,479 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2013-11-16 05:20:35,495 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 12ms)
+2013-11-16 05:20:35,510 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-11-16 05:20:35,963 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 451ms)
+2013-11-16 05:20:36,010 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-11-16 05:20:36,025 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 1 (took 15ms)
+2013-11-16 05:20:36,025 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-11-16 05:20:36,041 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 11ms)
+2013-11-16 05:20:36,041 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-11-16 05:20:36,041 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 2 (took 10ms)
+2013-11-16 05:20:36,056 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-11-16 05:20:36,072 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 13ms)
+2013-11-16 05:20:36,072 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-11-16 05:20:36,088 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 13ms)
+2013-11-16 05:20:36,291 [8] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2013-11-16 05:20:37,476 [8] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2013-11-16 05:20:37,507 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2013-11-16 05:20:37,539 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 25ms)
+2013-11-16 05:20:37,679 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2013-11-16 05:20:37,773 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 86ms)
+2013-11-16 05:20:37,897 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 1] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-16 05:20:38,038 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 9] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-16 05:41:17,412 [8] INFO  umbraco.content - [Thread 18] Loading content from disk cache...
+2013-11-16 05:41:17,989 [8] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 18] An unhandled exception occurred
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_Views_Blog_cshtml.Execute() in d:\hosting\10844313\html\Views\Blog.cshtml:line 50
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at StackExchange.Profiling.MVCHelpers.WrappedView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__19()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-11-16 05:42:06,523 [8] INFO  Umbraco.Core.PluginManager - [Thread 59] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2013-11-16 05:42:06,539 [8] INFO  Umbraco.Core.PluginManager - [Thread 59] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 20ms)
+2013-11-16 05:54:27,203 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 46] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-16 05:54:27,203 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 42] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-16 05:54:27,218 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 60] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-16 05:54:29,621 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 47] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-16 06:14:29,775 [8] INFO  umbraco.BusinessLogic.Log - [Thread 40] Log scrubbed.  Removed all items older than 2013-09-17 06:14:29
+2013-11-16 06:17:13,599 [52] INFO  Umbraco.Core.PluginManager - [Thread 36] Determining hash of code files on disk
+2013-11-16 06:17:13,614 [52] INFO  Umbraco.Core.PluginManager - [Thread 36] Hash determined (took 11ms)
+2013-11-16 06:17:13,630 [52] INFO  Umbraco.Core.PluginManager - [Thread 36] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-11-16 06:17:14,082 [52] INFO  Umbraco.Core.PluginManager - [Thread 36] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 445ms)
+2013-11-16 06:17:14,082 [52] INFO  Umbraco.Core.PluginManager - [Thread 36] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-11-16 06:17:14,098 [52] INFO  Umbraco.Core.PluginManager - [Thread 36] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 1 (took 14ms)
+2013-11-16 06:17:14,098 [52] INFO  Umbraco.Core.PluginManager - [Thread 36] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-11-16 06:17:14,114 [52] INFO  Umbraco.Core.PluginManager - [Thread 36] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 10ms)
+2013-11-16 06:17:14,114 [52] INFO  Umbraco.Core.PluginManager - [Thread 36] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-11-16 06:17:14,114 [52] INFO  Umbraco.Core.PluginManager - [Thread 36] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 2 (took 10ms)
+2013-11-16 06:17:14,114 [52] INFO  Umbraco.Core.PluginManager - [Thread 36] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-11-16 06:17:14,129 [52] INFO  Umbraco.Core.PluginManager - [Thread 36] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 13ms)
+2013-11-16 06:17:14,129 [52] INFO  Umbraco.Core.PluginManager - [Thread 36] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-11-16 06:17:14,145 [52] INFO  Umbraco.Core.PluginManager - [Thread 36] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 14ms)
+2013-11-16 06:17:14,348 [52] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 36] Initializing Examine and binding to business logic events
+2013-11-16 06:17:14,956 [52] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 36] Adding examine event handlers for index providers: 3
+2013-11-16 06:17:14,956 [52] INFO  Umbraco.Core.PluginManager - [Thread 36] Starting resolution types of umbraco.interfaces.IApplication
+2013-11-16 06:17:15,003 [52] INFO  Umbraco.Core.PluginManager - [Thread 36] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 42ms)
+2013-11-16 06:17:15,128 [52] INFO  Umbraco.Core.PluginManager - [Thread 36] Starting resolution types of umbraco.interfaces.ITree
+2013-11-16 06:17:15,206 [52] INFO  Umbraco.Core.PluginManager - [Thread 36] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 75ms)
+2013-11-16 06:17:15,315 [52] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 36] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-16 06:17:15,408 [52] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 32] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-16 06:17:15,533 [52] INFO  umbraco.content - [Thread 32] Loading content from disk cache...
+2013-11-16 06:17:16,266 [52] INFO  Umbraco.Core.PluginManager - [Thread 32] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2013-11-16 06:17:16,282 [52] INFO  Umbraco.Core.PluginManager - [Thread 32] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 17ms)
+2013-11-16 06:17:17,171 [52] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 48] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-16 06:17:17,187 [52] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 59] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-16 06:17:17,187 [52] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 46] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-16 06:17:51,977 [52] INFO  Umbraco.Core.PluginManager - [Thread 63] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2013-11-16 06:17:51,992 [52] INFO  Umbraco.Core.PluginManager - [Thread 63] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 21ms)
+2013-11-16 06:19:25,129 [52] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 38] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-16 06:19:32,290 [52] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 38] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-16 08:53:57,737 [52] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 33] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-16 08:53:57,737 [52] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 95] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-16 08:53:57,737 [52] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 32] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-16 08:54:06,677 [52] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 67] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-16 09:41:25,976 [52] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 32] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-16 10:00:29,592 [52] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 6] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-16 10:00:29,592 [52] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 14] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-16 10:00:29,592 [52] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 95] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-16 12:06:46,994 [52] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 89] An unhandled exception occurred
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_Views_Blog_cshtml.Execute() in d:\hosting\10844313\html\Views\Blog.cshtml:line 50
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at StackExchange.Profiling.MVCHelpers.WrappedView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__19()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-11-16 12:54:31,707 [52] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 30] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-16 12:54:32,019 [52] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 66] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-16 12:55:18,228 [52] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 41] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-16 12:55:18,228 [52] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 74] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-16 12:58:01,818 [52] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 41] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-16 12:58:01,818 [52] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 89] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-16 12:58:01,865 [52] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 80] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-16 12:58:03,285 [52] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 82] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-16 12:58:03,378 [52] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 66] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-16 13:46:23,162 [52] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 65] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-16 13:46:23,162 [52] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 76] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-16 13:46:23,162 [52] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 39] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-16 13:46:23,162 [52] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 90] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-16 17:20:36,591 [52] INFO  umbraco.BusinessLogic.Log - [Thread 12] Log scrubbed.  Removed all items older than 2013-09-17 17:20:36
+2013-11-16 17:28:23,743 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2013-11-16 17:28:23,758 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 12ms)
+2013-11-16 17:28:23,774 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-11-16 17:28:24,226 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 450ms)
+2013-11-16 17:28:24,273 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-11-16 17:28:24,289 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 1 (took 14ms)
+2013-11-16 17:28:24,289 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-11-16 17:28:24,304 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 12ms)
+2013-11-16 17:28:24,304 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-11-16 17:28:24,320 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 2 (took 11ms)
+2013-11-16 17:28:24,320 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-11-16 17:28:24,335 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 14ms)
+2013-11-16 17:28:24,335 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-11-16 17:28:24,351 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 13ms)
+2013-11-16 17:28:24,585 [8] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2013-11-16 17:28:25,818 [8] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2013-11-16 17:28:25,849 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2013-11-16 17:28:25,880 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 31ms)
+2013-11-16 17:28:26,020 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2013-11-16 17:28:26,083 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 75ms)
+2013-11-16 17:28:26,208 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 1] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-16 17:28:26,348 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 9] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-16 17:34:09,488 [8] INFO  umbraco.content - [Thread 21] Loading content from disk cache...
+2013-11-16 17:34:10,049 [8] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 21] An unhandled exception occurred
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_Views_Blog_cshtml.Execute() in d:\hosting\10844313\html\Views\Blog.cshtml:line 50
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at StackExchange.Profiling.MVCHelpers.WrappedView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__19()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-11-16 17:34:54,589 [8] INFO  Umbraco.Core.PluginManager - [Thread 30] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2013-11-16 17:34:54,605 [8] INFO  Umbraco.Core.PluginManager - [Thread 30] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 20ms)
+2013-11-16 17:44:22,583 [8] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 31] An unhandled exception occurred
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_Views_Blog_cshtml.Execute() in d:\hosting\10844313\html\Views\Blog.cshtml:line 50
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at StackExchange.Profiling.MVCHelpers.WrappedView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__19()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-11-16 17:55:32,170 [8] INFO  Umbraco.Core.PluginManager - [Thread 40] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2013-11-16 17:55:32,185 [8] INFO  Umbraco.Core.PluginManager - [Thread 40] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 19ms)
+2013-11-16 23:22:03,795 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 19] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-16 23:22:03,795 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 41] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-16 23:22:03,795 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 23] Cannot start the WebProfiler since the application is running in Medium trust

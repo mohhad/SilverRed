@@ -1,0 +1,76 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Home.cshtml";
+    ViewBag.title = "Standard Products or Cutomize Your Own.";
+}
+
+<link href="~/Css/ProductStyles.css" rel="stylesheet" type="text/css" />  
+<script type="text/javascript" src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="~/Scripts/NavScript.js"></script>
+<style>
+    body {
+    overflow: hidden;
+    }
+
+</style>
+
+
+
+<div class="Seperator"></div>
+<div id="ProdNavContainer">
+    <a href="Products"> @*onclick="GoToSecondpage()"*@
+        <div class="ProdNavHover" id="StandardProdLine">
+            <div class="ProdNavHover HoverEffect" id="StandardHover"></div>
+            <div class="HexagonLine"></div>
+            <div class="HexagonContainer hexfirst" id="StandardHex">
+                <div class="HexagonContainer FaderHex" id="StandardHexFade"></div>
+                <div class="ProdNavTextContainer">
+                    <p>Standard Products</p>
+                    <h2 class="Squished">VIEW OUR STANDARD LINE</h2>
+                </div>
+            </div>
+        </div>
+    </a>
+    <a href="CustomizerLanding">
+        <div class="ProdNavHover" id="CustomizerProd">
+            <div class="ProdNavHover HoverEffect" id="CustomizerHover"></div>
+            <div class="HexagonLine"></div>        
+            <div class="HexagonContainer hexfirst" id="CustomizerHex">
+                <div class="HexagonContainer FaderHex" id="CustomizerHexFade"></div>
+                <div class="ProdNavTextContainer">
+                    <p>Product Customizer</p>
+                    <h2 class="Squished">CUSTOMIZE YOUR PRODUCT</h2>
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+
+@*<div id="ProdShoesContainer">
+    <a href="Products">
+        <div class="ProdNavHover" id="Clothing">
+            <div class="ProdNavHover HoverEffect" id="ClothingHover"></div>
+            <div class="HexagonLine"></div>
+            <div class="HexagonContainer hexSecond" id="ClothingHex">
+                <div class="HexagonContainer FaderHex" id="ClothingHexFade"></div>
+                <div class="ProdNavTextContainer">
+                    <p>All Clothing</p>
+                    <h2 class="Squished">VIEW OUR CLOTHING</h2>
+                </div>
+            </div>
+        </div>
+    </a>
+    <a href="FootWear">
+        <div class="ProdNavHover" id="Shoes">
+            <div class="ProdNavHover HoverEffect" id="ShoesHover"></div>
+            <div class="HexagonLine"></div>        
+            <div class="HexagonContainer hexSecond" id="ShoesHex">
+                <div class="HexagonContainer FaderHex" id="ShoesHexFade"></div>
+                <div class="ProdNavTextContainer">
+                    <p>Footwear</p>
+                    <h2 class="Squished">VIEW OUR FOOTWEAR </h2>
+                </div>
+            </div>
+        </div>
+    </a>
+</div>*@

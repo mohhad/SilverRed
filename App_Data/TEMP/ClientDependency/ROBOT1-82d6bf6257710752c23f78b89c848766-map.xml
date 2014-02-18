@@ -1,0 +1,570 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<map>
+  <item key="L3VtYnJhY29fY2xpZW50L1RyZWUvdHJlZUljb25zLmNzczsvdW1icmFjb19jbGllbnQvVHJlZS9tZW51SWNvbnMuY3NzOy91bWJyYWNvX2NsaWVudC9UcmVlL1RoZW1lcy91bWJyYWNvL3N0eWxlLmNzczsvdW1icmFjby9jc3MvdW1icmFjb0d1aS5jc3M7L3VtYnJhY29fY2xpZW50L21vZGFsL3N0eWxlLmNzczsvdW1icmFjb19jbGllbnQvc2Nyb2xsaW5nbWVudS9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L3BhbmVsL3N0eWxlLmNzczs" file="C:\Users\mohamed\Desktop\NewSilverRedCopy\App_Data\TEMP\ClientDependency\2_67f11ef2e4e846f58944505f790044d3.cdC" compression="gzip" version="2">
+    <files>
+      <file name="/umbraco_client/Tree/treeIcons.css" />
+      <file name="/umbraco_client/Tree/menuIcons.css" />
+      <file name="/umbraco_client/Tree/Themes/umbraco/style.css" />
+      <file name="/umbraco/css/umbracoGui.css" />
+      <file name="/umbraco_client/modal/style.css" />
+      <file name="/umbraco_client/scrollingmenu/style.css" />
+      <file name="/umbraco_client/panel/style.css" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY28vanMvVW1icmFjb1NwZWVjaEJ1YmJsZUJhY2tlbmQuanM7L3VtYnJhY28vU2VhcmNoL3F1aWNrU2VhcmNoLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9KUXVlcnkvanF1ZXJ5LmF1dG9jb21wbGV0ZS5qczsvdW1icmFjb19jbGllbnQvc2Nyb2xsaW5nbWVudS9qYXZhc2NyaXB0LmpzOy91bWJyYWNvX2NsaWVudC9wYW5lbC9qYXZhc2NyaXB0LmpzOw" file="C:\Users\mohamed\Desktop\NewSilverRedCopy\App_Data\TEMP\ClientDependency\2_0314bbf005d945cc832a31c00e80a3d3.cdJ" compression="gzip" version="2">
+    <files>
+      <file name="/umbraco/js/UmbracoSpeechBubbleBackend.js" />
+      <file name="/umbraco/Search/quickSearch.js" />
+      <file name="/umbraco_client/Application/JQuery/jquery.autocomplete.js" />
+      <file name="/umbraco_client/scrollingmenu/javascript.js" />
+      <file name="/umbraco_client/panel/javascript.js" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL05hbWVzcGFjZU1hbmFnZXIuanM7L3VtYnJhY29fY2xpZW50L3VpL2pzb24yLmpzOy91bWJyYWNvX2NsaWVudC91aS9qcXVlcnkuanM7L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeXVpLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9qUXVlcnkvanF1ZXJ5LmNvb2tpZS5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24valF1ZXJ5L2pxdWVyeS5iYS1iYnEubWluLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9VbWJyYWNvQXBwbGljYXRpb25BY3Rpb25zLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9VbWJyYWNvVXRpbHMuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL0hpc3RvcnlNYW5hZ2VyLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9VbWJyYWNvQ2xpZW50TWFuYWdlci5qczsvdW1icmFjb19jbGllbnQvdWkvZGVmYXVsdC5qczsvdW1icmFjb19jbGllbnQvbW9kYWwvbW9kYWwuanM7L3VtYnJhY29fY2xpZW50L21vZGFsL2pxdWVyeS5zaW1wbGVtb2RhbC4xLjQuMS5jdXN0b20uanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL0pRdWVyeS9qcXVlcnkubWV0YWRhdGEubWluLmpzOy91bWJyYWNvX2NsaWVudC9UcmVlL2pxdWVyeS50cmVlLmpzOy91bWJyYWNvX2NsaWVudC9UcmVlL1VtYnJhY29Db250ZXh0LmpzOy91bWJyYWNvX2NsaWVudC9UcmVlL2pxdWVyeS50cmVlLmNvbnRleHRtZW51LmpzOy91bWJyYWNvX2NsaWVudC9UcmVlL2pxdWVyeS50cmVlLmNoZWNrYm94LmpzOy91bWJyYWNvX2NsaWVudC9UcmVlL05vZGVEZWZpbml0aW9uLmpzOy91bWJyYWNvX2NsaWVudC9UcmVlL1VtYnJhY29UcmVlLmpzOy91bWJyYWNvX2NsaWVudC91aS9qUXVlcnlXcmVzaXplLmpzOy91bWJyYWNvL2pzL2d1aUZ1bmN0aW9ucy5qczs" file="C:\Users\mohamed\Desktop\NewSilverRedCopy\App_Data\TEMP\ClientDependency\2_a7e5c85e63d04d51af659218968769bd.cdJ" compression="gzip" version="2">
+    <files>
+      <file name="/umbraco_client/Application/NamespaceManager.js" />
+      <file name="/umbraco_client/ui/json2.js" />
+      <file name="/umbraco_client/ui/jquery.js" />
+      <file name="/umbraco_client/ui/jqueryui.js" />
+      <file name="/umbraco_client/Application/jQuery/jquery.cookie.js" />
+      <file name="/umbraco_client/Application/jQuery/jquery.ba-bbq.min.js" />
+      <file name="/umbraco_client/Application/UmbracoApplicationActions.js" />
+      <file name="/umbraco_client/Application/UmbracoUtils.js" />
+      <file name="/umbraco_client/Application/HistoryManager.js" />
+      <file name="/umbraco_client/Application/UmbracoClientManager.js" />
+      <file name="/umbraco_client/ui/default.js" />
+      <file name="/umbraco_client/modal/modal.js" />
+      <file name="/umbraco_client/modal/jquery.simplemodal.1.4.1.custom.js" />
+      <file name="/umbraco_client/Application/JQuery/jquery.metadata.min.js" />
+      <file name="/umbraco_client/Tree/jquery.tree.js" />
+      <file name="/umbraco_client/Tree/UmbracoContext.js" />
+      <file name="/umbraco_client/Tree/jquery.tree.contextmenu.js" />
+      <file name="/umbraco_client/Tree/jquery.tree.checkbox.js" />
+      <file name="/umbraco_client/Tree/NodeDefinition.js" />
+      <file name="/umbraco_client/Tree/UmbracoTree.js" />
+      <file name="/umbraco_client/ui/jQueryWresize.js" />
+      <file name="/umbraco/js/guiFunctions.js" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL05hbWVzcGFjZU1hbmFnZXIuanM7L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeS5qczsvdW1icmFjb19jbGllbnQvdWkvanF1ZXJ5dWkuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL2pRdWVyeS9qcXVlcnkuY29va2llLmpzOy91bWJyYWNvX2NsaWVudC91aS9iYXNlMi5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vVW1icmFjb0FwcGxpY2F0aW9uQWN0aW9ucy5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vVW1icmFjb1V0aWxzLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9VbWJyYWNvQ2xpZW50TWFuYWdlci5qczsvdW1icmFjb19jbGllbnQvVUkva25vY2tvdXQuanM7L3VtYnJhY29fY2xpZW50L1VJL2tub2Nrb3V0Lm1hcHBpbmcuanM7L3VtYnJhY29fY2xpZW50L21vZGFsL21vZGFsLmpzOy91bWJyYWNvX2NsaWVudC91aS9kZWZhdWx0LmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9qUXVlcnkvanF1ZXJ5LmhvdGtleXMuanM7L3VtYnJhY29fY2xpZW50L3Bhc3N3b3JkU3RyZW5ndGgvcGFzc3dvcmRzdHJlbmd0aC5qczsvdW1icmFjb19jbGllbnQvc2Nyb2xsaW5nbWVudS9qYXZhc2NyaXB0LmpzOy91bWJyYWNvL2Rhc2hib2FyZC9zY3JpcHRzL2pxdWVyeS5qZmVlZC5wYWNrLmpzOy91bWJyYWNvX2NsaWVudC9wYW5lbC9qYXZhc2NyaXB0LmpzOy91bWJyYWNvX2NsaWVudC90YWJ2aWV3L2phdmFzY3JpcHQuanM7" file="C:\Users\mohamed\Desktop\NewSilverRedCopy\App_Data\TEMP\ClientDependency\2_d36d4302108147c38929b4284f4d8ff0.cdJ" compression="gzip" version="2">
+    <files>
+      <file name="/umbraco_client/Application/NamespaceManager.js" />
+      <file name="/umbraco_client/ui/jquery.js" />
+      <file name="/umbraco_client/ui/jqueryui.js" />
+      <file name="/umbraco_client/Application/jQuery/jquery.cookie.js" />
+      <file name="/umbraco_client/ui/base2.js" />
+      <file name="/umbraco_client/Application/UmbracoApplicationActions.js" />
+      <file name="/umbraco_client/Application/UmbracoUtils.js" />
+      <file name="/umbraco_client/Application/UmbracoClientManager.js" />
+      <file name="/umbraco_client/UI/knockout.js" />
+      <file name="/umbraco_client/UI/knockout.mapping.js" />
+      <file name="/umbraco_client/modal/modal.js" />
+      <file name="/umbraco_client/ui/default.js" />
+      <file name="/umbraco_client/Application/jQuery/jquery.hotkeys.js" />
+      <file name="/umbraco_client/passwordStrength/passwordstrength.js" />
+      <file name="/umbraco_client/scrollingmenu/javascript.js" />
+      <file name="/umbraco/dashboard/scripts/jquery.jfeed.pack.js" />
+      <file name="/umbraco_client/panel/javascript.js" />
+      <file name="/umbraco_client/tabview/javascript.js" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L3VpL2RlZmF1bHQuY3NzOy91bWJyYWNvX2NsaWVudC9tb2RhbC9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L3Njcm9sbGluZ21lbnUvc3R5bGUuY3NzOy91bWJyYWNvX2NsaWVudC9wcm9wZXJ0eXBhbmUvc3R5bGUuY3NzOy91bWJyYWNvX2NsaWVudC9wYW5lbC9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L3RhYnZpZXcvc3R5bGUuY3NzOw" file="C:\Users\mohamed\Desktop\NewSilverRedCopy\App_Data\TEMP\ClientDependency\2_e569c37bebf94dd9829ed8fad5f22880.cdC" compression="gzip" version="2">
+    <files>
+      <file name="/umbraco_client/ui/default.css" />
+      <file name="/umbraco_client/modal/style.css" />
+      <file name="/umbraco_client/scrollingmenu/style.css" />
+      <file name="/umbraco_client/propertypane/style.css" />
+      <file name="/umbraco_client/panel/style.css" />
+      <file name="/umbraco_client/tabview/style.css" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL05hbWVzcGFjZU1hbmFnZXIuanM7L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeS5qczsvdW1icmFjb19jbGllbnQvdWkvanF1ZXJ5dWkuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL2pRdWVyeS9qcXVlcnkuY29va2llLmpzOy91bWJyYWNvX2NsaWVudC91aS9iYXNlMi5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vVW1icmFjb0FwcGxpY2F0aW9uQWN0aW9ucy5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vVW1icmFjb1V0aWxzLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9VbWJyYWNvQ2xpZW50TWFuYWdlci5qczsvdW1icmFjb19jbGllbnQvVUkva25vY2tvdXQuanM7L3VtYnJhY29fY2xpZW50L1VJL2tub2Nrb3V0Lm1hcHBpbmcuanM7L3VtYnJhY29fY2xpZW50L21vZGFsL21vZGFsLmpzOy91bWJyYWNvX2NsaWVudC91aS9kZWZhdWx0LmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9qUXVlcnkvanF1ZXJ5LmhvdGtleXMuanM7L3VtYnJhY29fY2xpZW50L3Njcm9sbGluZ21lbnUvamF2YXNjcmlwdC5qczsvdW1icmFjby9kYXNoYm9hcmQvc2NyaXB0cy9qcXVlcnkuamZlZWQucGFjay5qczsvdW1icmFjby9wbHVnaW5zL3VHb0xpdmUvRGFzaGJvYXJkLmpzOy91bWJyYWNvX2NsaWVudC9EYXNoYm9hcmRzL0V4YW1pbmVNYW5hZ2VtZW50LmpzOy91bWJyYWNvX2NsaWVudC9wYW5lbC9qYXZhc2NyaXB0LmpzOy91bWJyYWNvX2NsaWVudC90YWJ2aWV3L2phdmFzY3JpcHQuanM7" file="C:\Users\mohamed\Desktop\NewSilverRedCopy\App_Data\TEMP\ClientDependency\2_642b0bd950b54dd68ee705f0b3ca811d.cdJ" compression="gzip" version="2">
+    <files>
+      <file name="/umbraco_client/Application/NamespaceManager.js" />
+      <file name="/umbraco_client/ui/jquery.js" />
+      <file name="/umbraco_client/ui/jqueryui.js" />
+      <file name="/umbraco_client/Application/jQuery/jquery.cookie.js" />
+      <file name="/umbraco_client/ui/base2.js" />
+      <file name="/umbraco_client/Application/UmbracoApplicationActions.js" />
+      <file name="/umbraco_client/Application/UmbracoUtils.js" />
+      <file name="/umbraco_client/Application/UmbracoClientManager.js" />
+      <file name="/umbraco_client/UI/knockout.js" />
+      <file name="/umbraco_client/UI/knockout.mapping.js" />
+      <file name="/umbraco_client/modal/modal.js" />
+      <file name="/umbraco_client/ui/default.js" />
+      <file name="/umbraco_client/Application/jQuery/jquery.hotkeys.js" />
+      <file name="/umbraco_client/scrollingmenu/javascript.js" />
+      <file name="/umbraco/dashboard/scripts/jquery.jfeed.pack.js" />
+      <file name="/umbraco/plugins/uGoLive/Dashboard.js" />
+      <file name="/umbraco_client/Dashboards/ExamineManagement.js" />
+      <file name="/umbraco_client/panel/javascript.js" />
+      <file name="/umbraco_client/tabview/javascript.js" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L3VpL2RlZmF1bHQuY3NzOy91bWJyYWNvX2NsaWVudC9tb2RhbC9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L3Njcm9sbGluZ21lbnUvc3R5bGUuY3NzOy91bWJyYWNvX2NsaWVudC9wcm9wZXJ0eXBhbmUvc3R5bGUuY3NzOy91bWJyYWNvL3BsdWdpbnMvdUdvTGl2ZS9EYXNoYm9hcmQuY3NzOy91bWJyYWNvX2NsaWVudC9EYXNoYm9hcmRzL0V4YW1pbmVNYW5hZ2VtZW50LmNzczsvdW1icmFjb19jbGllbnQvcGFuZWwvc3R5bGUuY3NzOy91bWJyYWNvX2NsaWVudC90YWJ2aWV3L3N0eWxlLmNzczs" file="C:\Users\mohamed\Desktop\NewSilverRedCopy\App_Data\TEMP\ClientDependency\2_bac7bf6304d74f22bc453d369abdb48d.cdC" compression="gzip" version="2">
+    <files>
+      <file name="/umbraco_client/ui/default.css" />
+      <file name="/umbraco_client/modal/style.css" />
+      <file name="/umbraco_client/scrollingmenu/style.css" />
+      <file name="/umbraco_client/propertypane/style.css" />
+      <file name="/umbraco/plugins/uGoLive/Dashboard.css" />
+      <file name="/umbraco_client/Dashboards/ExamineManagement.css" />
+      <file name="/umbraco_client/panel/style.css" />
+      <file name="/umbraco_client/tabview/style.css" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L3VpL2RlZmF1bHQuY3NzOy91bWJyYWNvX2NsaWVudC9tb2RhbC9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L3Byb3BlcnR5cGFuZS9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L3Njcm9sbGluZ21lbnUvc3R5bGUuY3NzOy91bWJyYWNvX2NsaWVudC9wYW5lbC9zdHlsZS5jc3M7" file="C:\Users\mohamed\Desktop\NewSilverRedCopy\App_Data\TEMP\ClientDependency\2_e8fc42c3b3b54c2ab20fba4abe5ad2cb.cdC" compression="gzip" version="2">
+    <files>
+      <file name="/umbraco_client/ui/default.css" />
+      <file name="/umbraco_client/modal/style.css" />
+      <file name="/umbraco_client/propertypane/style.css" />
+      <file name="/umbraco_client/scrollingmenu/style.css" />
+      <file name="/umbraco_client/panel/style.css" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL05hbWVzcGFjZU1hbmFnZXIuanM7L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeS5qczsvdW1icmFjb19jbGllbnQvdWkvanF1ZXJ5dWkuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL2pRdWVyeS9qcXVlcnkuY29va2llLmpzOy91bWJyYWNvX2NsaWVudC91aS9iYXNlMi5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vVW1icmFjb0FwcGxpY2F0aW9uQWN0aW9ucy5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vVW1icmFjb1V0aWxzLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9VbWJyYWNvQ2xpZW50TWFuYWdlci5qczsvdW1icmFjb19jbGllbnQvVUkva25vY2tvdXQuanM7L3VtYnJhY29fY2xpZW50L1VJL2tub2Nrb3V0Lm1hcHBpbmcuanM7L3VtYnJhY29fY2xpZW50L21vZGFsL21vZGFsLmpzOy91bWJyYWNvX2NsaWVudC91aS9kZWZhdWx0LmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9qUXVlcnkvanF1ZXJ5LmhvdGtleXMuanM7L3VtYnJhY29fY2xpZW50L3Njcm9sbGluZ21lbnUvamF2YXNjcmlwdC5qczsvdW1icmFjb19jbGllbnQvcGFuZWwvamF2YXNjcmlwdC5qczs" file="C:\Users\mohamed\Desktop\NewSilverRedCopy\App_Data\TEMP\ClientDependency\2_8ca7674c0b904677a2622234d6df0691.cdJ" compression="gzip" version="2">
+    <files>
+      <file name="/umbraco_client/Application/NamespaceManager.js" />
+      <file name="/umbraco_client/ui/jquery.js" />
+      <file name="/umbraco_client/ui/jqueryui.js" />
+      <file name="/umbraco_client/Application/jQuery/jquery.cookie.js" />
+      <file name="/umbraco_client/ui/base2.js" />
+      <file name="/umbraco_client/Application/UmbracoApplicationActions.js" />
+      <file name="/umbraco_client/Application/UmbracoUtils.js" />
+      <file name="/umbraco_client/Application/UmbracoClientManager.js" />
+      <file name="/umbraco_client/UI/knockout.js" />
+      <file name="/umbraco_client/UI/knockout.mapping.js" />
+      <file name="/umbraco_client/modal/modal.js" />
+      <file name="/umbraco_client/ui/default.js" />
+      <file name="/umbraco_client/Application/jQuery/jquery.hotkeys.js" />
+      <file name="/umbraco_client/scrollingmenu/javascript.js" />
+      <file name="/umbraco_client/panel/javascript.js" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L3VpL2RlZmF1bHQuY3NzOw" file="C:\Users\mohamed\Desktop\NewSilverRedCopy\App_Data\TEMP\ClientDependency\2_c3dddaf2fa2d4c0fbf8aa707ce316cc0.cdC" compression="gzip" version="2">
+    <files>
+      <file name="/umbraco_client/ui/default.css" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL05hbWVzcGFjZU1hbmFnZXIuanM7L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeS5qczsvdW1icmFjb19jbGllbnQvdWkvYmFzZTIuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL1VtYnJhY29DbGllbnRNYW5hZ2VyLmpzOy91bWJyYWNvX2NsaWVudC9VSS9rbm9ja291dC5qczsvdW1icmFjb19jbGllbnQvVUkva25vY2tvdXQubWFwcGluZy5qczsvdW1icmFjb19jbGllbnQvdWkvZGVmYXVsdC5qczs" file="C:\Users\mohamed\Desktop\NewSilverRedCopy\App_Data\TEMP\ClientDependency\2_558f086e9ad44a9a8aa9fad36aab95d7.cdJ" compression="gzip" version="2">
+    <files>
+      <file name="/umbraco_client/Application/NamespaceManager.js" />
+      <file name="/umbraco_client/ui/jquery.js" />
+      <file name="/umbraco_client/ui/base2.js" />
+      <file name="/umbraco_client/Application/UmbracoClientManager.js" />
+      <file name="/umbraco_client/UI/knockout.js" />
+      <file name="/umbraco_client/UI/knockout.mapping.js" />
+      <file name="/umbraco_client/ui/default.js" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL05hbWVzcGFjZU1hbmFnZXIuanM7L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeS5qczsvdW1icmFjb19jbGllbnQvdWkvanF1ZXJ5dWkuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL2pRdWVyeS9qcXVlcnkuY29va2llLmpzOy91bWJyYWNvX2NsaWVudC91aS9iYXNlMi5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vVW1icmFjb0FwcGxpY2F0aW9uQWN0aW9ucy5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vVW1icmFjb1V0aWxzLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9VbWJyYWNvQ2xpZW50TWFuYWdlci5qczsvdW1icmFjb19jbGllbnQvVUkva25vY2tvdXQuanM7L3VtYnJhY29fY2xpZW50L1VJL2tub2Nrb3V0Lm1hcHBpbmcuanM7L3VtYnJhY29fY2xpZW50L21vZGFsL21vZGFsLmpzOy91bWJyYWNvX2NsaWVudC91aS9kZWZhdWx0LmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9qUXVlcnkvanF1ZXJ5LmhvdGtleXMuanM7L3VtYnJhY29fY2xpZW50L0plZGl0YWJsZS9qcXVlcnkuamVkaXRhYmxlLmpzOy91bWJyYWNvX2NsaWVudC9zY3JvbGxpbmdtZW51L2phdmFzY3JpcHQuanM7L3VtYnJhY29fY2xpZW50L3BhbmVsL2phdmFzY3JpcHQuanM7" file="C:\Users\mohamed\Desktop\NewSilverRedCopy\App_Data\TEMP\ClientDependency\2_e247ccff4a7a4c1a9f0e8dcc513b9bc0.cdJ" compression="gzip" version="2">
+    <files>
+      <file name="/umbraco_client/Application/NamespaceManager.js" />
+      <file name="/umbraco_client/ui/jquery.js" />
+      <file name="/umbraco_client/ui/jqueryui.js" />
+      <file name="/umbraco_client/Application/jQuery/jquery.cookie.js" />
+      <file name="/umbraco_client/ui/base2.js" />
+      <file name="/umbraco_client/Application/UmbracoApplicationActions.js" />
+      <file name="/umbraco_client/Application/UmbracoUtils.js" />
+      <file name="/umbraco_client/Application/UmbracoClientManager.js" />
+      <file name="/umbraco_client/UI/knockout.js" />
+      <file name="/umbraco_client/UI/knockout.mapping.js" />
+      <file name="/umbraco_client/modal/modal.js" />
+      <file name="/umbraco_client/ui/default.js" />
+      <file name="/umbraco_client/Application/jQuery/jquery.hotkeys.js" />
+      <file name="/umbraco_client/Jeditable/jquery.jeditable.js" />
+      <file name="/umbraco_client/scrollingmenu/javascript.js" />
+      <file name="/umbraco_client/panel/javascript.js" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L3VpL2RlZmF1bHQuY3NzOy91bWJyYWNvX2NsaWVudC9tb2RhbC9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L21lbnVpY29uL3N0eWxlLmNzczsvdW1icmFjb19jbGllbnQvcHJvcGVydHlwYW5lL3N0eWxlLmNzczsvdW1icmFjb19jbGllbnQvc2Nyb2xsaW5nbWVudS9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L3BhbmVsL3N0eWxlLmNzczs" file="C:\Users\mohamed\Desktop\NewSilverRedCopy\App_Data\TEMP\ClientDependency\2_16b91571ce8443ff83e3b77912f89331.cdC" compression="gzip" version="2">
+    <files>
+      <file name="/umbraco_client/ui/default.css" />
+      <file name="/umbraco_client/modal/style.css" />
+      <file name="/umbraco_client/menuicon/style.css" />
+      <file name="/umbraco_client/propertypane/style.css" />
+      <file name="/umbraco_client/scrollingmenu/style.css" />
+      <file name="/umbraco_client/panel/style.css" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL05hbWVzcGFjZU1hbmFnZXIuanM7L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeS5qczsvdW1icmFjb19jbGllbnQvdWkvYmFzZTIuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL1VtYnJhY29DbGllbnRNYW5hZ2VyLmpzOy91bWJyYWNvX2NsaWVudC9VSS9rbm9ja291dC5qczsvdW1icmFjb19jbGllbnQvVUkva25vY2tvdXQubWFwcGluZy5qczsvdW1icmFjb19jbGllbnQvdWkvZGVmYXVsdC5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vSlF1ZXJ5L2pxdWVyeS5tZXRhZGF0YS5taW4uanM7L3VtYnJhY29fY2xpZW50L1RyZWUvanF1ZXJ5LnRyZWUuanM7L3VtYnJhY29fY2xpZW50L1RyZWUvVW1icmFjb0NvbnRleHQuanM7L3VtYnJhY29fY2xpZW50L1RyZWUvanF1ZXJ5LnRyZWUuY29udGV4dG1lbnUuanM7L3VtYnJhY29fY2xpZW50L1RyZWUvanF1ZXJ5LnRyZWUuY2hlY2tib3guanM7L3VtYnJhY29fY2xpZW50L1RyZWUvTm9kZURlZmluaXRpb24uanM7L3VtYnJhY29fY2xpZW50L1RyZWUvVW1icmFjb1RyZWUuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL1VtYnJhY29BcHBsaWNhdGlvbkFjdGlvbnMuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL1VtYnJhY29VdGlscy5qczs" file="C:\Users\mohamed\Desktop\NewSilverRedCopy\App_Data\TEMP\ClientDependency\2_854b1bda0c2a44af84aca82919ca5834.cdJ" compression="gzip" version="2">
+    <files>
+      <file name="/umbraco_client/Application/NamespaceManager.js" />
+      <file name="/umbraco_client/ui/jquery.js" />
+      <file name="/umbraco_client/ui/base2.js" />
+      <file name="/umbraco_client/Application/UmbracoClientManager.js" />
+      <file name="/umbraco_client/UI/knockout.js" />
+      <file name="/umbraco_client/UI/knockout.mapping.js" />
+      <file name="/umbraco_client/ui/default.js" />
+      <file name="/umbraco_client/Application/JQuery/jquery.metadata.min.js" />
+      <file name="/umbraco_client/Tree/jquery.tree.js" />
+      <file name="/umbraco_client/Tree/UmbracoContext.js" />
+      <file name="/umbraco_client/Tree/jquery.tree.contextmenu.js" />
+      <file name="/umbraco_client/Tree/jquery.tree.checkbox.js" />
+      <file name="/umbraco_client/Tree/NodeDefinition.js" />
+      <file name="/umbraco_client/Tree/UmbracoTree.js" />
+      <file name="/umbraco_client/Application/UmbracoApplicationActions.js" />
+      <file name="/umbraco_client/Application/UmbracoUtils.js" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L1RyZWUvdHJlZUljb25zLmNzczsvdW1icmFjb19jbGllbnQvVHJlZS9tZW51SWNvbnMuY3NzOy91bWJyYWNvX2NsaWVudC9UcmVlL1RoZW1lcy91bWJyYWNvL3N0eWxlLmNzczsvdW1icmFjb19jbGllbnQvdWkvZGVmYXVsdC5jc3M7" file="C:\Users\mohamed\Desktop\NewSilverRedCopy\App_Data\TEMP\ClientDependency\2_d4913599476f4a6b875542c83572ce0c.cdC" compression="gzip" version="2">
+    <files>
+      <file name="/umbraco_client/Tree/treeIcons.css" />
+      <file name="/umbraco_client/Tree/menuIcons.css" />
+      <file name="/umbraco_client/Tree/Themes/umbraco/style.css" />
+      <file name="/umbraco_client/ui/default.css" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L3VpL2RlZmF1bHQuY3NzOy91bWJyYWNvX2NsaWVudC9tb2RhbC9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L3Njcm9sbGluZ21lbnUvc3R5bGUuY3NzOy91bWJyYWNvX2NsaWVudC9Gb2xkZXJCcm93c2VyL0Nzcy9mb2xkZXJicm93c2VyLmNzczsvdW1icmFjb19jbGllbnQvQ29udGV4dE1lbnUvQ3NzL2pxdWVyeS5jb250ZXh0TWVudS5jc3M7L3VtYnJhY29fY2xpZW50L3Byb3BlcnR5cGFuZS9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L3BhbmVsL3N0eWxlLmNzczsvdW1icmFjb19jbGllbnQvdGFidmlldy9zdHlsZS5jc3M7" file="C:\Users\mohamed\Desktop\NewSilverRedCopy\App_Data\TEMP\ClientDependency\2_91257f974dd744b680d4a5bc0fee0168.cdC" compression="gzip" version="2">
+    <files>
+      <file name="/umbraco_client/ui/default.css" />
+      <file name="/umbraco_client/modal/style.css" />
+      <file name="/umbraco_client/scrollingmenu/style.css" />
+      <file name="/umbraco_client/FolderBrowser/Css/folderbrowser.css" />
+      <file name="/umbraco_client/ContextMenu/Css/jquery.contextMenu.css" />
+      <file name="/umbraco_client/propertypane/style.css" />
+      <file name="/umbraco_client/panel/style.css" />
+      <file name="/umbraco_client/tabview/style.css" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL05hbWVzcGFjZU1hbmFnZXIuanM7L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeS5qczsvdW1icmFjb19jbGllbnQvdWkvanF1ZXJ5dWkuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL2pRdWVyeS9qcXVlcnkuY29va2llLmpzOy91bWJyYWNvX2NsaWVudC91aS9iYXNlMi5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vVW1icmFjb0FwcGxpY2F0aW9uQWN0aW9ucy5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vVW1icmFjb1V0aWxzLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9VbWJyYWNvQ2xpZW50TWFuYWdlci5qczsvdW1icmFjb19jbGllbnQvVUkva25vY2tvdXQuanM7L3VtYnJhY29fY2xpZW50L1VJL2tub2Nrb3V0Lm1hcHBpbmcuanM7L3VtYnJhY29fY2xpZW50L0NvbnRleHRNZW51L0pzL2pxdWVyeS5jb250ZXh0TWVudS5qczsvdW1icmFjb19jbGllbnQvRmlsZVVwbG9hZGVyL2pzL2pxdWVyeS5maWxlVXBsb2FkZXIuanM7L3VtYnJhY29fY2xpZW50L21vZGFsL21vZGFsLmpzOy91bWJyYWNvX2NsaWVudC91aS9kZWZhdWx0LmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9qUXVlcnkvanF1ZXJ5LmhvdGtleXMuanM7L3VtYnJhY29fY2xpZW50L0ZvbGRlckJyb3dzZXIvanMvZm9sZGVyYnJvd3Nlci5qczsvdW1icmFjb19jbGllbnQvc2Nyb2xsaW5nbWVudS9qYXZhc2NyaXB0LmpzOy91bWJyYWNvL2Rhc2hib2FyZC9zY3JpcHRzL3N3Zm9iamVjdC5qczsvdW1icmFjby9kYXNoYm9hcmQvc2NyaXB0cy9qcXVlcnkuamZlZWQucGFjay5qczsvdW1icmFjb19jbGllbnQvcGFuZWwvamF2YXNjcmlwdC5qczsvdW1icmFjb19jbGllbnQvdGFidmlldy9qYXZhc2NyaXB0LmpzOw" file="C:\Users\mohamed\Desktop\NewSilverRedCopy\App_Data\TEMP\ClientDependency\2_d5e6ea48cbb94e098aec604214dcf102.cdJ" compression="gzip" version="2">
+    <files>
+      <file name="/umbraco_client/Application/NamespaceManager.js" />
+      <file name="/umbraco_client/ui/jquery.js" />
+      <file name="/umbraco_client/ui/jqueryui.js" />
+      <file name="/umbraco_client/Application/jQuery/jquery.cookie.js" />
+      <file name="/umbraco_client/ui/base2.js" />
+      <file name="/umbraco_client/Application/UmbracoApplicationActions.js" />
+      <file name="/umbraco_client/Application/UmbracoUtils.js" />
+      <file name="/umbraco_client/Application/UmbracoClientManager.js" />
+      <file name="/umbraco_client/UI/knockout.js" />
+      <file name="/umbraco_client/UI/knockout.mapping.js" />
+      <file name="/umbraco_client/ContextMenu/Js/jquery.contextMenu.js" />
+      <file name="/umbraco_client/FileUploader/js/jquery.fileUploader.js" />
+      <file name="/umbraco_client/modal/modal.js" />
+      <file name="/umbraco_client/ui/default.js" />
+      <file name="/umbraco_client/Application/jQuery/jquery.hotkeys.js" />
+      <file name="/umbraco_client/FolderBrowser/js/folderbrowser.js" />
+      <file name="/umbraco_client/scrollingmenu/javascript.js" />
+      <file name="/umbraco/dashboard/scripts/swfobject.js" />
+      <file name="/umbraco/dashboard/scripts/jquery.jfeed.pack.js" />
+      <file name="/umbraco_client/panel/javascript.js" />
+      <file name="/umbraco_client/tabview/javascript.js" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL05hbWVzcGFjZU1hbmFnZXIuanM7L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeS5qczsvdW1icmFjb19jbGllbnQvdWkvanF1ZXJ5dWkuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL2pRdWVyeS9qcXVlcnkuY29va2llLmpzOy91bWJyYWNvX2NsaWVudC91aS9iYXNlMi5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vVW1icmFjb0FwcGxpY2F0aW9uQWN0aW9ucy5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vVW1icmFjb1V0aWxzLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9VbWJyYWNvQ2xpZW50TWFuYWdlci5qczsvdW1icmFjb19jbGllbnQvVUkva25vY2tvdXQuanM7L3VtYnJhY29fY2xpZW50L1VJL2tub2Nrb3V0Lm1hcHBpbmcuanM7L3VtYnJhY29fY2xpZW50L0NvbnRleHRNZW51L0pzL2pxdWVyeS5jb250ZXh0TWVudS5qczsvdW1icmFjb19jbGllbnQvRmlsZVVwbG9hZGVyL2pzL2pxdWVyeS5maWxlVXBsb2FkZXIuanM7L3VtYnJhY29fY2xpZW50L21vZGFsL21vZGFsLmpzOy91bWJyYWNvX2NsaWVudC91aS9kZWZhdWx0LmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9qUXVlcnkvanF1ZXJ5LmhvdGtleXMuanM7L3VtYnJhY29fY2xpZW50L0ZvbGRlckJyb3dzZXIvanMvZm9sZGVyYnJvd3Nlci5qczsvdW1icmFjb19jbGllbnQvc2Nyb2xsaW5nbWVudS9qYXZhc2NyaXB0LmpzOy91bWJyYWNvX2NsaWVudC90YWJ2aWV3L2phdmFzY3JpcHQuanM7" file="C:\Users\mohamed\Desktop\NewSilverRedCopy\App_Data\TEMP\ClientDependency\2_a905089c6ac94741bb74a95bab7966e7.cdJ" compression="gzip" version="2">
+    <files>
+      <file name="/umbraco_client/Application/NamespaceManager.js" />
+      <file name="/umbraco_client/ui/jquery.js" />
+      <file name="/umbraco_client/ui/jqueryui.js" />
+      <file name="/umbraco_client/Application/jQuery/jquery.cookie.js" />
+      <file name="/umbraco_client/ui/base2.js" />
+      <file name="/umbraco_client/Application/UmbracoApplicationActions.js" />
+      <file name="/umbraco_client/Application/UmbracoUtils.js" />
+      <file name="/umbraco_client/Application/UmbracoClientManager.js" />
+      <file name="/umbraco_client/UI/knockout.js" />
+      <file name="/umbraco_client/UI/knockout.mapping.js" />
+      <file name="/umbraco_client/ContextMenu/Js/jquery.contextMenu.js" />
+      <file name="/umbraco_client/FileUploader/js/jquery.fileUploader.js" />
+      <file name="/umbraco_client/modal/modal.js" />
+      <file name="/umbraco_client/ui/default.js" />
+      <file name="/umbraco_client/Application/jQuery/jquery.hotkeys.js" />
+      <file name="/umbraco_client/FolderBrowser/js/folderbrowser.js" />
+      <file name="/umbraco_client/scrollingmenu/javascript.js" />
+      <file name="/umbraco_client/tabview/javascript.js" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L3VpL2RlZmF1bHQuY3NzOy91bWJyYWNvX2NsaWVudC9tb2RhbC9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L0ZvbGRlckJyb3dzZXIvQ3NzL2ZvbGRlcmJyb3dzZXIuY3NzOy91bWJyYWNvX2NsaWVudC9Db250ZXh0TWVudS9Dc3MvanF1ZXJ5LmNvbnRleHRNZW51LmNzczsvdW1icmFjb19jbGllbnQvcHJvcGVydHlwYW5lL3N0eWxlLmNzczsvdW1icmFjb19jbGllbnQvbWVudWljb24vc3R5bGUuY3NzOy91bWJyYWNvX2NsaWVudC9zY3JvbGxpbmdtZW51L3N0eWxlLmNzczsvdW1icmFjb19jbGllbnQvdGFidmlldy9zdHlsZS5jc3M7" file="C:\Users\mohamed\Desktop\NewSilverRedCopy\App_Data\TEMP\ClientDependency\2_6ff310222c8a494d9915486cfda72e21.cdC" compression="gzip" version="2">
+    <files>
+      <file name="/umbraco_client/ui/default.css" />
+      <file name="/umbraco_client/modal/style.css" />
+      <file name="/umbraco_client/FolderBrowser/Css/folderbrowser.css" />
+      <file name="/umbraco_client/ContextMenu/Css/jquery.contextMenu.css" />
+      <file name="/umbraco_client/propertypane/style.css" />
+      <file name="/umbraco_client/menuicon/style.css" />
+      <file name="/umbraco_client/scrollingmenu/style.css" />
+      <file name="/umbraco_client/tabview/style.css" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL05hbWVzcGFjZU1hbmFnZXIuanM7L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeS5qczsvdW1icmFjb19jbGllbnQvdWkvanF1ZXJ5dWkuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL2pRdWVyeS9qcXVlcnkuY29va2llLmpzOy91bWJyYWNvX2NsaWVudC91aS9iYXNlMi5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vVW1icmFjb0FwcGxpY2F0aW9uQWN0aW9ucy5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vVW1icmFjb1V0aWxzLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9VbWJyYWNvQ2xpZW50TWFuYWdlci5qczsvdW1icmFjb19jbGllbnQvVUkva25vY2tvdXQuanM7L3VtYnJhY29fY2xpZW50L1VJL2tub2Nrb3V0Lm1hcHBpbmcuanM7L3VtYnJhY29fY2xpZW50L21vZGFsL21vZGFsLmpzOy91bWJyYWNvX2NsaWVudC91aS9kZWZhdWx0LmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9qUXVlcnkvanF1ZXJ5LmhvdGtleXMuanM7L3VtYnJhY29fY2xpZW50L3Njcm9sbGluZ21lbnUvamF2YXNjcmlwdC5qczsvdW1icmFjby9kYXNoYm9hcmQvc2NyaXB0cy9qcXVlcnkuamZlZWQucGFjay5qczsvdW1icmFjb19jbGllbnQvcGFuZWwvamF2YXNjcmlwdC5qczsvdW1icmFjb19jbGllbnQvdGFidmlldy9qYXZhc2NyaXB0LmpzOw" file="C:\Users\mohamed\Desktop\NewSilverRedCopy\App_Data\TEMP\ClientDependency\2_91bd4f1ccaaf40bbbeadd13129d20709.cdJ" compression="gzip" version="2">
+    <files>
+      <file name="/umbraco_client/Application/NamespaceManager.js" />
+      <file name="/umbraco_client/ui/jquery.js" />
+      <file name="/umbraco_client/ui/jqueryui.js" />
+      <file name="/umbraco_client/Application/jQuery/jquery.cookie.js" />
+      <file name="/umbraco_client/ui/base2.js" />
+      <file name="/umbraco_client/Application/UmbracoApplicationActions.js" />
+      <file name="/umbraco_client/Application/UmbracoUtils.js" />
+      <file name="/umbraco_client/Application/UmbracoClientManager.js" />
+      <file name="/umbraco_client/UI/knockout.js" />
+      <file name="/umbraco_client/UI/knockout.mapping.js" />
+      <file name="/umbraco_client/modal/modal.js" />
+      <file name="/umbraco_client/ui/default.js" />
+      <file name="/umbraco_client/Application/jQuery/jquery.hotkeys.js" />
+      <file name="/umbraco_client/scrollingmenu/javascript.js" />
+      <file name="/umbraco/dashboard/scripts/jquery.jfeed.pack.js" />
+      <file name="/umbraco_client/panel/javascript.js" />
+      <file name="/umbraco_client/tabview/javascript.js" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L3VpL2RlZmF1bHQuY3NzOy91bWJyYWNvX2NsaWVudC9tb2RhbC9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L3Byb3BlcnR5cGFuZS9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L21lbnVpY29uL3N0eWxlLmNzczsvdW1icmFjb19jbGllbnQvc2Nyb2xsaW5nbWVudS9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L0dlbmVyaWNQcm9wZXJ0eS9nZW5lcmljcHJvcGVydHkuY3NzOy91bWJyYWNvX2NsaWVudC90YWJ2aWV3L3N0eWxlLmNzczsvdW1icmFjb19jbGllbnQvdWkvZGQuY3NzOy91bWJyYWNvX2NsaWVudC9UcmVlL3RyZWVJY29ucy5jc3M7L3VtYnJhY29fY2xpZW50L1RyZWUvVGhlbWVzL3VtYnJhY28vc3R5bGUuY3NzOw" file="C:\Users\mohamed\Desktop\NewSilverRedCopy\App_Data\TEMP\ClientDependency\2_8d6746ee48ac4c00a0ac2fcbe45a2ef2.cdC" compression="gzip" version="2">
+    <files>
+      <file name="/umbraco_client/ui/default.css" />
+      <file name="/umbraco_client/modal/style.css" />
+      <file name="/umbraco_client/propertypane/style.css" />
+      <file name="/umbraco_client/menuicon/style.css" />
+      <file name="/umbraco_client/scrollingmenu/style.css" />
+      <file name="/umbraco_client/GenericProperty/genericproperty.css" />
+      <file name="/umbraco_client/tabview/style.css" />
+      <file name="/umbraco_client/ui/dd.css" />
+      <file name="/umbraco_client/Tree/treeIcons.css" />
+      <file name="/umbraco_client/Tree/Themes/umbraco/style.css" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL05hbWVzcGFjZU1hbmFnZXIuanM7L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeS5qczsvdW1icmFjb19jbGllbnQvdWkvanF1ZXJ5dWkuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL2pRdWVyeS9qcXVlcnkuY29va2llLmpzOy91bWJyYWNvX2NsaWVudC91aS9iYXNlMi5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vVW1icmFjb0FwcGxpY2F0aW9uQWN0aW9ucy5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vVW1icmFjb1V0aWxzLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9VbWJyYWNvQ2xpZW50TWFuYWdlci5qczsvdW1icmFjb19jbGllbnQvVUkva25vY2tvdXQuanM7L3VtYnJhY29fY2xpZW50L1VJL2tub2Nrb3V0Lm1hcHBpbmcuanM7L3VtYnJhY29fY2xpZW50L21vZGFsL21vZGFsLmpzOy91bWJyYWNvX2NsaWVudC91aS9kZWZhdWx0LmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9qUXVlcnkvanF1ZXJ5LmhvdGtleXMuanM7" file="C:\Users\mohamed\Desktop\NewSilverRedCopy\App_Data\TEMP\ClientDependency\2_bb97b4792f96481787f21f992319b6fc.cdJ" compression="gzip" version="2">
+    <files>
+      <file name="/umbraco_client/Application/NamespaceManager.js" />
+      <file name="/umbraco_client/ui/jquery.js" />
+      <file name="/umbraco_client/ui/jqueryui.js" />
+      <file name="/umbraco_client/Application/jQuery/jquery.cookie.js" />
+      <file name="/umbraco_client/ui/base2.js" />
+      <file name="/umbraco_client/Application/UmbracoApplicationActions.js" />
+      <file name="/umbraco_client/Application/UmbracoUtils.js" />
+      <file name="/umbraco_client/Application/UmbracoClientManager.js" />
+      <file name="/umbraco_client/UI/knockout.js" />
+      <file name="/umbraco_client/UI/knockout.mapping.js" />
+      <file name="/umbraco_client/modal/modal.js" />
+      <file name="/umbraco_client/ui/default.js" />
+      <file name="/umbraco_client/Application/jQuery/jquery.hotkeys.js" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L3Njcm9sbGluZ21lbnUvamF2YXNjcmlwdC5qczsvdW1icmFjb19jbGllbnQvR2VuZXJpY1Byb3BlcnR5L2dlbmVyaWNwcm9wZXJ0eS5qczsvdW1icmFjb19jbGllbnQvdGFidmlldy9qYXZhc2NyaXB0LmpzOy91bWJyYWNvX2NsaWVudC91aS9qcXVlcnkuZGQuanM7" file="C:\Users\mohamed\Desktop\NewSilverRedCopy\App_Data\TEMP\ClientDependency\2_997b4020ba3f488eafa767d3eab66c51.cdJ" compression="gzip" version="2">
+    <files>
+      <file name="/umbraco_client/scrollingmenu/javascript.js" />
+      <file name="/umbraco_client/GenericProperty/genericproperty.js" />
+      <file name="/umbraco_client/tabview/javascript.js" />
+      <file name="/umbraco_client/ui/jquery.dd.js" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L0NvZGVNaXJyb3IvanMvbGliL2NvZGVtaXJyb3IuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL05hbWVzcGFjZU1hbmFnZXIuanM7L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeS5qczsvdW1icmFjb19jbGllbnQvdWkvanF1ZXJ5dWkuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL2pRdWVyeS9qcXVlcnkuY29va2llLmpzOy91bWJyYWNvX2NsaWVudC91aS9iYXNlMi5qczsvdW1icmFjb19jbGllbnQvQ29kZU1pcnJvci9qcy9tb2RlL3Jhem9yL3Jhem9yLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9VbWJyYWNvQXBwbGljYXRpb25BY3Rpb25zLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9VbWJyYWNvVXRpbHMuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL1VtYnJhY29DbGllbnRNYW5hZ2VyLmpzOy91bWJyYWNvX2NsaWVudC9VSS9rbm9ja291dC5qczsvdW1icmFjb19jbGllbnQvVUkva25vY2tvdXQubWFwcGluZy5qczsvdW1icmFjb19jbGllbnQvbW9kYWwvbW9kYWwuanM7L3VtYnJhY29fY2xpZW50L3VpL2RlZmF1bHQuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL2pRdWVyeS9qcXVlcnkuaG90a2V5cy5qczsvdW1icmFjb19jbGllbnQvRWRpdG9ycy9FZGl0Vmlldy5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24valF1ZXJ5L2pxdWVyeS1maWVsZHNlbGVjdGlvbi5qczsvdW1icmFjb19jbGllbnQvQ29kZUFyZWEvVW1icmFjb0VkaXRvci5qczsvdW1icmFjb19jbGllbnQvQ29kZUFyZWEvamF2YXNjcmlwdC5qczsvdW1icmFjb19jbGllbnQvc3BsaXRidXR0b24vanF1ZXJ5LnNwbGl0YnV0dG9uLmpzOy91bWJyYWNvX2NsaWVudC9zY3JvbGxpbmdtZW51L2phdmFzY3JpcHQuanM7L3VtYnJhY29fY2xpZW50L3BhbmVsL2phdmFzY3JpcHQuanM7L3VtYnJhY29fY2xpZW50L3NwbGl0YnV0dG9uL0luc2VydE1hY3JvU3BsaXRCdXR0b24uanM7" file="C:\Users\mohamed\Desktop\NewSilverRedCopy\App_Data\TEMP\ClientDependency\2_bb53d148f6504b08a5c84e848784feee.cdJ" compression="gzip" version="2">
+    <files>
+      <file name="/umbraco_client/CodeMirror/js/lib/codemirror.js" />
+      <file name="/umbraco_client/Application/NamespaceManager.js" />
+      <file name="/umbraco_client/ui/jquery.js" />
+      <file name="/umbraco_client/ui/jqueryui.js" />
+      <file name="/umbraco_client/Application/jQuery/jquery.cookie.js" />
+      <file name="/umbraco_client/ui/base2.js" />
+      <file name="/umbraco_client/CodeMirror/js/mode/razor/razor.js" />
+      <file name="/umbraco_client/Application/UmbracoApplicationActions.js" />
+      <file name="/umbraco_client/Application/UmbracoUtils.js" />
+      <file name="/umbraco_client/Application/UmbracoClientManager.js" />
+      <file name="/umbraco_client/UI/knockout.js" />
+      <file name="/umbraco_client/UI/knockout.mapping.js" />
+      <file name="/umbraco_client/modal/modal.js" />
+      <file name="/umbraco_client/ui/default.js" />
+      <file name="/umbraco_client/Application/jQuery/jquery.hotkeys.js" />
+      <file name="/umbraco_client/Editors/EditView.js" />
+      <file name="/umbraco_client/Application/jQuery/jquery-fieldselection.js" />
+      <file name="/umbraco_client/CodeArea/UmbracoEditor.js" />
+      <file name="/umbraco_client/CodeArea/javascript.js" />
+      <file name="/umbraco_client/splitbutton/jquery.splitbutton.js" />
+      <file name="/umbraco_client/scrollingmenu/javascript.js" />
+      <file name="/umbraco_client/panel/javascript.js" />
+      <file name="/umbraco_client/splitbutton/InsertMacroSplitButton.js" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L0NvZGVNaXJyb3IvanMvbGliL2NvZGVtaXJyb3IuY3NzOy91bWJyYWNvX2NsaWVudC9Db2RlTWlycm9yL2Nzcy91bWJyYWNvQ3VzdG9tLmNzczsvdW1icmFjb19jbGllbnQvQ29kZUFyZWEvc3R5bGVzLmNzczsvdW1icmFjb19jbGllbnQvdWkvZGVmYXVsdC5jc3M7L3VtYnJhY29fY2xpZW50L21vZGFsL3N0eWxlLmNzczsvdW1icmFjb19jbGllbnQvbWVudWljb24vc3R5bGUuY3NzOy91bWJyYWNvX2NsaWVudC9zcGxpdGJ1dHRvbi9zcGxpdGJ1dHRvbi5jc3M7L3VtYnJhY29fY2xpZW50L3Byb3BlcnR5cGFuZS9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L3Njcm9sbGluZ21lbnUvc3R5bGUuY3NzOy91bWJyYWNvX2NsaWVudC9wYW5lbC9zdHlsZS5jc3M7" file="C:\Users\mohamed\Desktop\NewSilverRedCopy\App_Data\TEMP\ClientDependency\2_96551fcc0e9346b9a0f46645efcab6b1.cdC" compression="gzip" version="2">
+    <files>
+      <file name="/umbraco_client/CodeMirror/js/lib/codemirror.css" />
+      <file name="/umbraco_client/CodeMirror/css/umbracoCustom.css" />
+      <file name="/umbraco_client/CodeArea/styles.css" />
+      <file name="/umbraco_client/ui/default.css" />
+      <file name="/umbraco_client/modal/style.css" />
+      <file name="/umbraco_client/menuicon/style.css" />
+      <file name="/umbraco_client/splitbutton/splitbutton.css" />
+      <file name="/umbraco_client/propertypane/style.css" />
+      <file name="/umbraco_client/scrollingmenu/style.css" />
+      <file name="/umbraco_client/panel/style.css" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L0NvZGVNaXJyb3IvanMvbGliL2NvZGVtaXJyb3IuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL05hbWVzcGFjZU1hbmFnZXIuanM7L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeS5qczsvdW1icmFjb19jbGllbnQvdWkvanF1ZXJ5dWkuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL2pRdWVyeS9qcXVlcnkuY29va2llLmpzOy91bWJyYWNvX2NsaWVudC91aS9iYXNlMi5qczsvdW1icmFjb19jbGllbnQvQ29kZU1pcnJvci9qcy9tb2RlL2Nzcy9jc3MuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL1VtYnJhY29BcHBsaWNhdGlvbkFjdGlvbnMuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL1VtYnJhY29VdGlscy5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vVW1icmFjb0NsaWVudE1hbmFnZXIuanM7L3VtYnJhY29fY2xpZW50L1VJL2tub2Nrb3V0LmpzOy91bWJyYWNvX2NsaWVudC9VSS9rbm9ja291dC5tYXBwaW5nLmpzOy91bWJyYWNvX2NsaWVudC9tb2RhbC9tb2RhbC5qczsvdW1icmFjb19jbGllbnQvdWkvZGVmYXVsdC5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24valF1ZXJ5L2pxdWVyeS5ob3RrZXlzLmpzOy91bWJyYWNvX2NsaWVudC9FZGl0b3JzL0VkaXRTdHlsZVNoZWV0LmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9qUXVlcnkvanF1ZXJ5LWZpZWxkc2VsZWN0aW9uLmpzOy91bWJyYWNvX2NsaWVudC9Db2RlQXJlYS9VbWJyYWNvRWRpdG9yLmpzOy91bWJyYWNvX2NsaWVudC9Db2RlQXJlYS9qYXZhc2NyaXB0LmpzOy91bWJyYWNvX2NsaWVudC9zY3JvbGxpbmdtZW51L2phdmFzY3JpcHQuanM7L3VtYnJhY29fY2xpZW50L3BhbmVsL2phdmFzY3JpcHQuanM7" file="C:\Users\mohamed\Desktop\NewSilverRedCopy\App_Data\TEMP\ClientDependency\2_c4ab747137e34265b6a97ae147e11902.cdJ" compression="gzip" version="2">
+    <files>
+      <file name="/umbraco_client/CodeMirror/js/lib/codemirror.js" />
+      <file name="/umbraco_client/Application/NamespaceManager.js" />
+      <file name="/umbraco_client/ui/jquery.js" />
+      <file name="/umbraco_client/ui/jqueryui.js" />
+      <file name="/umbraco_client/Application/jQuery/jquery.cookie.js" />
+      <file name="/umbraco_client/ui/base2.js" />
+      <file name="/umbraco_client/CodeMirror/js/mode/css/css.js" />
+      <file name="/umbraco_client/Application/UmbracoApplicationActions.js" />
+      <file name="/umbraco_client/Application/UmbracoUtils.js" />
+      <file name="/umbraco_client/Application/UmbracoClientManager.js" />
+      <file name="/umbraco_client/UI/knockout.js" />
+      <file name="/umbraco_client/UI/knockout.mapping.js" />
+      <file name="/umbraco_client/modal/modal.js" />
+      <file name="/umbraco_client/ui/default.js" />
+      <file name="/umbraco_client/Application/jQuery/jquery.hotkeys.js" />
+      <file name="/umbraco_client/Editors/EditStyleSheet.js" />
+      <file name="/umbraco_client/Application/jQuery/jquery-fieldselection.js" />
+      <file name="/umbraco_client/CodeArea/UmbracoEditor.js" />
+      <file name="/umbraco_client/CodeArea/javascript.js" />
+      <file name="/umbraco_client/scrollingmenu/javascript.js" />
+      <file name="/umbraco_client/panel/javascript.js" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L0NvZGVNaXJyb3IvanMvbGliL2NvZGVtaXJyb3IuY3NzOy91bWJyYWNvX2NsaWVudC9Db2RlTWlycm9yL2Nzcy91bWJyYWNvQ3VzdG9tLmNzczsvdW1icmFjb19jbGllbnQvQ29kZUFyZWEvc3R5bGVzLmNzczsvdW1icmFjb19jbGllbnQvdWkvZGVmYXVsdC5jc3M7L3VtYnJhY29fY2xpZW50L21vZGFsL3N0eWxlLmNzczsvdW1icmFjb19jbGllbnQvbWVudWljb24vc3R5bGUuY3NzOy91bWJyYWNvX2NsaWVudC9wcm9wZXJ0eXBhbmUvc3R5bGUuY3NzOy91bWJyYWNvX2NsaWVudC9zY3JvbGxpbmdtZW51L3N0eWxlLmNzczsvdW1icmFjb19jbGllbnQvcGFuZWwvc3R5bGUuY3NzOw" file="C:\Users\mohamed\Desktop\NewSilverRedCopy\App_Data\TEMP\ClientDependency\2_e0300cba2e204acfa80160869d0719b5.cdC" compression="gzip" version="2">
+    <files>
+      <file name="/umbraco_client/CodeMirror/js/lib/codemirror.css" />
+      <file name="/umbraco_client/CodeMirror/css/umbracoCustom.css" />
+      <file name="/umbraco_client/CodeArea/styles.css" />
+      <file name="/umbraco_client/ui/default.css" />
+      <file name="/umbraco_client/modal/style.css" />
+      <file name="/umbraco_client/menuicon/style.css" />
+      <file name="/umbraco_client/propertypane/style.css" />
+      <file name="/umbraco_client/scrollingmenu/style.css" />
+      <file name="/umbraco_client/panel/style.css" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L3VpL2RlZmF1bHQuY3NzOy91bWJyYWNvX2NsaWVudC9tb2RhbC9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L3Byb3BlcnR5cGFuZS9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L21lbnVpY29uL3N0eWxlLmNzczsvdW1icmFjb19jbGllbnQvc2Nyb2xsaW5nbWVudS9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L3RhYnZpZXcvc3R5bGUuY3NzOw" file="C:\Users\mohamed\Desktop\NewSilverRedCopy\App_Data\TEMP\ClientDependency\2_d864cc4b4647478f81027b1c5bee3f72.cdC" compression="gzip" version="2">
+    <files>
+      <file name="/umbraco_client/ui/default.css" />
+      <file name="/umbraco_client/modal/style.css" />
+      <file name="/umbraco_client/propertypane/style.css" />
+      <file name="/umbraco_client/menuicon/style.css" />
+      <file name="/umbraco_client/scrollingmenu/style.css" />
+      <file name="/umbraco_client/tabview/style.css" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL05hbWVzcGFjZU1hbmFnZXIuanM7L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeS5qczsvdW1icmFjb19jbGllbnQvdWkvanF1ZXJ5dWkuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL2pRdWVyeS9qcXVlcnkuY29va2llLmpzOy91bWJyYWNvX2NsaWVudC91aS9iYXNlMi5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vVW1icmFjb0FwcGxpY2F0aW9uQWN0aW9ucy5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vVW1icmFjb1V0aWxzLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9VbWJyYWNvQ2xpZW50TWFuYWdlci5qczsvdW1icmFjb19jbGllbnQvVUkva25vY2tvdXQuanM7L3VtYnJhY29fY2xpZW50L1VJL2tub2Nrb3V0Lm1hcHBpbmcuanM7L3VtYnJhY29fY2xpZW50L21vZGFsL21vZGFsLmpzOy91bWJyYWNvX2NsaWVudC91aS9kZWZhdWx0LmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9qUXVlcnkvanF1ZXJ5LmhvdGtleXMuanM7L3VtYnJhY29fY2xpZW50L3Njcm9sbGluZ21lbnUvamF2YXNjcmlwdC5qczsvdW1icmFjb19jbGllbnQvdGFidmlldy9qYXZhc2NyaXB0LmpzOw" file="C:\Users\mohamed\Desktop\NewSilverRedCopy\App_Data\TEMP\ClientDependency\2_b8093e891c4045cfa3c68de3c3f2b655.cdJ" compression="gzip" version="2">
+    <files>
+      <file name="/umbraco_client/Application/NamespaceManager.js" />
+      <file name="/umbraco_client/ui/jquery.js" />
+      <file name="/umbraco_client/ui/jqueryui.js" />
+      <file name="/umbraco_client/Application/jQuery/jquery.cookie.js" />
+      <file name="/umbraco_client/ui/base2.js" />
+      <file name="/umbraco_client/Application/UmbracoApplicationActions.js" />
+      <file name="/umbraco_client/Application/UmbracoUtils.js" />
+      <file name="/umbraco_client/Application/UmbracoClientManager.js" />
+      <file name="/umbraco_client/UI/knockout.js" />
+      <file name="/umbraco_client/UI/knockout.mapping.js" />
+      <file name="/umbraco_client/modal/modal.js" />
+      <file name="/umbraco_client/ui/default.js" />
+      <file name="/umbraco_client/Application/jQuery/jquery.hotkeys.js" />
+      <file name="/umbraco_client/scrollingmenu/javascript.js" />
+      <file name="/umbraco_client/tabview/javascript.js" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L3VpL2RlZmF1bHQuY3NzOy91bWJyYWNvX2NsaWVudC9tb2RhbC9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L3Byb3BlcnR5cGFuZS9zdHlsZS5jc3M7L3VtYnJhY28vcGx1Z2lucy9EaWdpYml6QWR2YW5jZWRNZWRpYVBpY2tlci9EYW1wU3R5bGVzLmNzczsvdW1icmFjb19jbGllbnQvbWVudWljb24vc3R5bGUuY3NzOy91bWJyYWNvX2NsaWVudC9zY3JvbGxpbmdtZW51L3N0eWxlLmNzczsvdW1icmFjb19jbGllbnQvRGF0ZVRpbWVQaWNrZXIvZGF0ZXRpbWVwaWNrZXIuY3NzOy91bWJyYWNvX2NsaWVudC90YWJ2aWV3L3N0eWxlLmNzczs" file="C:\Users\mohamed\Desktop\NewSilverRedCopy\App_Data\TEMP\ClientDependency\2_75d4307174d74d7c963190982fa2aaf9.cdC" compression="gzip" version="2">
+    <files>
+      <file name="/umbraco_client/ui/default.css" />
+      <file name="/umbraco_client/modal/style.css" />
+      <file name="/umbraco_client/propertypane/style.css" />
+      <file name="/umbraco/plugins/DigibizAdvancedMediaPicker/DampStyles.css" />
+      <file name="/umbraco_client/menuicon/style.css" />
+      <file name="/umbraco_client/scrollingmenu/style.css" />
+      <file name="/umbraco_client/DateTimePicker/datetimepicker.css" />
+      <file name="/umbraco_client/tabview/style.css" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL05hbWVzcGFjZU1hbmFnZXIuanM7L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeS5qczsvdW1icmFjb19jbGllbnQvdWkvanF1ZXJ5dWkuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL2pRdWVyeS9qcXVlcnkuY29va2llLmpzOy91bWJyYWNvX2NsaWVudC91aS9iYXNlMi5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vVW1icmFjb0FwcGxpY2F0aW9uQWN0aW9ucy5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vVW1icmFjb1V0aWxzLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9VbWJyYWNvQ2xpZW50TWFuYWdlci5qczsvdW1icmFjb19jbGllbnQvVUkva25vY2tvdXQuanM7L3VtYnJhY29fY2xpZW50L1VJL2tub2Nrb3V0Lm1hcHBpbmcuanM7L3VtYnJhY29fY2xpZW50L21vZGFsL21vZGFsLmpzOy91bWJyYWNvX2NsaWVudC91aS9kZWZhdWx0LmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9qUXVlcnkvanF1ZXJ5LmhvdGtleXMuanM7L3VtYnJhY28vcGx1Z2lucy9EaWdpYml6QWR2YW5jZWRNZWRpYVBpY2tlci9EQU1QU2NyaXB0LmpzOy91bWJyYWNvX2NsaWVudC9zY3JvbGxpbmdtZW51L2phdmFzY3JpcHQuanM7L3VtYnJhY29fY2xpZW50L0RhdGVUaW1lUGlja2VyL3RpbWVwaWNrZXIuanM7L3VtYnJhY29fY2xpZW50L01hc2tlZElucHV0L2pxdWVyeS5tYXNrZWRpbnB1dC0xLjMubWluLmpzOy91bWJyYWNvX2NsaWVudC9EYXRlVGltZVBpY2tlci91bWJEYXRlVGltZVBpY2tlci5qczsvdW1icmFjb19jbGllbnQvdGFidmlldy9qYXZhc2NyaXB0LmpzOy91bWJyYWNvL2pzL3VtYnJhY29DaGVja0tleXMuanM7" file="C:\Users\mohamed\Desktop\NewSilverRedCopy\App_Data\TEMP\ClientDependency\2_09e12ae4f4e54c22886658c172806fe8.cdJ" compression="gzip" version="2">
+    <files>
+      <file name="/umbraco_client/Application/NamespaceManager.js" />
+      <file name="/umbraco_client/ui/jquery.js" />
+      <file name="/umbraco_client/ui/jqueryui.js" />
+      <file name="/umbraco_client/Application/jQuery/jquery.cookie.js" />
+      <file name="/umbraco_client/ui/base2.js" />
+      <file name="/umbraco_client/Application/UmbracoApplicationActions.js" />
+      <file name="/umbraco_client/Application/UmbracoUtils.js" />
+      <file name="/umbraco_client/Application/UmbracoClientManager.js" />
+      <file name="/umbraco_client/UI/knockout.js" />
+      <file name="/umbraco_client/UI/knockout.mapping.js" />
+      <file name="/umbraco_client/modal/modal.js" />
+      <file name="/umbraco_client/ui/default.js" />
+      <file name="/umbraco_client/Application/jQuery/jquery.hotkeys.js" />
+      <file name="/umbraco/plugins/DigibizAdvancedMediaPicker/DAMPScript.js" />
+      <file name="/umbraco_client/scrollingmenu/javascript.js" />
+      <file name="/umbraco_client/DateTimePicker/timepicker.js" />
+      <file name="/umbraco_client/MaskedInput/jquery.maskedinput-1.3.min.js" />
+      <file name="/umbraco_client/DateTimePicker/umbDateTimePicker.js" />
+      <file name="/umbraco_client/tabview/javascript.js" />
+      <file name="/umbraco/js/umbracoCheckKeys.js" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L1RyZWUvdHJlZUljb25zLmNzczsvdW1icmFjb19jbGllbnQvVHJlZS9tZW51SWNvbnMuY3NzOy91bWJyYWNvX2NsaWVudC9UcmVlL1RoZW1lcy91bWJyYWNvL3N0eWxlLmNzczsvdW1icmFjb19jbGllbnQvdWkvZGVmYXVsdC5jc3M7L3VtYnJhY29fY2xpZW50L3Byb3BlcnR5cGFuZS9zdHlsZS5jc3M7" file="C:\Users\mohamed\Desktop\NewSilverRedCopy\App_Data\TEMP\ClientDependency\2_248ad433890849fd9b63cd0f7e5208d7.cdC" compression="gzip" version="2">
+    <files>
+      <file name="/umbraco_client/Tree/treeIcons.css" />
+      <file name="/umbraco_client/Tree/menuIcons.css" />
+      <file name="/umbraco_client/Tree/Themes/umbraco/style.css" />
+      <file name="/umbraco_client/ui/default.css" />
+      <file name="/umbraco_client/propertypane/style.css" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL05hbWVzcGFjZU1hbmFnZXIuanM7L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeS5qczsvdW1icmFjb19jbGllbnQvdWkvYmFzZTIuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL1VtYnJhY29DbGllbnRNYW5hZ2VyLmpzOy91bWJyYWNvX2NsaWVudC9VSS9rbm9ja291dC5qczsvdW1icmFjb19jbGllbnQvVUkva25vY2tvdXQubWFwcGluZy5qczsvdW1icmFjb19jbGllbnQvdWkvZGVmYXVsdC5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vSlF1ZXJ5L2pxdWVyeS5tZXRhZGF0YS5taW4uanM7L3VtYnJhY29fY2xpZW50L1RyZWUvanF1ZXJ5LnRyZWUuanM7L3VtYnJhY29fY2xpZW50L1RyZWUvVW1icmFjb0NvbnRleHQuanM7L3VtYnJhY29fY2xpZW50L1RyZWUvanF1ZXJ5LnRyZWUuY29udGV4dG1lbnUuanM7L3VtYnJhY29fY2xpZW50L1RyZWUvTm9kZURlZmluaXRpb24uanM7L3VtYnJhY29fY2xpZW50L1RyZWUvanF1ZXJ5LnRyZWUuY2hlY2tib3guanM7L3VtYnJhY29fY2xpZW50L1RyZWUvVW1icmFjb1RyZWUuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL1VtYnJhY29BcHBsaWNhdGlvbkFjdGlvbnMuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL1VtYnJhY29VdGlscy5qczsvdW1icmFjb19jbGllbnQvdWkvanF1ZXJ5dWkuanM7L3VtYnJhY28vcGx1Z2lucy9EaWdpYml6QWR2YW5jZWRNZWRpYVBpY2tlci9EQU1QU2NyaXB0LmpzOw" file="C:\Users\mohamed\Desktop\NewSilverRedCopy\App_Data\TEMP\ClientDependency\2_3fcbd3ee717b46f58fce52093c2d8ccf.cdJ" compression="gzip" version="2">
+    <files>
+      <file name="/umbraco_client/Application/NamespaceManager.js" />
+      <file name="/umbraco_client/ui/jquery.js" />
+      <file name="/umbraco_client/ui/base2.js" />
+      <file name="/umbraco_client/Application/UmbracoClientManager.js" />
+      <file name="/umbraco_client/UI/knockout.js" />
+      <file name="/umbraco_client/UI/knockout.mapping.js" />
+      <file name="/umbraco_client/ui/default.js" />
+      <file name="/umbraco_client/Application/JQuery/jquery.metadata.min.js" />
+      <file name="/umbraco_client/Tree/jquery.tree.js" />
+      <file name="/umbraco_client/Tree/UmbracoContext.js" />
+      <file name="/umbraco_client/Tree/jquery.tree.contextmenu.js" />
+      <file name="/umbraco_client/Tree/NodeDefinition.js" />
+      <file name="/umbraco_client/Tree/jquery.tree.checkbox.js" />
+      <file name="/umbraco_client/Tree/UmbracoTree.js" />
+      <file name="/umbraco_client/Application/UmbracoApplicationActions.js" />
+      <file name="/umbraco_client/Application/UmbracoUtils.js" />
+      <file name="/umbraco_client/ui/jqueryui.js" />
+      <file name="/umbraco/plugins/DigibizAdvancedMediaPicker/DAMPScript.js" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL05hbWVzcGFjZU1hbmFnZXIuanM7L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeS5qczsvdW1icmFjb19jbGllbnQvdWkvanF1ZXJ5dWkuanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL2pRdWVyeS9qcXVlcnkuY29va2llLmpzOy91bWJyYWNvX2NsaWVudC91aS9iYXNlMi5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vVW1icmFjb0FwcGxpY2F0aW9uQWN0aW9ucy5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vVW1icmFjb1V0aWxzLmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9VbWJyYWNvQ2xpZW50TWFuYWdlci5qczsvdW1icmFjb19jbGllbnQvVUkva25vY2tvdXQuanM7L3VtYnJhY29fY2xpZW50L1VJL2tub2Nrb3V0Lm1hcHBpbmcuanM7L3VtYnJhY29fY2xpZW50L21vZGFsL21vZGFsLmpzOy91bWJyYWNvX2NsaWVudC91aS9kZWZhdWx0LmpzOy91bWJyYWNvX2NsaWVudC9BcHBsaWNhdGlvbi9qUXVlcnkvanF1ZXJ5LmhvdGtleXMuanM7L3VtYnJhY29fY2xpZW50L0RhdGVUaW1lUGlja2VyL3RpbWVwaWNrZXIuanM7L3VtYnJhY29fY2xpZW50L01hc2tlZElucHV0L2pxdWVyeS5tYXNrZWRpbnB1dC0xLjMubWluLmpzOy91bWJyYWNvX2NsaWVudC9EYXRlVGltZVBpY2tlci91bWJEYXRlVGltZVBpY2tlci5qczsvdW1icmFjb19jbGllbnQvc2Nyb2xsaW5nbWVudS9qYXZhc2NyaXB0LmpzOy91bWJyYWNvX2NsaWVudC90YWJ2aWV3L2phdmFzY3JpcHQuanM7L3VtYnJhY28vanMvdW1icmFjb0NoZWNrS2V5cy5qczs" file="C:\Users\mohamed\Desktop\NewSilverRedCopy\App_Data\TEMP\ClientDependency\2_8d2e524fd0904c00b70bdfd1d0470fed.cdJ" compression="gzip" version="2">
+    <files>
+      <file name="/umbraco_client/Application/NamespaceManager.js" />
+      <file name="/umbraco_client/ui/jquery.js" />
+      <file name="/umbraco_client/ui/jqueryui.js" />
+      <file name="/umbraco_client/Application/jQuery/jquery.cookie.js" />
+      <file name="/umbraco_client/ui/base2.js" />
+      <file name="/umbraco_client/Application/UmbracoApplicationActions.js" />
+      <file name="/umbraco_client/Application/UmbracoUtils.js" />
+      <file name="/umbraco_client/Application/UmbracoClientManager.js" />
+      <file name="/umbraco_client/UI/knockout.js" />
+      <file name="/umbraco_client/UI/knockout.mapping.js" />
+      <file name="/umbraco_client/modal/modal.js" />
+      <file name="/umbraco_client/ui/default.js" />
+      <file name="/umbraco_client/Application/jQuery/jquery.hotkeys.js" />
+      <file name="/umbraco_client/DateTimePicker/timepicker.js" />
+      <file name="/umbraco_client/MaskedInput/jquery.maskedinput-1.3.min.js" />
+      <file name="/umbraco_client/DateTimePicker/umbDateTimePicker.js" />
+      <file name="/umbraco_client/scrollingmenu/javascript.js" />
+      <file name="/umbraco_client/tabview/javascript.js" />
+      <file name="/umbraco/js/umbracoCheckKeys.js" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L3VpL2RlZmF1bHQuY3NzOy91bWJyYWNvX2NsaWVudC9tb2RhbC9zdHlsZS5jc3M7L3VtYnJhY29fY2xpZW50L0RhdGVUaW1lUGlja2VyL2RhdGV0aW1lcGlja2VyLmNzczsvdW1icmFjb19jbGllbnQvbWVudWljb24vc3R5bGUuY3NzOy91bWJyYWNvX2NsaWVudC9wcm9wZXJ0eXBhbmUvc3R5bGUuY3NzOy91bWJyYWNvX2NsaWVudC9zY3JvbGxpbmdtZW51L3N0eWxlLmNzczsvdW1icmFjb19jbGllbnQvdGFidmlldy9zdHlsZS5jc3M7" file="C:\Users\mohamed\Desktop\NewSilverRedCopy\App_Data\TEMP\ClientDependency\2_2d60f9782419465e97935a7f6921991e.cdC" compression="gzip" version="2">
+    <files>
+      <file name="/umbraco_client/ui/default.css" />
+      <file name="/umbraco_client/modal/style.css" />
+      <file name="/umbraco_client/DateTimePicker/datetimepicker.css" />
+      <file name="/umbraco_client/menuicon/style.css" />
+      <file name="/umbraco_client/propertypane/style.css" />
+      <file name="/umbraco_client/scrollingmenu/style.css" />
+      <file name="/umbraco_client/tabview/style.css" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY29fY2xpZW50L3VpL2RlZmF1bHQuY3NzOy91bWJyYWNvX2NsaWVudC9tb2RhbC9zdHlsZS5jc3M7L3VtYnJhY28vcGx1Z2lucy9EaWdpYml6QWR2YW5jZWRNZWRpYVBpY2tlci9EYW1wU3R5bGVzLmNzczsvdW1icmFjb19jbGllbnQvcHJvcGVydHlwYW5lL3N0eWxlLmNzczsvdW1icmFjb19jbGllbnQvbWVudWljb24vc3R5bGUuY3NzOy91bWJyYWNvX2NsaWVudC9zY3JvbGxpbmdtZW51L3N0eWxlLmNzczsvdW1icmFjb19jbGllbnQvRGF0ZVRpbWVQaWNrZXIvZGF0ZXRpbWVwaWNrZXIuY3NzOy91bWJyYWNvX2NsaWVudC90YWJ2aWV3L3N0eWxlLmNzczs" file="C:\Users\mohamed\Desktop\NewSilverRedCopy\App_Data\TEMP\ClientDependency\2_b3ca878e20c8480e9854fe3485374824.cdC" compression="gzip" version="2">
+    <files>
+      <file name="/umbraco_client/ui/default.css" />
+      <file name="/umbraco_client/modal/style.css" />
+      <file name="/umbraco/plugins/DigibizAdvancedMediaPicker/DampStyles.css" />
+      <file name="/umbraco_client/propertypane/style.css" />
+      <file name="/umbraco_client/menuicon/style.css" />
+      <file name="/umbraco_client/scrollingmenu/style.css" />
+      <file name="/umbraco_client/DateTimePicker/datetimepicker.css" />
+      <file name="/umbraco_client/tabview/style.css" />
+    </files>
+  </item>
+</map>

@@ -1,0 +1,118 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = null;
+}
+
+<!doctype html>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<html>
+
+<head>
+    <meta name="description" content="Check out the latest SilverRed new and updates." />
+    <link type="text/css" rel="stylesheet" href="~/Css/style.css" />
+    <link type="text/css" rel="stylesheet" href="~/Css/Blog.css" />
+    <script src="~/Scripts/masonry.pkgd.min.js"></script>
+    <script src="~/Scripts/imagesLoaded.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery-1.10.2.min.js"></script>
+
+    <title>Silverred Blog, and Latest News</title>
+</head>
+<body style="background: url(../img/Blog/Background.png) repeat">
+    <div id="FixedHeader" class="noGradient">
+        <div id="HeaderContainer">
+            <a href="/">
+                <div class="logo"></div>
+            </a>
+            <div id="MainNavigation">
+                <a href="CustomizerLanding">
+                    <div id="customizer"></div>
+                </a>
+                <a href="ProductNavigation">
+                    <div id="Products"></div>
+                </a>
+                <a href="/?ContactUs=1">
+                    <div id="ContactUs"></div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="Seperator"></div>
+
+
+    <div id="BlogContainer">
+        @* <div class="BlogItem ViewProducts">
+
+        </div>*@
+
+        @{
+            
+            foreach (var blogItem in Model.Content.Children.OrderByDescending(i => i.CreateDate))
+            {
+                string headerText = blogItem.GetPropertyValue("header").ToString();
+                string PreviewText = blogItem.GetPropertyValue("previewText").ToString(); ;
+                DAMP.PropertyEditorValueConverter.Model PreviewImageModel = null;
+                try
+                {
+                    PreviewImageModel = (DAMP.PropertyEditorValueConverter.Model)blogItem.GetPropertyValue("previewImage");
+                }
+                catch (Exception ex) { }
+
+
+                if (PreviewImageModel.Count > 0)
+                {
+            <a href="@blogItem.Id" class="theBlog">
+                <div class="BlogItem">
+                    <div class="theShade">
+                        <div class="textContainer Image">
+                            <h2>@headerText</h2>
+                            <p>
+                                @PreviewText
+                            </p>
+                        </div>
+                        <div class="ImageContainer">
+                            <img src="@PreviewImageModel.Select(i => i.File).FirstOrDefault()" />
+                        </div>
+                    </div>
+                </div>
+            </a>   
+                }
+                else
+                {
+            <a href="@blogItem.Id" class="theBlog">
+                <div class="BlogItem">
+                    <div class="theShade">
+                        <div class="textContainer NoImage">
+                            <h2>@headerText</h2>
+                            <p>
+                                @PreviewText
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+                }
+
+            }
+        }
+
+
+    </div>
+    <div id="BlogFooter">
+
+    </div>
+       
+
+
+    <script>
+        var container = document.querySelector('#BlogContainer');
+        var msnry;
+        imagesLoaded(container, function () {
+            msnry = new Masonry(container, {
+                columnWidth: 80,
+                itemSelector: '.BlogItem'
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,127 @@
+2013-11-12 00:10:20,619 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 56] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 00:10:20,619 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 24] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 00:10:20,634 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 38] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 00:10:20,634 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 14] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 00:10:20,634 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 77] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 00:10:23,162 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 44] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 00:18:37,617 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 29] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 00:18:37,632 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 78] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 00:18:37,632 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 35] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 00:18:37,726 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 50] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 00:18:38,069 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 36] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 00:25:34,660 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 57] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 00:33:31,423 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 45] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 00:33:31,423 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 6] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 00:33:31,423 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 40] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 00:34:26,338 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 31] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 00:35:47,323 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 31] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 00:40:11,228 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 19] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 00:40:43,958 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 9] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 00:41:00,792 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 6] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 00:42:33,289 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 35] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 00:42:33,289 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 36] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 00:42:38,391 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 79] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 08:44:20,325 [8] INFO  umbraco.BusinessLogic.Log - [Thread 49] Log scrubbed.  Removed all items older than 2013-09-13 08:44:19
+2013-11-12 09:06:58,836 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2013-11-12 09:06:58,867 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 27ms)
+2013-11-12 09:06:58,883 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-11-12 09:06:59,351 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 454ms)
+2013-11-12 09:06:59,398 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-11-12 09:06:59,429 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 1 (took 18ms)
+2013-11-12 09:06:59,429 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-11-12 09:06:59,444 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 13ms)
+2013-11-12 09:06:59,444 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-11-12 09:06:59,460 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 2 (took 15ms)
+2013-11-12 09:06:59,460 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-11-12 09:06:59,476 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 15ms)
+2013-11-12 09:06:59,476 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-11-12 09:06:59,491 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 15ms)
+2013-11-12 09:06:59,741 [8] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2013-11-12 09:07:00,973 [8] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2013-11-12 09:07:01,005 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2013-11-12 09:07:01,036 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 32ms)
+2013-11-12 09:07:01,192 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2013-11-12 09:07:01,285 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 93ms)
+2013-11-12 09:07:01,410 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 1] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 09:07:01,582 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 14] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 09:07:01,738 [8] INFO  umbraco.content - [Thread 14] Loading content from disk cache...
+2013-11-12 09:07:02,299 [8] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2013-11-12 09:07:02,315 [8] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 17ms)
+2013-11-12 09:07:03,017 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 12] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 09:07:03,017 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 9] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 09:07:03,033 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 15] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 09:07:03,033 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 11] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 09:08:43,690 [8] INFO  Umbraco.Core.PluginManager - [Thread 18] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2013-11-12 09:08:43,721 [8] INFO  Umbraco.Core.PluginManager - [Thread 18] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 21ms)
+2013-11-12 09:08:47,075 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 9] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 09:09:01,178 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 13] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 09:12:07,188 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 23] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 09:12:07,188 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 5] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 09:12:07,188 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 38] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 09:13:06,534 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 57] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 09:13:06,534 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 45] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 09:13:10,262 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 26] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 09:15:35,834 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 60] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 09:20:29,630 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 88] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 09:20:29,630 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 67] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 09:20:34,061 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 67] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 09:20:34,061 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 78] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 09:22:12,440 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 69] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 09:22:50,397 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 88] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 09:24:33,582 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 59] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 09:24:40,259 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 77] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 09:24:40,415 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 59] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 09:26:05,674 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 44] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 09:37:51,318 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 37] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 09:37:53,175 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 83] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 09:37:54,157 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 20] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 09:37:54,157 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 5] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 09:45:35,835 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 47] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 09:45:35,835 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 68] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 09:49:14,169 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 70] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 09:49:15,433 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 69] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 09:49:16,182 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 28] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 09:50:18,991 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 70] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 09:50:18,991 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 28] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 10:01:01,343 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 5] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 10:01:01,343 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 29] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 10:01:05,274 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 25] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 10:16:44,121 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 64] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 10:16:44,121 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 69] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 10:16:46,461 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 69] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 10:16:46,476 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 55] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 10:16:46,476 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 76] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 10:19:59,538 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 67] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 10:20:00,037 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 21] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 19:53:30,886 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 79] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 19:53:30,886 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 76] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 19:53:32,696 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 28] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 19:54:03,305 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 59] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 19:55:30,155 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 28] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 20:01:16,760 [8] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 28] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 21:06:59,778 [8] INFO  umbraco.BusinessLogic.Log - [Thread 61] Log scrubbed.  Removed all items older than 2013-09-13 21:06:59
+2013-11-12 21:20:01,851 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2013-11-12 21:20:01,883 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 12ms)
+2013-11-12 21:20:01,898 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-11-12 21:20:02,366 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 465ms)
+2013-11-12 21:20:02,413 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-11-12 21:20:02,429 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 1 (took 15ms)
+2013-11-12 21:20:02,429 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-11-12 21:20:02,444 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 16ms)
+2013-11-12 21:20:02,444 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-11-12 21:20:02,460 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 2 (took 13ms)
+2013-11-12 21:20:02,475 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-11-12 21:20:02,491 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 15ms)
+2013-11-12 21:20:02,491 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-11-12 21:20:02,507 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 16ms)
+2013-11-12 21:20:02,756 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2013-11-12 21:20:04,004 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2013-11-12 21:20:04,035 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2013-11-12 21:20:04,067 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 30ms)
+2013-11-12 21:20:04,223 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2013-11-12 21:20:04,316 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 79ms)
+2013-11-12 21:20:04,426 [7] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 1] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 21:20:04,550 [7] INFO  Umbraco.Core.Profiling.WebProfiler - [Thread 8] Cannot start the WebProfiler since the application is running in Medium trust
+2013-11-12 21:20:32,726 [7] INFO  umbraco.content - [Thread 10] Loading content from disk cache...
+2013-11-12 21:20:33,365 [7] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2013-11-12 21:20:33,428 [7] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 52ms)

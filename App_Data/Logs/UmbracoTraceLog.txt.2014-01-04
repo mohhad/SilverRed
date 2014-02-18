@@ -1,0 +1,3 @@
+2014-01-04 15:47:01,335 [12] INFO  umbraco.BusinessLogic.Log - [Thread 6] Log scrubbed.  Removed all items older than 2013-11-05 15:47:01
+2014-01-04 18:20:22,458 [12] INFO  umbraco.BusinessLogic.Log - [Thread 33] Log scrubbed.  Removed all items older than 2013-11-05 18:20:22
+2014-01-04 18:20:22,505 [12] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 33] Application shutdown. Reason: ConfigurationChange

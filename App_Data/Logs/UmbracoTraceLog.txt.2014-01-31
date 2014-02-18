@@ -1,0 +1,56 @@
+2014-01-31 20:31:48,476 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2014-01-31 20:31:48,501 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 17ms)
+2014-01-31 20:31:48,507 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2014-01-31 20:31:52,825 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 4316ms)
+2014-01-31 20:31:52,953 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2014-01-31 20:31:52,966 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 1 (took 12ms)
+2014-01-31 20:31:52,970 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2014-01-31 20:31:52,980 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 9ms)
+2014-01-31 20:31:52,981 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2014-01-31 20:31:52,992 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 2 (took 11ms)
+2014-01-31 20:31:53,008 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2014-01-31 20:31:53,023 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 15ms)
+2014-01-31 20:31:53,024 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2014-01-31 20:31:53,038 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 14ms)
+2014-01-31 20:31:53,567 [9] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2014-01-31 20:31:54,165 [9] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2014-01-31 20:31:54,171 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2014-01-31 20:31:54,187 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 15ms)
+2014-01-31 20:31:54,274 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2014-01-31 20:31:54,332 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 57ms)
+2014-01-31 20:31:54,854 [9] INFO  umbraco.content - [Thread 11] Loading content from disk cache...
+2014-01-31 20:31:55,561 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 10] An unhandled exception occurred
+System.InvalidOperationException: Failed to handle request. ---> System.InvalidOperationException: Unable to handle request. ---> System.InvalidOperationException: Method PDFEmailer.createPDF can not be reflected. ---> System.InvalidOperationException: There was an error reflecting 'UserDetails'. ---> System.NotSupportedException: The type System.Collections.Generic.Dictionary`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] is not supported because it implements IDictionary.
+   at System.Xml.Serialization.TypeScope.GetDefaultIndexer(Type type, String memberInfo)
+   at System.Xml.Serialization.TypeScope.ImportTypeDesc(Type type, MemberInfo memberInfo, Boolean directReference)
+   at System.Xml.Serialization.TypeScope.GetTypeDesc(Type type, MemberInfo source, Boolean directReference, Boolean throwOnError)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportMemberMapping(XmlReflectionMember xmlReflectionMember, String ns, XmlReflectionMember[] xmlReflectionMembers, Boolean rpc, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportMembersMapping(XmlReflectionMember[] xmlReflectionMembers, String ns, Boolean hasWrapperElement, Boolean rpc, Boolean openModel, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.ImportMembersMapping(XmlReflectionMember[] xmlReflectionMembers, String ns, Boolean hasWrapperElement, Boolean rpc, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportMembersMapping(String elementName, String ns, XmlReflectionMember[] members, Boolean hasWrapperElement, Boolean rpc, Boolean openModel, XmlMappingAccess access)
+   at System.Web.Services.Protocols.SoapReflector.ImportMembersMapping(XmlReflectionImporter xmlImporter, SoapReflectionImporter soapImporter, Boolean serviceDefaultIsEncoded, Boolean rpc, SoapBindingUse use, SoapParameterStyle paramStyle, String elementName, String elementNamespace, Boolean nsIsDefault, XmlReflectionMember[] members, Boolean validate, Boolean openModel, String key, Boolean writeAccess)
+   at System.Web.Services.Protocols.SoapReflector.ReflectMethod(LogicalMethodInfo methodInfo, Boolean client, XmlReflectionImporter xmlImporter, SoapReflectionImporter soapImporter, String defaultNs)
+   --- End of inner exception stack trace ---
+   at System.Web.Services.Protocols.SoapReflector.ReflectMethod(LogicalMethodInfo methodInfo, Boolean client, XmlReflectionImporter xmlImporter, SoapReflectionImporter soapImporter, String defaultNs)
+   at System.Web.Services.Description.SoapProtocolReflector.ReflectMethod()
+   at System.Web.Services.Description.ProtocolReflector.ReflectBinding(ReflectedBinding reflectedBinding)
+   at System.Web.Services.Description.ProtocolReflector.Reflect()
+   at System.Web.Services.Description.ServiceDescriptionReflector.ReflectInternal(ProtocolReflector[] reflectors)
+   at System.Web.Services.Description.ServiceDescriptionReflector.Reflect(Type type, String url)
+   at System.Web.Services.Protocols.DocumentationServerType..ctor(Type type, String uri, Boolean excludeSchemeHostPortFromCachingKey)
+   at System.Web.Services.Protocols.DocumentationServerProtocol.Initialize()
+   at System.Web.Services.Protocols.ServerProtocolFactory.Create(Type type, HttpContext context, HttpRequest request, HttpResponse response, Boolean& abortProcessing)
+   --- End of inner exception stack trace ---
+   at System.Web.Services.Protocols.ServerProtocolFactory.Create(Type type, HttpContext context, HttpRequest request, HttpResponse response, Boolean& abortProcessing)
+   at System.Web.Services.Protocols.WebServiceHandlerFactory.CoreGetHandler(Type type, HttpContext context, HttpRequest request, HttpResponse response)
+   --- End of inner exception stack trace ---
+   at System.Web.Services.Protocols.WebServiceHandlerFactory.CoreGetHandler(Type type, HttpContext context, HttpRequest request, HttpResponse response)
+   at System.Web.Services.Protocols.WebServiceHandlerFactory.GetHandler(HttpContext context, String verb, String url, String filePath)
+   at System.Web.Script.Services.ScriptHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String pathTranslated)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-01-31 20:31:58,248 [9] INFO  Umbraco.Core.PluginManager - [Thread 11] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2014-01-31 20:31:58,254 [9] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 6ms)
+2014-01-31 21:24:20,098 [9] INFO  Umbraco.Core.PluginManager - [Thread 40] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2014-01-31 21:24:20,232 [9] INFO  Umbraco.Core.PluginManager - [Thread 40] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 133ms)

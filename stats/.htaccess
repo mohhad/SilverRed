@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "silver-red.com Statistics"
+AuthUserFile /var/chroot/home/content/13/10844313/html/stats/.statspwd
+Require valid-user
+DirectoryIndex index.html

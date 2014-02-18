@@ -1,0 +1,382 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = null;
+}
+
+
+
+
+<!doctype html>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<html class="no-js" lang="en">
+
+<head>
+    <meta name="description"  content="SilverRed is the official supplier of protal workwear products.">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <title>@ViewBag.title</title>
+    <link rel="stylesheet" href="~/css/style.css">
+    
+    <script src="~/Scripts/libs/modernizr-2.5.0.min.js"></script>
+    <link rel="stylesheet" href="/css/supersized.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/css/supersized.shutter.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/css/jquery.jscrollpane.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/css/StylesForTextEditor" type="text/css" media="screen" />
+    <script type="text/javascript" src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/js/lib/timeline/TweenMax.min.js"></script>
+    
+	
+     <script type="text/javascript">
+         function initialize() {
+             var latlng = new google.maps.LatLng(25.141225, 55.226165);
+             var settings = {
+                 zoom: 15,
+                 center: latlng,
+                 mapTypeControl: true,
+                 mapTypeControlOptions: { style: google.maps.MapTypeControlStyle.DROPDOWN_MENU },
+                 navigationControl: true,
+                 navigationControlOptions: { style: google.maps.NavigationControlStyle.SMALL },
+                 mapTypeId: google.maps.MapTypeId.ROADMAP
+             };
+             var map = new google.maps.Map(document.getElementById("GoogleMap"), settings);
+             var companyMarker = new google.maps.Marker({
+                 position: latlng,
+                 map: map,
+                 title: "Al Serkal"
+             });
+         }
+
+    </script>
+
+
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-47180078-2']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+
+
+</head>
+
+@*<body onload = "@if (!Model.Content.DocumentTypeAlias.Equals("Products")) { Html.Raw("initialize()"); } ">*@
+@*@if (Model.Content.DocumentTypeAlias.Equals("HomePage"))
+{
+    @:<body onLoad='initialize()'>
+}else
+{
+    @:<body>
+}*@
+<body>
+    <div id="FixedHeader">
+        <div id="HeaderContainer">
+            <a href="/">
+                <div class="logo"></div>
+            </a>
+            
+
+            <div id="MainNavigation">
+                <a href="CustomizerLanding">
+                    <div id="customizer"></div>
+                </a>
+                <a href="ProductNavigation">
+                    <div id="Products"></div>
+                </a>
+               @if (Model.Content.DocumentTypeAlias.Equals("HomePage"))
+               {
+                    <a href="#">                   
+                        <div id="ContactUs"></div>
+                    </a>
+               }
+               else
+               {
+                    <a href="/?ContactUs=1">                   
+                        <div id="ContactUs"></div>
+                    </a>
+               }
+            </div>
+        </div>
+    </div>
+
+
+
+<div>
+    @RenderBody()
+</div>
+
+
+
+    <div id="FullLoader">
+        <div id="loaderImage"></div>
+    </div>
+                
+@if (Model.Content.DocumentTypeAlias.Equals("HomePage"))
+{
+
+    var BlogModel = Model.Content.Children.Where(i => i.Name == "Blog").FirstOrDefault();
+    string articleId = "";
+    string previewText = "";
+    string ImageURL = "";
+
+
+    var latestBlog = BlogModel.Children.OrderByDescending(i => i.CreateDate).FirstOrDefault();
+
+
+    if (latestBlog != null)
+    {
+        articleId = latestBlog.Id.ToString();
+        previewText = latestBlog.GetPropertyValue("previewText").ToString();
+        DAMP.PropertyEditorValueConverter.Model PreviewImage = (DAMP.PropertyEditorValueConverter.Model)latestBlog.GetPropertyValue("previewImage");
+        if (PreviewImage != null)
+        {
+            ImageURL = PreviewImage.Select(i => i.File).FirstOrDefault();
+        }
+    }
+    
+    
+    
+    <div id="fixedFooter">
+        <div id="footerNavigationLinks">
+
+            @if (articleId != "")
+            {
+            <div id="blogControl">
+                <div id="LatestBlog">
+                    <a href="@articleId">ARTICLE</a>
+                    <div class="previewArticle">@previewText</div>
+                    <a class="ImageLink" href="#">VIEW IMAGE <img src="../img/Blog/ViewImage.png"/></a>
+                    @if (ImageURL != "" && ImageURL != null)
+                    {   
+                        <div id="BlogItemImage">
+                            <img  src="@ImageURL"/>
+                        </div>
+                    }
+                    
+                </div>
+                <div id="blogLine"></div>
+            </div>    
+            }
+
+            
+
+
+            <div>
+                <ul>
+                    <li>
+                        <a href="#" title="Why Work with us?">
+                            <div id="WhyUs"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Our safety standards">
+                            <div id="SafetyStandards"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Official supplier of Protal products">
+                            <div id="OfficialSupplier"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="CustomizerLanding" title="Silver red Customize your product.">
+                            <div id="CustomizerSub"></div>
+                        </a>
+                    </li>
+                    @*<li>
+                        <a href="http://www.linkedin.com/company/3184301?trk=tyah" title="Silver red on linkedin" target="_blank">
+                            <div id="LinkUp"></div>
+                        </a>
+                    </li>*@
+                    <li>
+                        <a href="Blog" title="Silver red latest news">
+                            <div id="LatestNews"></div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div id="footerEmphasis">
+                <ul>
+                    <li>
+                        <div id="WhyUsEmp" class="FooterResizer">
+                            <span class="Emp">Why Us </span>
+                            <br />
+                            Work With Us
+                        </div>
+                    </li>
+                    <li>
+                        <div id="SafetyStandardsEmp" class="FooterResizer">
+                            <span class="Emp">Safety Standards</span><br />
+                            GENERAL CERTIFICATIONS
+                        </div>
+                    </li>
+                    <li>
+                        <div id="OfficialSupplierEmp" class="FooterResizer">
+                            <span class="Emp">Official supplier of</span><br />
+                            PROTAL PRODUCTS
+                        </div>
+                    </li>
+                    <li>
+                        <div id="CustomizerEmp" class="FooterResizer">
+                            <span class="Emp">Customizer<br />
+                            </span>CUSTOMIZE PRODUCTS
+                        </div>
+                    </li>
+                    <li>
+                        <div id="LatestNewsEmp" class="FooterResizer">
+                            <span class="Emp">Latest News</span><br />
+                            SILVERRED BLOG
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+     
+
+
+
+
+    <script type="text/javascript" src="js/lib/canvas.min.js"></script>
+    <script type="text/javascript">
+        var cSpeed = 9;
+        var cWidth = 40;
+        var cHeight = 40;
+        var cTotalFrames = 24;
+        var cFrameWidth = 40;
+        var cImageSrc = '/img/Customizer/sprites.png';
+
+        var cImageTimeout = false;
+
+        function startAnimation() {
+
+            document.getElementById('loaderImage').innerHTML = '<canvas id="canvas1" width="' + cWidth + '" height="' + cHeight + '"><p>Your browser does not support the canvas element.</p></canvas>';
+
+            //FPS = Math.round(100/(maxSpeed+2-speed));
+            FPS = Math.round(100 / cSpeed);
+            SECONDS_BETWEEN_FRAMES = 1 / FPS;
+            g_GameObjectManager = null;
+            g_run = genImage;
+
+            g_run.width = cTotalFrames * cFrameWidth;
+            genImage.onload = function () { cImageTimeout = setTimeout(fun, 0) };
+            initCanvas();
+        }
+
+
+        function imageLoader(s, fun)//Pre-loads the sprites image
+        {
+            clearTimeout(cImageTimeout);
+            cImageTimeout = 0;
+            genImage = new Image();
+            genImage.onload = function () { cImageTimeout = setTimeout(fun, 0) };
+            genImage.onerror = new Function('alert(\'Could not load the image\')');
+            genImage.src = s;
+        }
+
+        //The following code starts the animation
+        new imageLoader(cImageSrc, 'startAnimation()');
+    </script>
+}
+else if (Model.Content.DocumentTypeAlias.Equals("CustomizerLanding"))
+{
+
+}
+else if (Model.Content.DocumentTypeAlias.Equals("Products"))
+{
+
+}
+else if (Model.Content.DocumentTypeAlias.Equals("ProductNavigation"))
+{
+
+}
+else
+{
+    <div id="fixedFooter">
+        <div id="footerNavigationLinks">
+            <div>
+                <ul>
+
+                    <li>
+                        <a href="/?WhyUs=1" title="Why Work with us?">
+                            <div id="WhyUs"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/?SafetyStandards=1" title="Our safety standards">
+                            <div id="SafetyStandards"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/?OfficialSupplier=1" title="Official supplier of Protal products">
+                            <div id="OfficialSupplier"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="CustomizerLanding" title="Silver red Customize your product.">
+                            <div id="CustomizerSub"></div>
+                        </a>
+                    </li>
+                    @*<li>
+                        <a href="http://www.linkedin.com/company/3184301?trk=tyah" title="Silver red on linkedin" target="_blank">
+                            <div id="LinkUp"></div>
+                        </a>
+                    </li>*@
+                    <li>
+                        <a href="Blog" title="Silver red latest news">
+                            <div id="LatestNews"></div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div id="footerEmphasis">
+                <ul>
+                    <li>
+                        <div id="WhyUsEmp" class="FooterResizer">
+                            <span class="Emp">Why Us </span>
+                            <br />
+                            Work With Us
+                        </div>
+                    </li>
+                    <li>
+                        <div id="SafetyStandardsEmp" class="FooterResizer">
+                            <span class="Emp">Safety Standards</span><br />
+                            GENERAL CERTIFICATIONS
+                        </div>
+                    </li>
+                    <li>
+                        <div id="OfficialSupplierEmp" class="FooterResizer">
+                            <span class="Emp">Official supplier of</span><br />
+                            PROTAL PRODUCTS
+                        </div>
+                    </li>
+                    <li>
+                        <div id="CustomizerEmp" class="FooterResizer">
+                            <span class="Emp">Customizer<br />
+                            </span>CUSTOMIZE PRODUCTS
+                        </div>
+                    </li>
+                    <li>
+                        <div id="LatestNewsEmp" class="FooterResizer">
+                            <span class="Emp">Latest News</span><br />
+                            SILVERRED BLOG
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+}
+</body>
+   
+</html>

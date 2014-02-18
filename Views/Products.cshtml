@@ -1,0 +1,149 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Home.cshtml";
+    ViewBag.title = "Coverall, Jackets, Shirts and Pants";
+}
+
+<style>
+    body {
+        background:url(../img/SilverRed/Background-Texture.jpg) repeat !important;
+        background-position: top left;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+</style>
+
+    <div id="startScreen">
+        <div class="Seperator"></div>
+
+        <div id="MainProductContainer">
+            <div id="MaleFemaleCategory">
+            <div id="MaleContainer">
+                <div id="MaleCategory" title="Male"></div>  
+            </div>
+            <div id="FemaleContainer">
+                <div id="FemaleCategory" title="Female"></div>
+            </div>
+        </div>
+       
+
+        
+       <div id="WhiteLineContainer">
+            <div class="whiteLineHorizontalMale" id="ProductsMale"></div>
+            <div class="whiteLineHorizontalFemale" id="ProductsFemale"></div>
+       </div>
+        
+         <div id="MaleFemaleSubCat">
+            <div id="MaleSubCatContainer">
+                <div id="MaleSubCatItemsContainer">
+                    <div id="Coveralls" class="MaleItem" title="Coverall">
+                        <div class="ProdIcon"></div>
+                        <div class="SubCatTitle">COVERALL</div>
+                    </div>
+                    <div id="Jackets" class="MaleItem" title="Jackets">
+                        <div class="ProdIcon"></div>
+                        <div class="SubCatTitle">JACKETS</div>
+                    </div>
+                    <div id="Shirts" class="MaleItem" title="Shirts">
+                        <div class="ProdIcon"></div>
+                        <div class="SubCatTitle" style="margin-left: 12px;">SHIRTS</div>
+                    </div>
+                    <div id="Pants" class="MaleItem" title="Pants">
+                        <div class="ProdIcon"></div>
+                        <div class="SubCatTitle" style="margin-left: 12px;">PANTS</div>
+                    </div>
+                    <div id="Winter" class="MaleItem"  title="Winter">
+                        <div class="ProdIcon"></div>
+                        <div class="SubCatTitle" style="margin-left: 8px;">WINTER</div>             
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        
+        <div id="mainProductLayout">
+            <div id="ProductImagesMain">
+                <div id="ProductImages">
+
+                </div>
+            </div>
+
+
+            <div id="ProductOverviewMain">
+                <div id="ProductOverview">
+                    <div id="ProductOverviewTitle">
+                        <div id="ProductOverviewTitleContainer">
+
+                        </div>
+                    </div>
+                    <div id="ProductOverviewContent">
+                        <div id="ProductOverviewContentContainer">
+                            <span id="IntroHeader" class="TitleSpan"></span><br />
+                            <p class="Header">Description:</p>
+                            <p id="IntroBody"></p><br />
+                            <div class="informationText">
+                                <p><span>Fabric and Weight</span><br />
+                                    Protal permanent FR from 165 GSM to 395 GSM
+                                </p><br />
+                                <p><span>Safety Standards</span><br />
+                                    EN 11612 (EN 531) / EN 1149-3 /  EN 470-1 / EN 471
+                                </p><br />
+                                <p><span>Features:</span></p>
+                                <p id="ProdFeatures">
+                                </p>
+                                <br />
+                                <p><span>Sizes:</span><br />
+                                    S, M, L, XL. 2XL. 3XL, 4XL, 5XL
+                                </p>
+                                <br />
+                                <p><span>Colors:</span><br />
+                                   Khaki(20), Beige (21), Navy Blue(22),Royal Blue(23), Red(24), Grey (25),Orange(26), Yellow (27), HiVis Yellow (28), Red (29)
+                                </p>
+                                <br />
+                                <div class="FooterLinks">
+                                    <span>Links:</span><br />
+                                        <a href="#" style="color:red">PDF</a>&nbsp;&nbsp;/&nbsp;
+                                        <a href="#" style="color:red">Size Chart</a>&nbsp;&nbsp;/&nbsp;
+                                        <a href="/"><img src="../img/Silverred/Protal.png"/></a>&nbsp;&nbsp;/&nbsp;
+                                        <a target="_blank" href="http://www.ykk.com/english/"><img src="../img/Silverred/YKK.png"/></a>
+                                </div>
+                            </div>
+                            
+                            
+                            <span id="ProdInfoHeader" class="TitleSpan"></span><br /><br />
+                            <p id="ProdInfoBody">
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        
+    </div>
+ 
+    
+  
+    
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="~/css/ProductStyles.css">
+    <link rel="stylesheet" href="~/css/jquery.jscrollpane.css" type="text/css" media="screen" />  
+    <script type="text/javascript" src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.jscrollpane.min.js"></script> 
+    @*<script type="text/javascript" src="~/Scripts/jquery.lightbox_me.js"></script>*@     
+
+
+
+<!-- Make IE8 and below responsive by adding CSS3 MediaQuery support -->
+<!--[if lt IE 9]>
+  <script type="text/javascript" src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+
+    <script type="text/javascript" src="~/Scripts/fresco.js"></script>
+    <link rel="stylesheet" type="text/css" href="~/css/fresco.css"/>
+    <script type="text/javascript" src="~/Scripts/ProductScript.js"></script>
+    

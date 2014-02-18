@@ -1,0 +1,15 @@
+2014-02-13 12:55:25,991 [6] INFO  umbraco.BusinessLogic.Log - [Thread 76] Log scrubbed.  Removed all items older than 2013-12-15 12:55:21
+2014-02-13 20:20:03,249 [6] INFO  Umbraco.Core.PluginManager - [Thread 136] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2014-02-13 20:20:03,257 [6] INFO  Umbraco.Core.PluginManager - [Thread 136] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 7ms)
+2014-02-13 20:21:42,518 [6] INFO  umbraco.BasePages.BasePage - [Thread 140] User admin (Id: 0) logged in
+2014-02-13 20:21:42,657 [6] INFO  Umbraco.Core.PluginManager - [Thread 134] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2014-02-13 20:21:42,664 [6] INFO  Umbraco.Core.PluginManager - [Thread 134] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 6ms)
+2014-02-13 20:21:42,766 [6] INFO  Umbraco.Core.PluginManager - [Thread 134] Starting resolution types of umbraco.interfaces.ITree
+2014-02-13 20:21:42,798 [6] INFO  Umbraco.Core.PluginManager - [Thread 134] Completed resolution of types of umbraco.interfaces.ITree, found 37 (took 32ms)
+2014-02-13 20:21:48,765 [6] INFO  Umbraco.Core.PluginManager - [Thread 147] Starting resolution types of umbraco.interfaces.IDataType
+2014-02-13 20:21:48,794 [6] INFO  Umbraco.Core.PluginManager - [Thread 147] Completed resolution of types of umbraco.interfaces.IDataType, found 37 (took 28ms)
+2014-02-13 20:22:25,100 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 144] Content 'Blog Item 4' with Id '1402' has been unpublished.
+2014-02-13 20:22:25,155 [6] INFO  Umbraco.Core.PluginManager - [Thread 144] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2014-02-13 20:22:25,173 [6] INFO  Umbraco.Core.PluginManager - [Thread 144] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 21 (took 18ms)
+2014-02-13 20:44:57,150 [6] INFO  umbraco.BusinessLogic.Log - [Thread 96] Log scrubbed.  Removed all items older than 2013-12-15 20:44:57
+2014-02-13 20:44:57,153 [6] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 96] Application shutdown. Reason: ConfigurationChange

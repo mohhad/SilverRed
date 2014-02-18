@@ -1,0 +1,77 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = null;
+}
+
+
+<!doctype html>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<html>
+
+<head>
+    <link type="text/css" rel="stylesheet" href="~/Css/style.css" />
+    <link type="text/css" rel="stylesheet" href="~/Css/Blog.css" />
+	<link rel="stylesheet" href="/Css/StylesForTextEditor.css" type="text/css"/>
+
+    <script type="text/javascript" src="~/Scripts/jquery-1.10.2.min.js"></script>
+
+    <title>Silverred Blog</title>
+</head>
+<body style="background: url(../img/Blog/Background.png) repeat">
+    <div id="FixedHeader" class="noGradient">
+        <div id="HeaderContainer">
+            <a href="/">
+                <div class="logo"></div>
+            </a>
+            <div id="MainNavigation">
+                <a href="CustomizerLanding">
+                    <div id="customizer"></div>
+                </a>
+                <a href="ProductNavigation">
+                    <div id="Products"></div>
+                </a>
+                <a href="/?ContactUs=1">
+                    <div id="ContactUs"></div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="Seperator"></div>
+
+    @{
+        string Header = Model.Content.GetPropertyValue("header").ToString();
+        string mainText = Model.Content.GetPropertyValue("mainText").ToString();
+
+        DAMP.PropertyEditorValueConverter.Model mainImages = (DAMP.PropertyEditorValueConverter.Model)Model.Content.GetPropertyValue("mainImages");
+
+
+    <div id="BlogItemContainer">
+        <div id="HeaderText">
+            <h2>@Header</h2>
+        </div>
+        <div id="BlogItemMainContainer">
+            <div id="BlogImagesContainer">
+                @foreach(var image in mainImages)
+                {
+                    <img src="@image.File"/>
+                    <br />
+                }
+
+            </div>
+            <div id="BlogDescriptionContainer">
+                 @Html.Raw(mainText) 
+            </div>
+        </div>
+
+    </div> 
+        
+    }
+
+
+    <script>
+        $(document).ready(function () {
+            $('body').height($(document).height());
+        });
+    </script>
+</body>
+</html>

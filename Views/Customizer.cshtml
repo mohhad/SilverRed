@@ -1,0 +1,2176 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = null;
+}
+
+
+<!doctype html>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<html>
+<head>
+    <meta name="description" content="SilverRed Customizer is used to create a cool technical drawing of your desired product."/>
+    <link rel="stylesheet" href="~/Css/style.css">
+    <link rel="stylesheet" href="~/Css/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="~/Css/CustomizerStyles.css" />
+    <link rel="stylesheet" type="text/css" href="~/Css/jquery.jscrollpane.css" />
+    <link rel="stylesheet" type="text/css" href="~/Css/spectrum.css" />
+    <link rel="stylesheet" type="text/css" href="~/Css/simple-slider.css" />
+
+
+    <title>SilverRed Customizer</title>
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-47180078-2']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+</head>
+<body style="overflow: scroll;">
+    <div id="FixedHeader" class="noGradient">
+        <div id="HeaderContainer">
+            <a href="/">
+                <div class="logo"></div>
+            </a>
+            <div id="MainNavigation">
+                @*<a href="CustomizerLanding">
+                    <div id="customizer"></div>
+                </a>*@
+                <a href="ProductNavigation">
+                    <div id="Products"></div>
+                </a>
+                <a href="/?ContactUs=1">
+                    <div id="ContactUs"></div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="Seperator"></div>
+
+    <div id="CustomizerContainer">
+
+        <div id="StepsAndOptions">
+
+
+            <div id="StepsContainer">
+                <div id="StepsHeader"><span>STEPS</span></div>
+                <div id="theSteps">
+                    <br />
+                    <div class="oneStep" id="FabricsStep">
+                        <div class="StepIcon" id="FabricsIco">
+                            <div class="StepIcoHover"></div>
+                        </div>
+                        <div class="StepText" id="FabricsText">
+                            FABRICS<div class="isDoneIcon" title="Fabrics"></div>
+                        </div>
+                    </div>
+                    <div class="oneStep" id="ColorsStep">
+                        <div class="StepIcon" id="ColorsIco">
+                            <div class="StepIcoHover"></div>
+                        </div>
+                        <div class="StepText" id="ColorsText">
+                            COLORS<div class="isDoneIcon" title="Colors"></div>
+                        </div>
+                    </div>
+                    <div class="oneStep" id="HiViStep">
+                        <div class="StepIcon" id="HiViIco">
+                            <div class="StepIcoHover"></div>
+                        </div>
+                        <div class="StepText" id="HiViText">
+                            HI VISIBILITY<div class="isDoneIcon" title="Hi Visibility"></div>
+                        </div>
+                    </div>
+                    <div class="oneStep" id="ReflectorsStep">
+                        <div class="StepIcon" id="ReflectorsIco">
+                            <div class="StepIcoHover"></div>
+                        </div>
+                        <div class="StepText" id="ReflectorsText">
+                            REFLECTORS<div class="isDoneIcon" title="Reflectors"></div>
+                        </div>
+                    </div>
+                    <div class="oneStep" id="PocketsStep">
+                        <div class="StepIcon" id="PocketsIco">
+                            <div class="StepIcoHover"></div>
+                        </div>
+                        <div class="StepText" id="PocketsText">
+                            POCKETS<div class="isDoneIcon" title="Pockets"></div>
+                        </div>
+                    </div>
+                    <div class="oneStep" id="OptionalsStep">
+                        <div class="StepIcon" id="OptionalsIco">
+                            <div class="StepIcoHover"></div>
+                        </div>
+                        <div class="StepText" id="OptionalsText">
+                            OPTIONALS<div class="isDoneIcon" title="Optionals"></div>
+                        </div>
+                    </div>
+                    <div class="oneStep" id="LogosStep">
+                        <div class="StepIcon" id="LogosIco">
+                            <div class="StepIcoHover"></div>
+                        </div>
+                        <div class="StepText" id="LogosText">
+                            LOGOS<div class="isDoneIcon" title="Logos"></div>
+                        </div>
+                    </div>
+                    <div class="oneStep" id="FinishStep" style="border-bottom: 1px solid #929497;">
+                        <div class="StepIcon" id="FinishIco">
+                            <div class="StepIcoHover"></div>
+                        </div>
+                        <div class="StepText" id="FinishText">
+                            FINISH<div class="isDoneIcon"></div>
+                        </div>
+                    </div>
+                    <div id="StepsFooter">
+                        <div id="StepsFootHeader">
+                            SELECT A FABRIC
+                        </div>
+                        <div id="StepsFootBody">
+                            ALL OUR FABRICS ARE THE TOP QUALITY PROTAL PRODUCTS CREATED FOR THE UAE.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div id="OptionsContainer">
+
+
+
+                <div id="Fabrics" class="MainContentPage dontDisplay">
+                    <div id="FabricsTabs">
+                        <ul class="tabs">
+                            <li title="Protal"><a href="#" title="FabricsTab" id="FabricsFirst">PROTAL</a></li>
+                            <li title="Others"><a href="#" title="OtherTab">OTHER</a></li>
+                        </ul>
+                    </div>
+                    <div id="FabricsContent" class="SubContent">
+
+                        <div id="FabricsTab" class="InnerContent">
+                            <div id="FabricsScroller" class="ScrollerDiv" style="height: 489px; width: 213px;">
+                                <h2 class="anyHeaderFab">NOTE</h2>
+                                <div class="NoteText GeneralBodyTextStyle FabGen">
+                                    <p>Our <span class="red">FR Protal</span> Coveralls  come in different weights depending on what is suitable for a particular field of work. </p>
+                                    <br />
+                                    <p>Please use the below indicator to determine the balance appropriate for your line of work. </p>
+                                </div>
+                                <br />
+                                <h2 class="anyHeaderFab">Fabric Specs</h2>
+                                <div class="CoverallStuff">
+                                    <div style="width: 85%;" class="FabGen">
+                                        <div class="FabricSpecItem">
+                                            <div class="ColorSquare Fabrics1 firstSection"></div>
+                                            <div class="InnerFabricsText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">Standard & Light Industrial</p>
+                                                <p class="moveUp2Px">GSM: <span class="Whitify">170</span></p>
+                                            </div>
+                                            <div class="RedX fabricsX">
+                                                <input id="StandardCb1" class="css-checkbox" type="checkbox" gsm="170" value="Standard & Light Industrial" name="Fabrics">
+                                                <label class="css-label lite-x-red" for="StandardCb1"></label>
+                                            </div>
+                                        </div>
+                                        <div class="FabricSpecItem">
+                                            <div class="ColorSquare Fabrics1 secondSection"></div>
+                                            <div class="InnerFabricsText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">Standard & Light Industrial</p>
+                                                <p class="moveUp2Px">GSM: <span class="Whitify">195</span></p>
+                                            </div>
+                                            <div class="RedX fabricsX">
+                                                <input id="StandardCb2" class="css-checkbox" type="checkbox" gsm="195" value="Standard & Light Industrial" name="Fabrics">
+                                                <label class="css-label lite-x-red" for="StandardCb2"></label>
+                                            </div>
+                                        </div>
+                                        <div class="FabricSpecItem">
+                                            <div class="ColorSquare Fabrics1 thirdSection"></div>
+                                            <div class="InnerFabricsText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">Standard & Light Industrial</p>
+                                                <p class="moveUp2Px">GSM: <span class="Whitify">220</span></p>
+                                            </div>
+                                            <div class="RedX fabricsX">
+                                                <input id="StandardCb3" class="css-checkbox" type="checkbox" gsm="220" value="Standard & Light Industrial" name="Fabrics">
+                                                <label class="css-label lite-x-red" for="StandardCb3"></label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div style="width: 85%;" class="FabGen">
+                                        <div class="FabricSpecItem">
+                                            <div class="ColorSquare Fabrics2 firstSection"></div>
+                                            <div class="InnerFabricsText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">Welding & Fabrication</p>
+                                                <p class="moveUp2Px">GSM: <span class="Whitify">250</span></p>
+                                            </div>
+                                            <div class="RedX fabricsX">
+                                                <input id="Welding1" class="css-checkbox" type="checkbox" gsm="250" value="Welding & Fabrication" name="Fabrics">
+                                                <label class="css-label lite-x-red" for="Welding1"></label>
+                                            </div>
+                                        </div>
+                                        <div class="FabricSpecItem">
+                                            <div class="ColorSquare Fabrics2 secondSection"></div>
+                                            <div class="InnerFabricsText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">Welding & Fabrication</p>
+                                                <p class="moveUp2Px">GSM: <span class="Whitify">300</span></p>
+                                            </div>
+                                            <div class="RedX fabricsX">
+                                                <input id="Welding2" class="css-checkbox" type="checkbox" gsm="300" value="Welding & Fabrication" name="Fabrics">
+                                                <label class="css-label lite-x-red" for="Welding2"></label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div style="width: 85%;" class="FabGen">
+                                        <div class="FabricSpecItem">
+                                            <div class="ColorSquare Fabrics3 firstSection"></div>
+                                            <div class="InnerFabricsText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">Molten Iron & Aluminum</p>
+                                                <p class="moveUp2Px">GSM: <span class="Whitify">320</span></p>
+                                            </div>
+                                            <div class="RedX fabricsX">
+                                                <input id="Molten1" class="css-checkbox" type="checkbox" gsm="320" value="Molten Iron & Aluminum" name="Fabrics">
+                                                <label class="css-label lite-x-red" for="Molten1"></label>
+                                            </div>
+                                        </div>
+                                        <div class="FabricSpecItem">
+                                            <div class="ColorSquare Fabrics3 secondSection"></div>
+                                            <div class="InnerFabricsText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">Molten Iron & Aluminum</p>
+                                                <p class="moveUp2Px">GSM: <span class="Whitify">390</span></p>
+                                            </div>
+                                            <div class="RedX fabricsX">
+                                                <input id="Molten2" class="css-checkbox" type="checkbox" gsm="390" value="Molten Iron & Aluminum" name="Fabrics">
+                                                <label class="css-label lite-x-red" for="Molten2"></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="CombinationStuff">
+                                    <div class="NoteText GeneralBodyTextStyle FabGen">
+                                        <div id="theJacketsProtal">
+                                            <h2 class="anyHeaderFab1">Jacket</h2>
+                                            <section class="DropDownContainer anyHeaderFab1">
+                                                <div class="dropdown dropdown-dark" style="margin-left: -8px;">
+                                                    <select class="dropdown-select" type="Jacket" style="font-size: 9px">
+                                                        <option value="-1" selected disabled="disabled">Jacket Specs...</option>
+                                                        <option value="Standard and Light Industrial" gsm="220">Standard and Light Industrial GSM 220</option>
+                                                        <option value="Welding & Fabrication" gsm="250">Welding & Fabrication GSM 250</option>
+                                                        <option value="Welding & Fabrication" gsm="300">Welding & Fabrication GSM 300</option>
+                                                        <option value="Molten Iron & Aluminum" gsm="320">Molten Iron & Aluminum GSM 320</option>
+                                                        <option value="Molten Iron & Aluminum" gsm="390">Molten Iron & Aluminum GSM 390</option>
+                                                    </select>
+                                                </div>
+                                            </section>
+                                        </div>
+
+                                        <div id="theShirtsProtal">
+                                            <h2 class="anyHeaderFab1">Shirt</h2>
+                                            <section class="DropDownContainer anyHeaderFab1">
+                                                <div class="dropdown dropdown-dark" style="margin-left: -8px;">
+                                                    <select class="dropdown-select" type="Shirt" style="font-size: 9px">
+                                                        <option value="-1" selected disabled="disabled">Shirt Specs...</option>
+                                                        <option value="Standard & Light Industrial" gsm="170">Standard & Light Industrial GSM 170</option>
+                                                        <option value="Standard & Light Industrial" gsm="195">Standard & Light Industrial GSM 195</option>
+                                                        <option value="Standard & Light Industrial" gsm="220">Standard & Light Industrial GSM 220</option>
+                                                    </select>
+                                                </div>
+                                            </section>
+                                        </div>
+
+
+                                        <br />
+                                        <h2 class="anyHeaderFab1">Pants</h2>
+                                        <section class="DropDownContainer anyHeaderFab1">
+                                            <div class="dropdown dropdown-dark" style="margin-left: -8px;">
+                                                <select class="dropdown-select" type="Pants" style="font-size: 9px">
+                                                    <option value="-1" selected disabled="disabled">Pants Specs...</option>
+                                                    <option value="Standard & Light Industrial" gsm="220">Standard & Light Industrial GSM 220</option>
+                                                    <option value="Welding & Fabrication" gsm="250">Welding & Fabrication GSM 250</option>
+                                                    <option value="Welding & Fabrication" gsm="300">Welding & Fabrication GSM 300</option>
+                                                    <option value="Molten Iron & Aluminum" gsm="320">Molten Iron & Aluminum GSM 320</option>
+                                                    <option value="Molten Iron & Aluminum" gsm="390">Molten Iron & Aluminum GSM 390</option>
+                                                </select>
+                                            </div>
+                                        </section>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                        <div id="OtherTab" class="InnerContent dontDisplay">
+                            <div id="OthersScroller" class="ScrollerDiv" style="height: 489px; width: 213px;">
+                                <h2 class="anyHeaderFab2">NOTE</h2>
+                                <div class="NoteText GeneralBodyTextStyle FabGen2">
+                                    <p><span class="red">Silverred</span> offers a range of fabrics to suit your particular project and work environment.</p>
+                                    <br />
+
+                                    <p>Please select your choice from the dropdown menu.</p>
+                                </div>
+                                <br />
+                                <h2 class="anyHeaderFab2">FR Treated Cotton</h2>
+
+
+                                <div class="CoverallStuff">
+                                    <div style="width: 85%;" class="FabGen2">
+                                        <div class="FabricSpecItem">
+                                            <div class="ColorSquare ColorSquare2 Others1 firstSection"></div>
+                                            <div class="InnerFabricsText GeneralBodyTextStyle">
+                                                <p class="otherP">GSM: <span class="Whitify">220</span></p>
+                                            </div>
+                                            <div class="RedX fabricsX2">
+                                                <input id="FR1" class="css-checkbox" type="checkbox" gsm="220" value="FR Treated Cotton" name="Fabrics">
+                                                <label class="css-label lite-x-red" for="FR1"></label>
+                                            </div>
+                                        </div>
+                                        <div class="FabricSpecItem">
+                                            <div class="ColorSquare ColorSquare2 Others2 firstSection"></div>
+                                            <div class="InnerFabricsText GeneralBodyTextStyle">
+                                                <p class="otherP">GSM: <span class="Whitify">280</span></p>
+                                            </div>
+                                            <div class="RedX fabricsX2">
+                                                <input id="FR2" class="css-checkbox" type="checkbox" gsm="280" value="FR Treated Cotton" name="Fabrics">
+                                                <label class="css-label lite-x-red" for="FR2"></label>
+                                            </div>
+                                        </div>
+                                        <div class="FabricSpecItem">
+                                            <div class="ColorSquare ColorSquare2 Others3 firstSection"></div>
+                                            <div class="InnerFabricsText GeneralBodyTextStyle">
+                                                <p class="otherP">GSM: <span class="Whitify">350</span></p>
+                                            </div>
+                                            <div class="RedX fabricsX2">
+                                                <input id="FR3" class="css-checkbox" type="checkbox" gsm="350" value="FR Treated Cotton" name="Fabrics">
+                                                <label class="css-label lite-x-red" for="FR3"></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h2 class="anyHeaderFab2">100% Stain Release Plus</h2>
+                                    <div style="width: 85%;" class="FabGen2">
+                                        <div class="FabricSpecItem">
+                                            <div class="ColorSquare ColorSquare2 Others1 firstSection"></div>
+                                            <div class="InnerFabricsText GeneralBodyTextStyle">
+                                                <p class="otherP">GSM: <span class="Whitify">220</span></p>
+                                            </div>
+                                            <div class="RedX fabricsX2">
+                                                <input id="Stain1" class="css-checkbox" type="checkbox" gsm="220" value="100% Stain Release Plus" name="Fabrics">
+                                                <label class="css-label lite-x-red" for="Stain1"></label>
+                                            </div>
+                                        </div>
+                                        <div class="FabricSpecItem">
+                                            <div class="ColorSquare ColorSquare2 Others2 firstSection"></div>
+                                            <div class="InnerFabricsText GeneralBodyTextStyle">
+                                                <p class="otherP">GSM: <span class="Whitify">280</span></p>
+                                            </div>
+                                            <div class="RedX fabricsX2">
+                                                <input id="Stain2" class="css-checkbox" type="checkbox" gsm="280" value="100% Stain Release Plus" name="Fabrics">
+                                                <label class="css-label lite-x-red" for="Stain2"></label>
+                                            </div>
+                                        </div>
+                                        <div class="FabricSpecItem">
+                                            <div class="ColorSquare ColorSquare2 Others3 firstSection"></div>
+                                            <div class="InnerFabricsText GeneralBodyTextStyle">
+                                                <p class="otherP">GSM: <span class="Whitify">350</span></p>
+                                            </div>
+                                            <div class="RedX fabricsX2">
+                                                <input id="Stain3" class="css-checkbox" type="checkbox" gsm="350" value="100% Stain Release Plus" name="Fabrics">
+                                                <label class="css-label lite-x-red" for="Stain3"></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h2 class="anyHeaderFab2">100% Pre-Shrunk Cotton</h2>
+                                    <div style="width: 85%;" class="FabGen2">
+                                        <div class="FabricSpecItem">
+                                            <div class="ColorSquare ColorSquare2 Others1 firstSection"></div>
+                                            <div class="InnerFabricsText GeneralBodyTextStyle">
+                                                <p class="otherP">GSM: <span class="Whitify">220</span></p>
+                                            </div>
+                                            <div class="RedX fabricsX2">
+                                                <input id="Shrunk1" class="css-checkbox" type="checkbox" gsm="220" value="100% Pre-Shrunk Cotton" name="Fabrics">
+                                                <label class="css-label lite-x-red" for="Shrunk1"></label>
+                                            </div>
+                                        </div>
+                                        <div class="FabricSpecItem">
+                                            <div class="ColorSquare ColorSquare2 Others2 firstSection"></div>
+                                            <div class="InnerFabricsText GeneralBodyTextStyle">
+                                                <p class="otherP">GSM: <span class="Whitify">280</span></p>
+                                            </div>
+                                            <div class="RedX fabricsX2">
+                                                <input id="Shrunk2" class="css-checkbox" type="checkbox" gsm="280" value="100% Pre-Shrunk Cotton" name="Fabrics">
+                                                <label class="css-label lite-x-red" for="Shrunk2"></label>
+                                            </div>
+                                        </div>
+                                        <div class="FabricSpecItem">
+                                            <div class="ColorSquare ColorSquare2 Others3 firstSection"></div>
+                                            <div class="InnerFabricsText GeneralBodyTextStyle">
+                                                <p class="otherP">GSM: <span class="Whitify">350</span></p>
+                                            </div>
+                                            <div class="RedX fabricsX2">
+                                                <input id="Shrunk3" class="css-checkbox" type="checkbox" gsm="350" value="100% Pre-Shrunk Cotton" name="Fabrics">
+                                                <label class="css-label lite-x-red" for="Shrunk3"></label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="CombinationStuff">
+                                    <div class="NoteText GeneralBodyTextStyle FabGen2">
+                                        <div id="theJacketsOther">
+                                            <h2 class="anyHeaderFab3">Jacket</h2>
+                                            <section class="DropDownContainer anyHeaderFab3">
+                                                <div class="dropdown dropdown-dark" style="margin-left: -8px;">
+                                                    <select class="dropdown-select" type="Jacket" style="font-size: 9px">
+                                                        <option value="-1" selected disabled="disabled">Jacket Specs...</option>
+                                                        <option value="Stain Release Plus" gsm="220">Stain Release Plus GSM 220</option>
+                                                        <option value="Stain Release Plus" gsm="280">Stain Release Plus GSM 280</option>
+                                                        <option value="Stain Release Plus" gsm="350">Stain Release Plus GSM 350</option>
+                                                        <option value="FR treated cotton" gsm="220">FR treated cotton GSM 220</option>
+                                                        <option value="FR treated cotton" gsm="280">FR treated cotton GSM 280</option>
+                                                        <option value="FR treated cotton" gsm="350">FR treated cotton GSM 350</option>
+                                                        <option value="100% Pre-Shrunk Cotton" gsm="220">100% Pre-Shrunk Cotton GSM 220</option>
+                                                        <option value="100% Pre-Shrunk Cotton" gsm="280">100% Pre-Shrunk Cotton GSM 280</option>
+                                                        <option value="100% Pre-Shrunk Cotton" gsm="350">100% Pre-Shrunk Cotton GSM 350</option>
+                                                    </select>
+                                                </div>
+                                            </section>
+                                        </div>
+
+                                        <div id="theShirtsOther">
+                                            <h2 class="anyHeaderFab3">Shirt</h2>
+                                            <section class="DropDownContainer anyHeaderFab3">
+                                                <div class="dropdown dropdown-dark" style="margin-left: -8px;">
+                                                    <select class="dropdown-select" type="Shirt" style="font-size: 9px">
+                                                        <option value="-1" selected disabled="disabled">Shirt Specs...</option>
+                                                        <option value="Stain Release Plus" gsm="220">Stain Release Plus GSM 220</option>
+                                                        <option value="FR treated cotton" gsm="220">FR treated cotton GSM 220</option>
+                                                        <option value="100% Pre-Shrunk Cotton" gsm="220">100% Pre-Shrunk Cotton GSM 220</option>
+                                                    </select>
+                                                </div>
+                                            </section>
+                                        </div>
+
+
+                                        <br />
+                                        <h2 class="anyHeaderFab3">Pants</h2>
+                                        <section class="DropDownContainer anyHeaderFab3">
+                                            <div class="dropdown dropdown-dark" style="margin-left: -8px;">
+                                                <select class="dropdown-select" type="Pants" style="font-size: 9px">
+                                                    <option value="-1" selected disabled="disabled">Pants Specs...</option>
+                                                    <option value="Stain Release Plus" gsm="220">Stain Release Plus GSM 220</option>
+                                                    <option value="Stain Release Plus" gsm="280">Stain Release Plus GSM 280</option>
+                                                    <option value="Stain Release Plus" gsm="350">Stain Release Plus GSM 350</option>
+                                                    <option value="FR treated cotton" gsm="220">FR treated cotton GSM 220</option>
+                                                    <option value="FR treated cotton" gsm="280">FR treated cotton GSM 280</option>
+                                                    <option value="FR treated cotton" gsm="350">FR treated cotton GSM 350</option>
+                                                    <option value="100% Pre-Shrunk Cotton" gsm="220">100% Pre-Shrunk Cotton GSM 220</option>
+                                                    <option value="100% Pre-Shrunk Cotton" gsm="280">100% Pre-Shrunk Cotton GSM 280</option>
+                                                    <option value="100% Pre-Shrunk Cotton" gsm="350">100% Pre-Shrunk Cotton GSM 350</option>
+                                                </select>
+                                            </div>
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="FabricsNextBack" class="NextBackButtons">
+                        <div class="Back"></div>
+                        <div class="Next"></div>
+                    </div>
+                </div>
+
+
+                <div id="Colors" class="MainContentPage dontDisplay">
+
+                    <div id="ColorsTabs">
+                        <ul class="tabs">
+                            <li><a href="#" title="ColorStandard" id="ColorFirst">STANDARD</a></li>
+                            <li><a href="#" title="ColorCustom">CUSTOM</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div id="ColorsContent" class="SubContent">
+
+
+                        <div id="ColorStandard" class="InnerContent">
+
+                            <h2 class="anyColHeader">NOTE</h2>
+                            <div class="NoteText GeneralBodyTextStyle GenColOpt">
+                                <p>
+                                    To add Hi VI elements or a secondary colors go to the next step.
+                            </div>
+                            <br />
+                            <h2 class="anyColHeader">Flat Colors</h2>
+                            <div class="NoteText GenColOpt" id="ColorIcons">
+                                <div style="margin-left: -7px">
+                                    <div class="ColorItem stage1" id="ColorItem9">
+                                        <div class="chkbxColor">
+                                            <input id="color9" class="css-checkbox ColorCheckbox" type="checkbox" customname="colors" value="rgb(30, 44, 111)">
+                                            <label class="css-label lite-x-red ColorLabel" for="color9"></label>
+                                            <br />
+                                            Navy Blue
+                                        </div>
+                                    </div>
+                                    <div class="ColorItem stage2" id="ColorItem10">
+                                        <div class="chkbxColor">
+                                            <input id="color10" class="css-checkbox ColorCheckbox" type="checkbox" customname="colors" value="rgb(127, 197, 235)">
+                                            <label class="css-label lite-x-red ColorLabel" for="color10"></label>
+                                            <br />
+                                            Sky Blue
+                                        </div>
+                                    </div>
+                                    <div class="ColorItem stage3" id="ColorItem11">
+                                        <div class="chkbxColor">
+                                            <input id="color11" class="css-checkbox ColorCheckbox" type="checkbox" customname="colors" value="rgb(0, 68, 161)">
+                                            <label class="css-label lite-x-red ColorLabel" for="color11"></label>
+                                            <br />
+                                            Royal Blue
+                                        </div>
+                                    </div>
+                                    <div class="ColorItem stage4" id="ColorItem4">
+                                        <div class="chkbxColor">
+                                            <input id="color4" class="css-checkbox ColorCheckbox" type="checkbox" customname="colors" value="rgb(254, 92, 32)">
+                                            <label class="css-label lite-x-red ColorLabel" for="color4"></label>
+                                            <br />
+                                            Orange
+                                        </div>
+                                    </div>
+
+                                    <div class="ColorItem stage2" id="ColorItem1">
+                                        <div class="chkbxColor">
+                                            <input id="color1" class="css-checkbox ColorCheckbox" type="checkbox" customname="colors" value="rgb(251, 0, 19)">
+                                            <label class="css-label lite-x-red ColorLabel" for="color1"></label>
+                                            <br />
+                                            Fire Red
+                                        </div>
+                                    </div>
+                                    <div class="ColorItem stage2" id="ColorItem2">
+                                        <div class="chkbxColor">
+                                            <input id="color2" class="css-checkbox ColorCheckbox" type="checkbox" customname="colors" value="rgb(190, 30, 45)">
+                                            <label class="css-label lite-x-red ColorLabel" for="color2"></label>
+                                            <br />
+                                            Dark Red
+                                        </div>
+                                    </div>
+                                    <div class="ColorItem stage3" id="ColorItem3">
+                                        <div class="chkbxColor">
+                                            <input id="color3" class="css-checkbox ColorCheckbox" type="checkbox" customname="colors" value="rgb(170, 32, 74)">
+                                            <label class="css-label lite-x-red ColorLabel" for="color3"></label>
+                                            <br />
+                                            Maroon
+                                        </div>
+                                    </div>
+                                    <div class="ColorItem stage4" id="ColorItem5">
+                                        <div class="chkbxColor">
+                                            <input id="color5" class="css-checkbox ColorCheckbox" type="checkbox" customname="colors" value="rgb(245, 220, 51)">
+                                            <label class="css-label lite-x-red ColorLabel" for="color5"></label>
+                                            <br />
+                                            Yellow
+                                        </div>
+                                    </div>
+
+
+                                    <div class="ColorItem stage3" id="ColorItem6">
+                                        <div class="chkbxColor">
+                                            <input id="color6" class="css-checkbox ColorCheckbox" type="checkbox" customname="colors" value="rgb(109, 110, 112)">
+                                            <label class="css-label lite-x-red ColorLabel" for="color6"></label>
+                                            <br />
+                                            Dark Grey
+                                        </div>
+                                    </div>
+                                    <div class="ColorItem stage3" id="ColorItem7">
+                                        <div class="chkbxColor">
+                                            <input id="color7" class="css-checkbox ColorCheckbox" type="checkbox" customname="colors" value="rgb(190, 190, 190)">
+                                            <label class="css-label lite-x-red ColorLabel" for="color7"></label>
+                                            <br />
+                                            Light Grey
+                                        </div>
+                                    </div>
+                                    <div class="ColorItem stage3" id="ColorItem14">
+                                        <div class="chkbxColor">
+                                            <input id="color14" class="css-checkbox ColorCheckbox" type="checkbox" customname="colors" value="rgb(195, 153, 107)">
+                                            <label class="css-label lite-x-red ColorLabel" for="color14"></label>
+                                            <br />
+                                            Khaki
+                                        </div>
+                                    </div>
+                                    <div class="ColorItem stage4" id="ColorItem13">
+                                        <div class="chkbxColor">
+                                            <input id="color13" class="css-checkbox ColorCheckbox" type="checkbox" customname="colors" value="rgb(210, 197, 204)">
+                                            <label class="css-label lite-x-red ColorLabel" for="color13"></label>
+                                            <br />
+                                            Beige
+                                        </div>
+                                    </div>
+                                    <div class="ColorItem stage4" id="ColorItem12">
+                                        <div class="chkbxColor">
+                                            <input id="color12" class="css-checkbox ColorCheckbox" type="checkbox" customname="colors" value="rgb(0, 104, 56)">
+                                            <label class="css-label lite-x-red ColorLabel" for="color12"></label>
+                                            <br />
+                                            Green
+                                        </div>
+                                    </div>
+                                    <div class="ColorItem stage4" id="ColorItem8">
+                                        <div class="chkbxColor">
+                                            <input id="color8" class="css-checkbox ColorCheckbox" type="checkbox" customname="colors" value="rgb(241, 241, 242)">
+                                            <label class="css-label lite-x-red ColorLabel" for="color8"></label>
+                                            <br />
+                                            White
+                                        </div>
+                                    </div>
+                                    <div class="ColorItem stage4" id="ColorItem15">
+                                        <div class="chkbxColor">
+                                            <input id="color15" class="css-checkbox ColorCheckbox" type="checkbox" customname="colors" value="rgb(181, 211, 52)">
+                                            <label class="css-label lite-x-red ColorLabel" for="color15"></label>
+                                            <br />
+                                            Hi-Vi
+                                        <br />
+                                            Yellow
+                                        </div>
+                                    </div>
+                                    <div class="ColorItem stage4" id="ColorItem16">
+                                        <div class="chkbxColor">
+                                            <input id="color16" class="css-checkbox ColorCheckbox" type="checkbox" customname="colors" value="rgb(239, 70, 35)">
+                                            <label class="css-label lite-x-red ColorLabel" for="color16"></label>
+                                            <br />
+                                            Hi-Vi
+                                        <br />
+                                            Orange
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div id="resetButton">RESET</div>
+                        </div>
+                        <div id="ColorCustom" class="InnerContent dontDisplay">
+                            <div class="ScrollerDiv" id="CustomColorScroller">
+                                <div class="InnerScroller">
+                                    <h2>NOTE</h2>
+                                    <div class="NoteText GeneralBodyTextStyle">
+                                        <p>
+                                            To add Hi VI elements or a secondary colors go to the next step.
+                                    </div>
+                                    <br />
+                                    <h2 id="ShirtsJacketHeader">Custom Colors</h2>
+                                    <div class="NoteText ColorPicker ColorPicker1">
+                                        <input type='text' id="flat" />
+                                    </div>
+
+                                    <div class="CombinedStuff">
+                                        <h2>Pants</h2>
+                                        <div class="NoteText ColorPicker ColorPicker2">
+                                            <input type='text' id="flat2" />
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div id="ColorsNextBack" class="NextBackButtons">
+                        <div class="Back"></div>
+                        <div class="Next"></div>
+                    </div>
+                </div>
+
+
+                <div id="HiVi" class="MainContentPage dontDisplay">
+
+                    <div id="HiViTabs">
+                        <ul class="tabs">
+                            <li title="Primary"><a href="#" title="HiViColorTab" id="HiVIFirst">HI-VI</a></li>
+                            <li title="Secondary"><a href="#" title="HiViSecondaryTab">SECONDARY</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div id="HiViContent" class="SubContent">
+                        <h2 class="AnyHiVIHeader1 AnyHiVIHeader2">Choose A Color</h2>
+                        <div id="HiViColorTab" class="InnerContent">
+
+                            <div class="ScrollerDiv" id="HiviPrimScroller">
+                                <div class="InnerScroller">
+
+
+                                    <div class="NoteText GeneralBodyTextStyle">
+                                        <div class="HiViColorItem HIVIVolorItem1" id="HiViYellowItem1">
+                                            <div class="HiViChk">
+                                                Hi-Vi Yellow
+                                            <input id="HiViYellow1" class="css-checkbox HiViCheckbox" type="checkbox" name="HiViColors1" value="rgb(181, 211, 52)">
+                                                <label class="css-label lite-x-red HiViLabel" for="HiViYellow1"></label>
+                                            </div>
+                                        </div>
+                                        <div class="HiViColorItem HIVIVolorItem1" id="HiViOrangeItem1">
+                                            <div class="HiViChk">
+                                                Hi-Vi Orange
+                                            <input id="HiViOrange1" class="css-checkbox HiViCheckbox" type="checkbox" name="HiViColors1" value="rgb(224, 80, 40)">
+                                                <label class="css-label lite-x-red HiViLabel" for="HiViOrange1"></label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <h2 class="AnyHiVIHeader1">Select Placement</h2>
+                                    <div class="NoteText" id="Placements1" style="padding-top: 0;">
+
+                                        <div class="HiViPlacementItem1" value="" data-text="none" data-Chest="N" data-Arm="N">
+                                            <div class="InnerHiviText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">None</p>
+
+                                                <input id="HiVi1None" class="css-checkbox " type="checkbox" name="HiViPlacements1" value="">
+                                                <label class="css-label lite-x-red PlacementItemCheckbox" for="HiVi1None"></label>
+                                            </div>
+                                        </div>
+                                        <div class="HiViPlacementItem1" value="UpperShoulderPads" data-text="Upper Shoulder Pads" data-Chest="N"  data-Arm="N">
+                                            <div class="InnerHiviText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">Upper Shoulder Pads</p>
+
+                                                <input id="HiVi1Sholder" class="css-checkbox " type="checkbox" name="HiViPlacements1" value="">
+                                                <label class="css-label lite-x-red PlacementItemCheckbox" for="HiVi1Sholder"></label>
+                                            </div>
+                                        </div>
+                                        <div class="HiViPlacementItem1" value="Sleeve" data-text="Full Sleeves" data-Chest="N"  data-Arm="Y">
+                                            <div class="InnerHiviText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">Full Sleeves</p>
+
+                                                <input id="HiVi1FullSleeves" class="css-checkbox " type="checkbox" name="HiViPlacements1" value="">
+                                                <label class="css-label lite-x-red PlacementItemCheckbox" for="HiVi1FullSleeves"></label>
+                                            </div>
+                                        </div>
+                                        <div class="HiViPlacementItem1" value="Forearm" data-text="Forearm Bands" data-Chest="N" data-Arm="N">
+                                            <div class="InnerHiviText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">Forearm Bands</p>
+
+                                                <input id="HiVi1FormArm" class="css-checkbox " type="checkbox" name="HiViPlacements1" value="">
+                                                <label class="css-label lite-x-red PlacementItemCheckbox" for="HiVi1FormArm"></label>
+                                            </div>
+                                        </div>
+                                        @*<div class="HiViPlacementItem1" value="HalfChestHalfSleeve" data-text="Shoulder Pads/Forearms" data-Chest="Y" data-Arm="Y">
+                                            <div class="InnerHiviText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">Shoulder Pads & Forearm Bands</p>
+
+                                                <input id="HiVi1ChestHalfSleeves" class="css-checkbox " type="checkbox" name="HiViPlacements1" value="">
+                                                <label class="css-label lite-x-red PlacementItemCheckbox" for="HiVi1ChestHalfSleeves"></label>
+                                            </div>
+                                        </div>
+
+                                        <div class="HiViPlacementItem1" value="FullChestFrontBack" data-text="Full Chest Plate" data-Chest="Y" data-Arm="N">
+                                            <div class="InnerHiviText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">Full Chest Plate</p>
+
+                                                <input id="HiVi1FullChestBack" class="css-checkbox " type="checkbox" name="HiViPlacements1" value="">
+                                                <label class="css-label lite-x-red PlacementItemCheckbox" for="HiVi1FullChestBack"></label>
+                                            </div>
+                                        </div>*@
+                                        <div class="HiViPlacementItem1" value="FrontShouldersFullBack" data-text="Shoulder and Full back" data-Chest="N" data-Arm="N">
+                                            <div class="InnerHiviText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">Shoulder and Full back</p>
+
+                                                <input id="HiVi1HalfFrontFullBack" class="css-checkbox " type="checkbox" name="HiViPlacements1" value="">
+                                                <label class="css-label lite-x-red PlacementItemCheckbox" for="HiVi1HalfFrontFullBack"></label>
+                                            </div>
+                                        </div>
+                                        <div class="HiViPlacementItem1" value="FullUpperBody" data-text="Full Upper Body" data-Chest="Y" data-Arm="N">
+                                            <div class="InnerHiviText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">Full Upper Body</p>
+
+                                                <input id="HiVi1FullUpper" class="css-checkbox " type="checkbox" name="HiViPlacements1" value="">
+                                                <label class="css-label lite-x-red PlacementItemCheckbox" for="HiVi1FullUpper"></label>
+                                            </div>
+                                        </div>
+                                        <div class="HiViPlacementItem1" value="HalfUpperFrontBack" data-text="Half Upper Body" data-Chest="Y" data-Arm="N">
+                                            <div class="InnerHiviText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">Half Upper Body</p>
+
+                                                <input id="HiVi1HalfUpper" class="css-checkbox " type="checkbox" name="HiViPlacements1" value="">
+                                                <label class="css-label lite-x-red PlacementItemCheckbox" for="HiVi1HalfUpper"></label>
+                                            </div>
+                                        </div>
+                                        <div class="HiViPlacementItem1" value="FullChestFront" data-text="Full Chest Front" data-Chest="Y" data-Arm="N">
+                                            <div class="InnerHiviText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">Full Chest Front</p>
+
+                                                <input id="HiVi1FullChestFront" class="css-checkbox " type="checkbox" name="HiViPlacements1" value="">
+                                                <label class="css-label lite-x-red PlacementItemCheckbox" for="HiVi1FullChestFront"></label>
+                                            </div>
+                                        </div>
+                                        <div class="HiViPlacementItem1" value="UpperChestPlate" data-text="Upper Chest Plate Front And Back" data-Chest="N" data-Arm="N">
+                                            <div class="InnerHiviText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">Upper Chest Plate Front And Back</p>
+
+                                                <input id="HiVi1HalfUpperFrontBack" class="css-checkbox " type="checkbox" name="HiViPlacements1" value="" data-Chest="N">
+                                                <label class="css-label lite-x-red PlacementItemCheckbox" for="HiVi1HalfUpperFrontBack"></label>
+                                            </div>
+                                        </div>
+                                        <div class="HiViPlacementItem1" value="HalfFrontFullBack" data-text="Half Chest Full Back" data-Chest="Y" data-Arm="N">
+                                            <div class="InnerHiviText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">Half Chest Full Back</p>
+
+                                                <input id="HiVi1HalfChestFullBack" class="css-checkbox " type="checkbox" name="HiViPlacements1" value="" data-Chest="N">
+                                                <label class="css-label lite-x-red PlacementItemCheckbox" for="HiVi1HalfChestFullBack"></label>
+                                            </div>
+                                        </div>
+                                        <div class="HiViPlacementItem1" value="HalfChestHalfSleeve" data-text="Half Chest Half Sleeve" data-Chest="Y" data-Arm="N">
+                                            <div class="InnerHiviText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">Half Chest Half Sleeve</p>
+
+                                                <input id="HiVi1HalfChestHalfSleeve" class="css-checkbox " type="checkbox" name="HiViPlacements1" value="" data-Chest="N">
+                                                <label class="css-label lite-x-red PlacementItemCheckbox" for="HiVi1HalfChestHalfSleeve"></label>
+                                            </div>
+                                        </div>
+                                        <div class="HiViPlacementItem1" value="ShoulderPadsForearmBands" data-text="Shoulder Pads Forearm Bands" data-Chest="N" data-Arm="N">
+                                            <div class="InnerHiviText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">Shoulder Pads Forearm Bands</p>
+
+                                                <input id="HiVi1ShoulderPadsForearmBands" class="css-checkbox " type="checkbox" name="HiViPlacements1" value="" data-Chest="N">
+                                                <label class="css-label lite-x-red PlacementItemCheckbox" for="HiVi1ShoulderPadsForearmBands"></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="LegElement1" class="CustomCheckboxCont">
+                                <div class="LegChckCont" id="ClickableLeg1" value="Leg_Element_20cm_band">
+                                    <div id="LegCheckbox1"></div>
+                                    <span class="legElementSpan">Add Leg Element</span>
+                                </div>
+                                <div class="question my_modal_open"></div>
+                            </div>
+
+                        </div>
+                        <div id="HiViSecondaryTab" class="InnerContent dontDisplay" style="width: 240px">
+
+                             <div class="ScrollerDiv" id="HiviSecondScroller">
+                                <div class="InnerScroller">
+                                  
+
+                            <div class="NoteText GeneralBodyTextStyle">
+                                <section class="DropDownContainer HiVISecondaryDD">
+                                    <div class="dropdown dropdown-dark withColorPad" style="margin-left: -8px;">
+                                        <select class="dropdown-select" id="SecondaryColor">
+                                            <option value="-1" selected disabled="disabled">Choose Secondary Color...</option>
+                                            <option value="rgb(251, 0, 19)">Fire Red</option>
+                                            <option value="rgb(190, 30, 45)">Dark Red</option>
+                                            <option value="rgb(170, 32, 74)">Maroon</option>
+                                            <option value="rgb(240, 83, 41)">Orange</option>
+                                            <option value="rgb(0, 0, 0)">Black</option>
+                                            <option value="rgb(109, 110, 112)">Dark Grey</option>
+                                            <option value="rgb(208, 210, 211)">Light Grey</option>
+                                            <option value="rgb(241, 241, 242)">White</option>
+                                            <option value="rgb(23, 35, 59)">Navy Blue</option>
+                                            <option value="rgb(0, 68, 161)">Sky Blue</option>
+                                            <option value="rgb(171, 186, 232)">Royal Blue</option>
+                                            <option value="rgb(0, 104, 56)">Green</option>
+                                            <option value="rgb(210, 197, 204)">Beige</option>
+                                            <option value="rgb(195, 153, 107)">Khaki</option>
+                                        </select>
+                                    </div>
+                                    <div id="colorPreview"></div>
+                                </section>
+                            </div>
+
+                            <h2 class="AnyHiVIHeader2">Select Placement</h2>
+                            <div class="NoteText" id="Placements2" style="padding-top: 0;">
+                                <div class="HiViPlacementItem2" value="UpperShoulderPads" data-text="Upper Shoulder Pads" data-Chest="N" data-Arm="N">
+                                    <div class="InnerHiviText GeneralBodyTextStyle">
+                                        <p style="color: white !important;">Upper Shoulder Pads</p>
+
+                                        <input id="HiVi2Shoulders" class="css-checkbox " type="checkbox" name="HiViPlacements2" value="">
+                                        <label class="css-label lite-x-red PlacementItemCheckbox" for="HiVi2Shoulders"></label>
+                                    </div>
+                                </div>
+                                <div class="HiViPlacementItem2" value="Sleeve" data-text="Full Sleeves" data-Chest="N" data-Arm="Y">
+                                    <div class="InnerHiviText GeneralBodyTextStyle">
+                                        <p style="color: white !important;">Full Sleeves</p>
+
+                                        <input id="HiVi2FullSleeves" class="css-checkbox " type="checkbox" name="HiViPlacements2" value="">
+                                        <label class="css-label lite-x-red PlacementItemCheckbox" for="HiVi2FullSleeves"></label>
+                                    </div>
+                                </div>
+                                <div class="HiViPlacementItem2" value="Forearm" data-text="Forearm Bands" data-Chest="N" data-Arm="N">
+                                    <div class="InnerHiviText GeneralBodyTextStyle">
+                                        <p style="color: white !important;">Forearm Bands</p>
+
+                                        <input id="HiVi2Foream" class="css-checkbox " type="checkbox" name="HiViPlacements2" value="">
+                                        <label class="css-label lite-x-red PlacementItemCheckbox" for="HiVi2Foream"></label>
+                                    </div>
+                                </div>
+                                @* <div class="HiViPlacementItem2" value="HalfChestHalfSleeve" data-text="Shoulder Pads & Forearm Bands" data-Chest="Y" data-Arm="Y">
+                                    <div class="InnerHiviText GeneralBodyTextStyle">
+                                        <p style="color: white !important;">Shoulder Pads & Forearm Bands</p>
+
+                                        <input id="HiVi2ChestHalfSleeves" class="css-checkbox " type="checkbox" name="HiViPlacements2" value="">
+                                        <label class="css-label lite-x-red PlacementItemCheckbox" for="HiVi2ChestHalfSleeves"></label>
+                                    </div>
+                                </div>
+                               <div class="HiViPlacementItem2" value="FullChestFrontBack" data-text="Full Chest Plate" data-Chest="Y" data-Arm="N">
+                                    <div class="InnerHiviText GeneralBodyTextStyle">
+                                        <p style="color: white !important;">Full Chest Plate</p>
+
+                                        <input id="HiVi2FullChestBack" class="css-checkbox " type="checkbox" name="HiViPlacements2" value="">
+                                        <label class="css-label lite-x-red PlacementItemCheckbox" for="HiVi2FullChestBack"></label>
+                                    </div>
+                                </div>*@
+                                <div class="HiViPlacementItem2" value="FrontShouldersFullBack" data-text="Shoulder and full back" data-Chest="N" data-Arm="N">
+                                    <div class="InnerHiviText GeneralBodyTextStyle">
+                                        <p style="color: white !important;">Shoulder and full back</p>
+
+                                        <input id="HiVi2HalfFrontFullBack" class="css-checkbox " type="checkbox" name="HiViPlacements2" value="">
+                                        <label class="css-label lite-x-red PlacementItemCheckbox" for="HiVi2HalfFrontFullBack"></label>
+                                    </div>
+                                </div>
+                                <div class="HiViPlacementItem2" value="FullUpperBody" data-text="Full Upper Body" data-Chest="Y" data-Arm="N">
+                                    <div class="InnerHiviText GeneralBodyTextStyle">
+                                        <p style="color: white !important;">Full Upper Body</p>
+
+                                        <input id="HiVi2FullUpper" class="css-checkbox " type="checkbox" name="HiViPlacements2" value="">
+                                        <label class="css-label lite-x-red PlacementItemCheckbox" for="HiVi2FullUpper"></label>
+                                    </div>
+                                </div>
+                                <div class="HiViPlacementItem2" value="HalfUpperFrontBack" data-text="Half Upper Body" data-Chest="Y" data-Arm="N">
+                                    <div class="InnerHiviText GeneralBodyTextStyle">
+                                        <p style="color: white !important;">Half Upper Body</p>
+
+                                        <input id="HiVi2HalfUpper" class="css-checkbox " type="checkbox" name="HiViPlacements1" value="">
+                                        <label class="css-label lite-x-red PlacementItemCheckbox" for="HiVi2HalfUpper"></label>
+                                    </div>
+                                </div>
+                                <div class="HiViPlacementItem2" value="FullChestFront" data-text="Full Chest Front" data-Chest="Y" data-Arm="N">
+                                    <div class="InnerHiviText GeneralBodyTextStyle">
+                                        <p style="color: white !important;">Full Chest Front</p>
+
+                                        <input id="HiVi2FullChestFront" class="css-checkbox " type="checkbox" name="HiViPlacements2" value="">
+                                        <label class="css-label lite-x-red PlacementItemCheckbox" for="HiVi2FullChestFront"></label>
+                                    </div>
+                                </div>
+                                <div class="HiViPlacementItem2" value="UpperChestPlate" data-text="Upper Chest Plate Front And Back" data-Chest="N" data-Arm="N">
+                                    <div class="InnerHiviText GeneralBodyTextStyle">
+                                        <p style="color: white !important;">Upper Chest Plate Front And Back</p>
+
+                                        <input id="HiVi2HalfUpperFrontBack" class="css-checkbox " type="checkbox" name="HiViPlacements2" value="">
+                                        <label class="css-label lite-x-red PlacementItemCheckbox" for="HiVi2HalfUpperFrontBack"></label>
+                                    </div>
+                                </div>
+                                <div class="HiViPlacementItem2" value="HalfFrontFullBack" data-text="Half Chest Full Back" data-Chest="Y" data-Arm="N">
+                                    <div class="InnerHiviText GeneralBodyTextStyle">
+                                        <p style="color: white !important;">Half Chest Full Back</p>
+
+                                        <input id="HiVi2HalfChestFullBack" class="css-checkbox " type="checkbox" name="HiViPlacements1" value="" data-Chest="N">
+                                        <label class="css-label lite-x-red PlacementItemCheckbox" for="HiVi2HalfChestFullBack"></label>
+                                    </div>
+                                </div>
+                                <div class="HiViPlacementItem2" value="HalfChestHalfSleeve" data-text="Half Chest Half Sleeve" data-chest="Y" data-arm="Y">
+                                    <div class="InnerHiviText GeneralBodyTextStyle">
+                                        <p style="color: white !important;">Half Chest Half Sleeve</p>
+
+                                        <input id="HiVi2HalfChestHalfSleeve" class="css-checkbox " type="checkbox" name="HiViPlacements1" value="" data-chest="N">
+                                        <label class="css-label lite-x-red PlacementItemCheckbox" for="HiVi2HalfChestHalfSleeve"></label>
+                                    </div>
+                                </div>
+                                <div class="HiViPlacementItem2" value="ShoulderPadsForearmBands" data-text="Shoulder Pads Forearm Bands" data-Chest="N" data-Arm="N">
+                                    <div class="InnerHiviText GeneralBodyTextStyle">
+                                        <p style="color: white !important;">Shoulder Pads Forearm Bands</p>
+
+                                        <input id="HiVi2ShoulderPadsForearmBands" class="css-checkbox " type="checkbox" name="HiViPlacements1" value="" data-Chest="N">
+                                        <label class="css-label lite-x-red PlacementItemCheckbox" for="HiVi2ShoulderPadsForearmBands"></label>
+                                    </div>
+                                </div>
+                            </div>
+
+                                      </div>
+                                 </div>
+                            <div id="LegElement2" class="CustomCheckboxCont">
+                                <div class="LegChckCont" id="ClickableLeg2" value="Leg_Element_20cm_band">
+                                    <div id="LegCheckbox2"></div>
+                                    <span class="legElementSpan">Add Leg Element</span>
+                                </div>
+                                <div class="question  my_modal_open"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div id="HiViNextBack" class="NextBackButtons">
+                        <div class="Back"></div>
+                        <div class="Next"></div>
+                    </div>
+                </div>
+
+
+                <div id="Reflectors" class="MainContentPage dontDisplay">
+
+                    <div id="ReflectorsTabs">
+                        <ul class="tabs">
+                            <li title="Body"><a href="#" title="ReflectorsBodyTab" id="ReflectorsFirst">BODY</a></li>
+                            <li title="Arms"><a href="#" title="ReflectorsArmsTab">ARMS</a></li>
+                            <li title="Legs"><a href="#" title="ReflectorsLegsTab">LEGS</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div id="ReflectorsContent" class="SubContent">
+                        <h2 class="AnyReflectorHeader1">Reflector Type</h2>
+                        <div class="NoteText GeneralBodyTextStyle dropDownAnim1">
+                            <section class="DropDownContainer">
+                                <div class="dropdown dropdown-dark">
+                                    <select class="dropdown-select" id="ReflectorType">
+                                        <option value="OneInch" color="Silver" selected>1” inch FR band '3M'</option>
+                                        <option value="TwoInch" color="Silver">2” inch FR band '3M'</option>
+                                        <option value="TwoInchY" color="Yellow">2” inch FR yellow band '3M'</option>
+                                    </select>
+                                </div>
+                            </section>
+                        </div>
+                        <br />
+                        <h2 class="AnyReflectorHeader1">Select Placement</h2>
+                        <div id="ReflectorsBodyTab" class="InnerContent">
+                            <div class="ScrollerDiv" id="ReflectorsScroller" style="height: 380px;">
+                                <div class="InnerScroller">
+                                    <div class="NoteText GeneralBodyTextStyle" style="padding-top: 0px;">
+
+                                        <div class="ReflectorPlacementItem ReflectorPI1" value="none" data-text="none">
+                                            <div class="InnerReflectorText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">None</p>
+
+                                                <input id="ReflectorBodyNone" class="css-checkbox " type="checkbox" name="BodyReflectors">
+                                                <label class="css-label lite-x-red PlacementRefItemCheckbox" for="ReflectorBodyNone"></label>
+                                            </div>
+                                        </div>
+                                        <div class="ReflectorPlacementItem ReflectorPI1" value="SholderPad" data-text="Shoulders">
+                                            <div class="InnerReflectorText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">Shoulders</p>
+
+                                                <input id="ReflectorBodyShoulder" class="css-checkbox " type="checkbox" name="BodyReflectors">
+                                                <label class="css-label lite-x-red PlacementRefItemCheckbox" for="ReflectorBodyShoulder"></label>
+                                            </div>
+                                        </div>
+                                        <div class="ReflectorPlacementItem ReflectorPI1" value="FrontOpenHarness" data-text="Front Open Harnas">
+                                            <div class="InnerReflectorText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">Front Open Harnas</p>
+
+                                                <input id="ReflectorBodyFrontOpenHarnas" class="css-checkbox " type="checkbox" name="BodyReflectors">
+                                                <label class="css-label lite-x-red PlacementRefItemCheckbox" for="ReflectorBodyFrontOpenHarnas"></label>
+                                            </div>
+                                        </div>
+
+                                        <div class="ReflectorPlacementItem ReflectorPI1" value="Trafic1" data-text="Traffic Dual Tone 1">
+                                            <div class="InnerReflectorText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">Traffic Dual Tone 1</p>
+
+                                                <input id="ReflectorBodyTrafficDual1" class="css-checkbox " type="checkbox" name="BodyReflectors">
+                                                <label class="css-label lite-x-red PlacementRefItemCheckbox" for="ReflectorBodyTrafficDual1"></label>
+                                            </div>
+                                        </div>
+
+                                        <div class="ReflectorPlacementItem ReflectorPI1" value="Trafic2" data-text="Traffic Dual Tone 2">
+                                            <div class="InnerReflectorText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">Traffic Dual Tone 2</p>
+
+                                                <input id="ReflectorBodyTrafficDual2" class="css-checkbox " type="checkbox" name="BodyReflectors">
+                                                <label class="css-label lite-x-red PlacementRefItemCheckbox" for="ReflectorBodyTrafficDual2"></label>
+                                            </div>
+                                        </div>
+
+                                        <div class="ReflectorPlacementItem ReflectorPI1" value="ClosedHarness" data-text="Closed Harnas">
+                                            <div class="InnerReflectorText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">Closed Harnas</p>
+
+                                                <input id="ReflectorBodyClosedHarnas" class="css-checkbox " type="checkbox" name="BodyReflectors">
+                                                <label class="css-label lite-x-red PlacementRefItemCheckbox" for="ReflectorBodyClosedHarnas"></label>
+                                            </div>
+                                        </div>
+
+                                        <div class="ReflectorPlacementItem ReflectorPI1" value="SingleFullChest" data-text="Back Shoulder to Shoulder">
+                                            <div class="InnerReflectorText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">Back Shoulder to Shoulder</p>
+
+                                                <input id="ReflectorBodySingleFullCHestBack" class="css-checkbox " type="checkbox" name="BodyReflectors">
+                                                <label class="css-label lite-x-red PlacementRefItemCheckbox" for="ReflectorBodySingleFullCHestBack"></label>
+                                            </div>
+                                        </div>
+
+                                        <div class="ReflectorPlacementItem ReflectorPI1" value="HighHarnes" data-text="High Open Harnas">
+                                            <div class="InnerReflectorText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">High Open Harnas</p>
+
+                                                <input id="ReflectorBodyHighHarnas" class="css-checkbox " type="checkbox" name="BodyReflectors">
+                                                <label class="css-label lite-x-red PlacementRefItemCheckbox" for="ReflectorBodyHighHarnas"></label>
+                                            </div>
+                                        </div>
+
+                                        <div class="ReflectorPlacementItem ReflectorPI1" value="SingleFullWaist" data-text="Single Full Waist">
+                                            <div class="InnerReflectorText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">Single Full Waist</p>
+
+                                                <input id="ReflectorBodySingleFullWaist" class="css-checkbox " type="checkbox" name="BodyReflectors">
+                                                <label class="css-label lite-x-red PlacementRefItemCheckbox" for="ReflectorBodySingleFullWaist"></label>
+                                            </div>
+                                        </div>
+
+                                        <div class="ReflectorPlacementItem ReflectorPI1" value="SingleFullWaistSholders" data-text="Single Full Waist + Shoulders">
+                                            <div class="InnerReflectorText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">Single Full Waist + Shoulders</p>
+
+                                                <input id="ReflectorBodySingleFullWaistShoulders" class="css-checkbox " type="checkbox" name="BodyReflectors">
+                                                <label class="css-label lite-x-red PlacementRefItemCheckbox" for="ReflectorBodySingleFullWaistShoulders"></label>
+                                            </div>
+                                        </div>
+
+                                        <div class="ReflectorPlacementItem ReflectorPI1" value="DoubleFullWaist" data-text="Double Full Waist">
+                                            <div class="InnerReflectorText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">Double Full Waist</p>
+
+                                                <input id="ReflectorBodyDoubleFullWaist" class="css-checkbox " type="checkbox" name="BodyReflectors">
+                                                <label class="css-label lite-x-red PlacementRefItemCheckbox" for="ReflectorBodyDoubleFullWaist"></label>
+                                            </div>
+                                        </div>
+
+                                        <div class="ReflectorPlacementItem ReflectorPI1" value="DoubleFullWaistSholders" data-text="Double Full Waist + Shoulders">
+                                            <div class="InnerReflectorText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">Double Full Waist + Shoulders</p>
+
+                                                <input id="ReflectorBodyDoubleFullWaistShoulders" class="css-checkbox " type="checkbox" name="BodyReflectors">
+                                                <label class="css-label lite-x-red PlacementRefItemCheckbox" for="ReflectorBodyDoubleFullWaistShoulders"></label>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <br />
+
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="ReflectorsArmsTab" class="InnerContent">
+                            <div class="ScrollerDiv">
+                                <div class="InnerScroller">
+                                    <div class="NoteText GeneralBodyTextStyle" style="padding-top: 0;">
+
+                                        <div class="ReflectorPlacementItem ReflectorPI2" value="none" data-text="none">
+                                            <div class="InnerReflectorText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">None</p>
+
+                                                <input id="ReflectorArmsNone" class="css-checkbox " type="checkbox" name="BodyReflectors">
+                                                <label class="css-label lite-x-red PlacementRefItemCheckbox" for="ReflectorArmsNone"></label>
+                                            </div>
+                                        </div>
+                                        <div class="ReflectorPlacementItem ReflectorPI2" value="ArmBands" data-text="Single Lower Arms">
+                                            <div class="InnerReflectorText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">Single Lower Arms</p>
+
+                                                <input id="ReflectorArmsSingleLowerArm" class="css-checkbox " type="checkbox" name="BodyReflectors">
+                                                <label class="css-label lite-x-red PlacementRefItemCheckbox" for="ReflectorArmsSingleLowerArm"></label>
+                                            </div>
+                                        </div>
+                                        <div class="ReflectorPlacementItem ReflectorPI2" value="ArmBands1Upper" data-text="Single Upper Arm">
+                                            <div class="InnerReflectorText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">Single Upper Arm</p>
+
+                                                <input id="ReflectorArmsSingleUpperArm" class="css-checkbox " type="checkbox" name="BodyReflectors">
+                                                <label class="css-label lite-x-red PlacementRefItemCheckbox" for="ReflectorArmsSingleUpperArm"></label>
+                                            </div>
+                                        </div>
+
+                                        <div class="ReflectorPlacementItem ReflectorPI2" value="DoubleLowerArm" data-text="Double Lower Arm">
+                                            <div class="InnerReflectorText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">Double Lower Arm</p>
+
+                                                <input id="ReflectorArmsDoubleLowerArm" class="css-checkbox " type="checkbox" name="BodyReflectors">
+                                                <label class="css-label lite-x-red PlacementRefItemCheckbox" for="ReflectorArmsDoubleLowerArm"></label>
+                                            </div>
+                                        </div>
+                                        <div class="ReflectorPlacementItem ReflectorPI2" value="ArmBands1Upper1Lower" data-text="1 Lower + 1 Upper Arm">
+                                            <div class="InnerReflectorText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">1 Lower + 1 Upper Arm</p>
+
+                                                <input id="ReflectorArms1Lower1UpperArm" class="css-checkbox " type="checkbox" name="BodyReflectors">
+                                                <label class="css-label lite-x-red PlacementRefItemCheckbox" for="ReflectorArms1Lower1UpperArm"></label>
+                                            </div>
+                                        </div>
+                                        <div class="ReflectorPlacementItem ReflectorPI2" value="FullLengthSleeve" data-text="Full Length Arm">
+                                            <div class="InnerReflectorText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">Full Length Arm</p>
+
+                                                <input id="ReflectorArmsFullLengthArm" class="css-checkbox " type="checkbox" name="BodyReflectors">
+                                                <label class="css-label lite-x-red PlacementRefItemCheckbox" for="ReflectorArmsFullLengthArm"></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br />
+
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="ReflectorsLegsTab" class="InnerContent">
+                            <div class="ScrollerDiv">
+                                <div class="NoteText GeneralBodyTextStyle" style="padding-top: 0;">
+                                    <div class="ReflectorPlacementItem ReflectorPI3" value="none" data-text="none">
+                                        <div class="InnerReflectorText GeneralBodyTextStyle">
+                                            <p style="color: white !important;">None</p>
+
+                                            <input id="ReflectorLegsNone" class="css-checkbox " type="checkbox" name="LegReflectors">
+                                            <label class="css-label lite-x-red PlacementRefItemCheckbox" for="ReflectorLegsNone"></label>
+                                        </div>
+                                    </div>
+                                    <div class="ReflectorPlacementItem ReflectorPI3" value="SingleLeg" data-text="Single Lower Leg">
+                                        <div class="InnerReflectorText GeneralBodyTextStyle">
+                                            <p style="color: white !important;">Single Lower Leg</p>
+
+                                            <input id="ReflectorLegsSingleLowerLeg" class="css-checkbox " type="checkbox" name="LegReflectors">
+                                            <label class="css-label lite-x-red PlacementRefItemCheckbox" for="ReflectorLegsSingleLowerLeg"></label>
+                                        </div>
+                                    </div>
+                                    <div class="ReflectorPlacementItem ReflectorPI3" value="DoubleLeg" data-text="Double Lower Leg">
+                                        <div class="InnerReflectorText GeneralBodyTextStyle">
+                                            <p style="color: white !important;">Double Lower Leg</p>
+
+                                            <input id="ReflectorLegsDoubleLowerLeg" class="css-checkbox " type="checkbox" name="LegReflectors">
+                                            <label class="css-label lite-x-red PlacementRefItemCheckbox" for="ReflectorLegsDoubleLowerLeg"></label>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <br />
+
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div id="ReflectorsNextBack" class="NextBackButtons">
+                        <div class="Back"></div>
+                        <div class="Next"></div>
+                    </div>
+                </div>
+
+
+                <div id="Pockets" class="MainContentPage dontDisplay">
+
+                    <div id="PocketsTabs">
+                        <ul class="tabs">
+                            <li title="Body"><a href="#" title="PocketsBodyTab" id="PocketsFirst">BODY</a></li>
+                            <li title="Arms"><a href="#" title="PocketsArmsTab">ARMS</a></li>
+                            <li title="Legs"><a href="#" title="PocketsLegsTab">LEGS</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div id="PocketsContent" class="SubContent">
+
+                        <div id="PocketsBodyTab" class="InnerContent">
+                            <div class="ScrollerDiv" id="PocketsBodyScroll">
+                                <div class="InnerScroller">
+                                    <h2 class="AnyHeaderPockets1">POCKET CLOSING</h2>
+                                    <div class="NoteText GeneralBodyTextStyle AnyPocketText">
+                                        <p>Buttoned down and zipped up by YKK.</p>
+                                    </div>
+                                    <br />
+
+                                    <section class="DropDownContainer pocketDD1">
+                                        <div class="dropdown dropdown-dark">
+                                            <select class="dropdown-select" id="BodyClosing">
+                                                <option value="-1" selected disabled="disabled">Select Type of Closing</option>
+                                                <option value="Velcro">Velcro</option>
+                                                <option value="Button">Button</option>
+                                                <option value="Zipper">Zipper</option>
+                                            </select>
+                                        </div>
+                                    </section>
+
+                                    <br />
+                                    <h2 class="AnyHeaderPockets1">Pocket Position</h2>
+
+                                    <div class="NoteText GeneralBodyTextStyle AnyPocketText" style="padding-top: 0;">
+
+                                        <div class="PocketsPlacementItem BodyPocketItem pocketItem1" value="none" data-text="none">
+                                            <div class="InnerPocketsText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">None</p>
+
+                                                <input id="PocketsBodyNone" class="css-checkbox " type="checkbox" name="BodyPockets">
+                                                <label class="css-label lite-x-red PlacementRefItemCheckbox" for="PocketsBodyNone"></label>
+                                            </div>
+                                        </div>
+                                        <div class="PocketsPlacementItem BodyPocketItem pocketItem1" value="ChestPocketLeftRight" data-text="2 Closed Chest Pockets" data-Closing="Yes" data-position="both">
+                                            <div class="InnerPocketsText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">2 Closed Chest Pockets</p>
+
+                                                <input id="PocketsBodyChestLeftRight" class="css-checkbox " type="checkbox" name="BodyPockets">
+                                                <label class="css-label lite-x-red PlacementRefItemCheckbox" for="PocketsBodyChestLeftRight"></label>
+                                            </div>
+                                        </div>
+                                        <div class="PocketsPlacementItem BodyPocketItem pocketItem1" value="ChestPocketLeft" data-text="Chest Pocket Left" data-Closing="Yes" data-position="left">
+                                            <div class="InnerPocketsText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">Chest Pocket Left</p>
+
+
+                                                <input id="PocketsBodyChestLeft" class="css-checkbox " type="checkbox" name="BodyPockets">
+                                                <label class="css-label lite-x-red PlacementRefItemCheckbox" for="PocketsBodyChestLeft"></label>
+                                            </div>
+                                        </div>
+                                        <div class="PocketsPlacementItem BodyPocketItem pocketItem1" value="ChestPocketRight" data-text="Chest Pocket Right" data-Closing="Yes" data-position="right">
+                                            <div class="InnerPocketsText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">Chest Pocket Right</p>
+
+                                                <input id="PocketsBodyChestRight" class="css-checkbox " type="checkbox" name="BodyPockets">
+                                                <label class="css-label lite-x-red PlacementRefItemCheckbox" for="PocketsBodyChestRight"></label>
+                                            </div>
+                                        </div>
+                                       @* <div class="PocketsPlacementItem BodyPocketItem pocketItem1" value="ChestAngledPocketLeftRight" data-text="2 Angled Chest Pockets" data-Closing="No" data-position="both">
+                                            <div class="InnerPocketsText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">2 Angled Chest Pockets</p>
+
+                                                <input id="PocketsBodyChestAngledLeftRight" class="css-checkbox " type="checkbox" name="BodyPockets">
+                                                <label class="css-label lite-x-red PlacementRefItemCheckbox" for="PocketsBodyChestAngledLeftRight"></label>
+                                            </div>
+                                        </div>*@
+                                        <div class="PocketsPlacementItem BodyPocketItem pocketItem1" value="ChestAngledPocketLeft" data-text="Angled Chest Pocket Left" data-Closing="No" data-position="left">
+                                            <div class="InnerPocketsText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">Angled Chest Pocket Left</p>
+
+                                                <input id="PocketsBodyChestAngledLeft" class="css-checkbox " type="checkbox" name="BodyPockets">
+                                                <label class="css-label lite-x-red PlacementRefItemCheckbox" for="PocketsBodyChestAngledLeft"></label>
+                                            </div>
+                                        </div>
+                                        <div class="PocketsPlacementItem BodyPocketItem pocketItem1" value="ChestAngledPocketRight" data-text="Angled Chest Pocket Right" data-Closing="No" data-position="right">
+                                            <div class="InnerPocketsText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">Angled Chest Pocket Right</p>
+
+                                                <input id="PocketsBodyChestAngledRight" class="css-checkbox " type="checkbox" name="BodyPockets">
+                                                <label class="css-label lite-x-red PlacementRefItemCheckbox" for="PocketsBodyChestAngledRight"></label>
+                                            </div>
+                                        </div>
+
+
+
+
+                                        <div class="PocketsPlacementItem BodyPocketItem pocketItem1" value="ChestAngledPocketLeftRightFlap" data-text="Angled Pockets With Flap" data-Closing="No" data-position="both">
+                                            <div class="InnerPocketsText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">Angled Pockets With Flap</p>
+
+                                                <input id="PocketsBodyChestAngledFlap" class="css-checkbox " type="checkbox" name="BodyPockets">
+                                                <label class="css-label lite-x-red PlacementRefItemCheckbox" for="PocketsBodyChestAngledFlap"></label>
+                                            </div>
+                                        </div>
+
+                                        <div class="PocketsPlacementItem BodyPocketItem pocketItem1" value="ChestPocketLeftRightSquare" data-text="Square Pockets" data-Closing="No" data-position="both">
+                                            <div class="InnerPocketsText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">Square Pockets</p>
+
+                                                <input id="PocketsBodyChestSquare" class="css-checkbox " type="checkbox" name="BodyPockets">
+                                                <label class="css-label lite-x-red PlacementRefItemCheckbox" for="PocketsBodyChestSquare"></label>
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div id="PocketsArmsTab" class="InnerContent">
+
+
+                            <h2 class="AnyHeaderPockets2">POCKET CLOSING</h2>
+                            <div class="NoteText GeneralBodyTextStyle AnyPocketText2">
+                                <p>Buttoned down and zipped up by YKK.</p>
+                            </div>
+                            <br />
+
+
+                            <div class="NoteText GeneralBodyTextStyle AnyPocketText2" style="padding-top: 0;">
+
+                                <div class="PocketsPlacementItem ArmsPocketItem pocketItem2" value="none" data-text="none">
+                                    <div class="InnerPocketsText GeneralBodyTextStyle">
+                                        <p style="color: white !important;">None</p>
+
+                                        <input id="PocketsArmsNone" class="css-checkbox " type="checkbox" name="ArmsPockets">
+                                        <label class="css-label lite-x-red PlacementRefItemCheckbox" for="PocketsArmsNone"></label>
+                                    </div>
+                                </div>
+                                <div class="PocketsPlacementItem ArmsPocketItem pocketItem2" value="ArmPenRadioPocket" data-text="Pen & Radio" data-Closing="No">
+                                    <div class="InnerPocketsText GeneralBodyTextStyle">
+                                        <p style="color: white !important;">Pen & Radio Pocket Combination</p>
+
+                                        <input id="PocketsArmsPenRadio" class="css-checkbox " type="checkbox" name="ArmsPockets">
+                                        <label class="css-label lite-x-red PlacementRefItemCheckbox" for="PocketsArmsPenRadio"></label>
+                                    </div>
+                                </div>
+                                <div class="PocketsPlacementItem ArmsPocketItem pocketItem2" value="ArmPenPocket" data-text="Pen Pocket" data-Closing="No">
+                                    <div class="InnerPocketsText GeneralBodyTextStyle">
+                                        <p style="color: white !important;">Pen Pocket</p>
+
+                                        <input id="PocketsArmsPen" class="css-checkbox " type="checkbox" name="ArmsPockets">
+                                        <label class="css-label lite-x-red PlacementRefItemCheckbox" for="PocketsArmsPen"></label>
+                                    </div>
+                                </div>
+                                <div class="PocketsPlacementItem ArmsPocketItem pocketItem2" value="ArmRadioPocket" data-text="Radio Pocket" data-Closing="No">
+                                    <div class="InnerPocketsText GeneralBodyTextStyle">
+                                        <p style="color: white !important;">Radio Pocket</p>
+
+                                        <input id="PocketsArmsRadio" class="css-checkbox " type="checkbox" name="ArmsPockets">
+                                        <label class="css-label lite-x-red PlacementRefItemCheckbox" for="PocketsArmsRadio"></label>
+                                    </div>
+                                </div>
+                                <div class="PocketsPlacementItem ArmsPocketItem pocketItem2" value="ArmCardPocketZipper" data-text="Storage Zipper Pocket" data-Closing="No">
+                                    <div class="InnerPocketsText GeneralBodyTextStyle">
+                                        <p style="color: white !important;">Storage Zipper Pocket</p>
+
+                                        <input id="PocketsArmsCardZipper" class="css-checkbox " type="checkbox" name="ArmsPockets">
+                                        <label class="css-label lite-x-red PlacementRefItemCheckbox" for="PocketsArmsCardZipper"></label>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div id="PocketsLegsTab" class="InnerContent">
+                            <div class="ScrollerDiv">
+                                <div class="InnerScroller">
+
+                                    <h2 class="AnyHeaderPockets3">Cargo Pocket Closings</h2>
+                                    <div class="NoteText GeneralBodyTextStyle AnyPocketText3">
+                                        <p>Buttoned Down And Zipped Up By Ykk.</p>
+                                    </div>
+                                    <br />
+
+                                    <section class="DropDownContainer pocketDD3">
+                                        <div class="dropdown dropdown-dark">
+                                            <select class="dropdown-select" id="LegsCargoClosing">
+                                                <option value="-1" selected disabled="disabled">Select Type of Closing</option>
+                                                <option value="Velcro">Velcro</option>
+                                                <option value="Button">Button</option>
+                                                <option value="Zipper">Zipper</option>
+                                            </select>
+                                        </div>
+                                    </section>
+                                    <br />
+
+
+                                    <h2 class="AnyHeaderPockets3">Pocket Position</h2>
+                                    <div class="NoteText GeneralBodyTextStyle AnyPocketText3" style="padding-top: 0;">
+
+                                        <div class="PocketsPlacementItem LegsCargoPocketItem pocketItem3" value="none" data-text="none">
+                                            <div class="InnerPocketsText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">None</p>
+
+                                                <input id="PocketsLegsNone" class="css-checkbox " type="checkbox" name="CargoPockets">
+                                                <label class="css-label lite-x-red PlacementRefItemCheckbox" for="PocketsLegsNone"></label>
+                                            </div>
+                                        </div>
+                                        <div class="PocketsPlacementItem LegsCargoPocketItem pocketItem3" value="CargoPocketBoth" data-text="Harmonca Cargo's" data-Closing="Yes">
+                                            <div class="InnerPocketsText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">Harmonca Cargo's</p>
+
+                                                <input id="PocketsLegsHarmoncaCargo" class="css-checkbox " type="checkbox" name="CargoPockets">
+                                                <label class="css-label lite-x-red PlacementRefItemCheckbox" for="PocketsLegsHarmoncaCargo"></label>
+                                            </div>
+                                        </div>
+                                        <div class="PocketsPlacementItem LegsCargoPocketItem pocketItem3" value="CargoPocketLeft" data-text="Harmonica Cargo Left" data-Closing="Yes">
+                                            <div class="InnerPocketsText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">Harmonica Cargo Left</p>
+
+                                                <input id="PocketsLegsHarmonicaCargoLeft" class="css-checkbox " type="checkbox" name="CargoPockets">
+                                                <label class="css-label lite-x-red PlacementRefItemCheckbox" for="PocketsLegsHarmonicaCargoLeft"></label>
+                                            </div>
+                                        </div>
+                                        <div class="PocketsPlacementItem LegsCargoPocketItem pocketItem3" value="CargoPocketRight" data-text="Harmonica Cargo Right" data-Closing="Yes">
+                                            <div class="InnerPocketsText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">Harmonica Cargo Right</p>
+
+                                                <input id="PocketsLegsHarmoncaCargoRight" class="css-checkbox " type="checkbox" name="CargoPockets">
+                                                <label class="css-label lite-x-red PlacementRefItemCheckbox" for="PocketsLegsHarmoncaCargoRight"></label>
+                                            </div>
+                                        </div>
+                                        <div class="PocketsPlacementItem LegsCargoPocketItem pocketItem3" value="CargoMobilePocket" data-text="Cargo With Mob Holder" data-Closing="Yes">
+                                            <div class="InnerPocketsText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">Harmonica Cargo's With Mob Holder</p>
+
+                                                <input id="PocketsLegsHarmoncaCargoMobHolder" class="css-checkbox " type="checkbox" name="CargoPockets">
+                                                <label class="css-label lite-x-red PlacementRefItemCheckbox" for="PocketsLegsHarmoncaCargoMobHolder"></label>
+                                            </div>
+                                        </div>
+                                        <div class="PocketsPlacementItem LegsCargoPocketItem pocketItem3" value="ToolPocket" data-text="Cargo With Tool Pocket" data-Closing="No">
+                                            <div class="InnerPocketsText GeneralBodyTextStyle" style="margin-top: 6px;">
+                                                <p style="color: white !important;">
+                                                    Harmonica Cargo (L) With<br />
+                                                    Tool Pocket&#174;
+                                                </p>
+
+                                                <input id="PocketsLegsHarmoncaCargoToolPocket" class="css-checkbox " type="checkbox" name="CargoPockets" ">
+                                                <label class="css-label lite-x-red PlacementRefItemCheckbox" for="PocketsLegsHarmoncaCargoToolPocket"></label>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <br />
+                                    <br />
+
+
+
+                                    <h2 class="AnyHeaderPockets3">Back Pocket Closings</h2>
+                                    <div class="NoteText GeneralBodyTextStyle AnyPocketText3">
+                                        <p>Buttoned down and zipped up by YKK.</p>
+                                    </div>
+                                    <br />
+
+
+                                    <section class="DropDownContainer pocketDD3">
+                                        <div class="dropdown dropdown-dark">
+                                            <select class="dropdown-select" id="LegsBackClosing">
+                                                <option value="-1" selected disabled="disabled">Select Type of Closing</option>
+                                                <option value="Velcro">Velcro</option>
+                                                <option value="Button">Button</option>
+                                                <option value="Zipper">Zipper</option>
+                                            </select>
+                                        </div>
+                                    </section>
+                                    <br />
+
+
+                                    <h2 class="AnyHeaderPockets3">Pocket Position</h2>
+                                    <div class="NoteText GeneralBodyTextStyle AnyPocketText3" style="padding-top: 0;">
+
+                                        <div class="PocketsPlacementItem LegsBackPocketItem" value="none" data-text="none">
+                                            <div class="InnerPocketsText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">None</p>
+
+                                                <input id="PocketsBackLegsNone" class="css-checkbox " type="checkbox" name="BackPocket" >
+                                                <label class="css-label lite-x-red PlacementRefItemCheckbox" for="PocketsBackLegsNone"></label>
+                                            </div>
+                                        </div>
+                                        <div class="PocketsPlacementItem LegsBackPocketItem" value="BackPocketLeftRight" data-text="Two Back Pockets" data-Closing="Yes">
+                                            <div class="InnerPocketsText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">Two Back Pockets</p>
+
+                                                <input id="PocketsLegsTwoBack" class="css-checkbox " type="checkbox" name="BackPocket" >
+                                                <label class="css-label lite-x-red PlacementRefItemCheckbox" for="PocketsLegsTwoBack"></label>
+                                            </div>
+                                        </div>
+                                        <div class="PocketsPlacementItem LegsBackPocketItem" value="BackPocketLeft" data-text="Back Pocket Left" data-Closing="Yes">
+                                            <div class="InnerPocketsText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">Back Pocket Left</p>
+
+                                                <input id="PocketsLegsBackLeft" class="css-checkbox " type="checkbox" name="BackPocket" >
+                                                <label class="css-label lite-x-red PlacementRefItemCheckbox" for="PocketsLegsBackLeft"></label>
+                                            </div>
+                                        </div>
+                                        <div class="PocketsPlacementItem LegsBackPocketItem" value="BackPocketRight" data-text="Back Pocket Right" data-Closing="Yes">
+                                            <div class="InnerPocketsText GeneralBodyTextStyle">
+                                                <p style="color: white !important;">Back Pocket Right</p>
+
+                                                <input id="PocketsLegsBackRight" class="css-checkbox " type="checkbox" name="BackPocket" >
+                                                <label class="css-label lite-x-red PlacementRefItemCheckbox" for="PocketsLegsBackRight"></label>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <br />
+
+
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div id="PocketsNextBack" class="NextBackButtons">
+                        <div class="Back"></div>
+                        <div class="Next"></div>
+                    </div>
+                </div>
+
+
+                <div id="Optionals" class="MainContentPage dontDisplay">
+
+                    <div id="OptionalsTabs">
+                        <ul class="tabs">
+                            <li title="Optionals"><a href="#" title="OptionalTab" id="OptionalsFirst">OPS</a></li>
+                            <li title="Winter"><a href="#" title="WinterTab">WINTER</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div id="OptionalsContent" class="SubContent">
+
+                        <div id="OptionalTab" class="InnerContent">
+                            <div class="ScrollerDiv" id="OptionsScroll">
+                                <div class="InnerScroller">
+
+                                    <h2 class="AnyHeaderOpt">Main Closing</h2>
+                                    <div class="OptionalItem">
+                                        <div class="InnerOptionalsText GeneralBodyTextStyle">
+                                            <p style="color: white !important;">YKK Zipper</p>
+                                            <p>Special: <span class="Whitify">Fully FR Enclosed</span></p>
+                                        </div>
+                                        <div class="RedX">
+                                            <input id="OptionalItem1" class="css-checkbox OptionalsChkBx1" type="checkbox" name="MainClosings" value="YKK Zipper">
+                                            <label class="css-label lite-x-red" for="OptionalItem1"></label>
+                                        </div>
+                                    </div>
+                                    <div class="OptionalItem">
+                                        <div class="InnerOptionalsText GeneralBodyTextStyle">
+                                            <p style="color: white !important;">YKK Press Button</p>
+                                            <p>Special: <span class="Whitify">Fast Release</span></p>
+                                        </div>
+                                        <div class="RedX">
+                                            <input id="OptionalItem2" class="css-checkbox OptionalsChkBx1" type="checkbox" name="MainClosings" value="YKK Press Button">
+                                            <label class="css-label lite-x-red" for="OptionalItem2"></label>
+                                        </div>
+                                    </div>
+                                    <div class="OptionalItem lastOne">
+                                        <div class="InnerOptionalsText GeneralBodyTextStyle">
+                                            <p style="color: white !important;">Velcro</p>
+                                            <p>Special: <span class="Whitify">High Quality FR Material</span></p>
+                                        </div>
+                                        <div class="RedX">
+                                            <input id="OptionalItem3" class="css-checkbox OptionalsChkBx1" type="checkbox" name="MainClosings" value="Velcro">
+                                            <label class="css-label lite-x-red" for="OptionalItem3"></label>
+                                        </div>
+                                    </div>
+
+                                    @*<div class="NoteText GeneralBodyTextStyle OptGen" style="border: none;">
+                                        <p><span class="Red">Buttoned down and zipped up by YKK.</span></p>
+                                    </div>*@
+
+                                    <br />
+
+
+                                    <h2 class="AnyHeaderOpt">Add Ons</h2>
+                                    <div class="NoteText GeneralBodyTextStyle OptGen">
+                                    </div>
+
+
+
+                                    <section class="DropDownContainer dropDownAnimOpt">
+                                        <div class="dropdown dropdown-dark">
+                                            <select class="dropdown-select" id="GasLoopOptions">
+                                                <option value="-1" selected disabled="disabled">Select Gas Loop</option>
+                                                <option data-ID="none" value="None">None</option>
+                                                <option data-ID="GasLoopLeft" value="Left Gas Loop">Left Gas Loop</option>
+                                                <option data-ID="GasLoopRight" value="Right Gas Loop">Right Gas Loop</option>
+                                                <option data-ID="GasLoopLeftRight" value="Dual Gas Loops">Dual Gas Loops</option>
+                                            </select>
+                                        </div>
+                                    </section>
+
+                                    <section class="DropDownContainer dropDownAnimOpt">
+                                        <div class="dropdown dropdown-dark">
+                                            <select name="two" class="dropdown-select" id="ShoulderEpauletOptions">
+                                                <option value="-1" selected disabled="disabled">Select Shoulder Epaulette</option>
+                                                <option data-ID="none" value="None">None</option>
+                                                <option data-ID="1" value="Dual Epaulette">Dual Epaulette</option>
+                                            </select>
+                                        </div>
+                                    </section>
+
+                                    <section class="DropDownContainer dropDownAnimOpt">
+                                        <div class="dropdown dropdown-dark">
+                                            <select class="dropdown-select" id="CollarOptions">
+                                                <option value="-1" selected disabled="disabled">Select Collar</option>
+                                                <option data-ID="none" value="None">Regular</option>
+                                                <option data-ID="none" value="Closed Collar">Closed Collar</option>
+                                            </select>
+                                        </div>
+                                    </section>
+
+                                   
+                                    <br />
+
+                                    <h2 class="AnyHeaderOpt">Badges</h2>
+                                    <div class="NoteText GeneralBodyTextStyle OptGen">
+                                    </div>
+                                     <section class="DropDownContainer dropDownAnimOpt">
+                                        <div class="dropdown dropdown-dark">
+                                            <select class="dropdown-select" id="NameOptions">
+                                                <option value="-1" selected disabled="disabled">Select Name Badge</option>
+                                                <option data-ID="none" value="None">None</option>
+                                                <option data-ID="NameLeft" value="Left Name Badge" data-location="leftChest">Left Name Badge</option>
+                                                <option data-ID="NameEmbroiderdLeft" value="Left Embroidered Name" data-location="leftChest">Left Embroidered Name</option>
+                                                <option data-ID="NameRight" value="Right Name Badge" data-location="rightChest">Right Name Badge</option>
+                                                <option data-ID="NameEmbroiderdRight" value="Right Embroidered Name" data-location="rightChest">Right Embroidered Name</option>
+                                            </select>
+                                        </div>
+                                    </section>
+
+                                    <section class="DropDownContainer dropDownAnimOpt">
+                                        <div class="dropdown dropdown-dark">
+                                            <select class="dropdown-select" id="CorporateHSEOptions">
+                                                <option value="-1" selected disabled="disabled">Select Corporate HSE Badge</option>
+                                                <option data-ID="none" value="None">None</option>
+                                                <option data-ID="HSEBadgeLeft" value="Left Sleeve HSE Badge" data-location="leftArm">Left HSE Badge</option>
+                                                <option data-ID="HSEBadgeRight" value="Right Sleeve HSE Badge" data-location="rightArm">Right HSE Badge</option>
+                                                @*<option data-ID="HSEBadgeBack" value="Both Sleeves HSE Badges">Both Sleeves HSE Badges</option>*@
+                                                <option data-ID="HSEBadgeBack" value="Back HSE Badge" data-location="back">Back HSE Badge</option>
+                                            </select>
+                                        </div>
+                                    </section>
+
+                                     <section class="DropDownContainer dropDownAnimOpt">
+                                        <div class="dropdown dropdown-dark">
+                                            <select class="dropdown-select" id="FRIconOptions">
+                                                <option value="-1" selected disabled="disabled">Select FR Icon</option>
+                                                <option data-ID="none" value="None">None</option>
+                                                <option data-ID="FRLogoChest" value="FR Icon Left Chest">FR Icon Left Chest</option>
+                                                <option data-ID="FRLogoChest" value="FR Icon Right Chest">FR Icon Right Chest</option>
+                                                <option data-ID="FRLogoLeftArm" value="FR Icon Left Arm">FR Icon Left Arm</option>
+                                                <option data-ID="FRLogoRightArm" value="FR Icon Right Arm">FR Icon Right Arm</option>
+                                            </select>
+                                        </div>
+                                    </section>
+
+                                    <section class="DropDownContainer dropDownAnimOpt">
+                                        <div class="dropdown dropdown-dark">
+                                            <select class="dropdown-select" id="FlagIconOptions">
+                                                <option value="-1" selected disabled="disabled">Select Flag</option>
+                                                <option data-ID="none" value="None">None</option>
+                                                <option data-ID="FlagLeft" value="Left Flag" data-location="leftArm">Left Flag</option>
+                                                <option data-ID="FlagRight" value="Right Flag" data-location="rightArm">Right Flag</option>
+                                            </select>
+                                        </div>
+                                    </section>
+
+                                    <br />
+                                    <h2 class="AnyHeaderOpt">Enforcements</h2>
+
+                                    <div class="OptionalItem EnforcementItem">
+                                        <div class="InnerOptionalsText GeneralBodyTextStyle">
+                                            <p style="color: white !important; margin-top: 4px;">Enforcements Knee</p>
+                                        </div>
+                                        <div class="RedX">
+                                            <input id="KneeEnforcement" class="css-checkbox OptionalsChkBx2" type="checkbox" name="Enforcements" value="Enforcements Knee" data-ID="KneeEnforcements">
+                                            <label class="css-label lite-x-red" for="KneeEnforcement"></label>
+                                        </div>
+                                    </div>
+                                    <div class="OptionalItem EnforcementItem">
+                                        <div class="InnerOptionalsText GeneralBodyTextStyle">
+                                            <p style="color: white !important; margin-top: 4px;">Enforcements Elbow</p>
+                                        </div>
+                                        <div class="RedX">
+                                            <input id="YKKZipperOptionalItem" class="css-checkbox OptionalsChkBx2" type="checkbox" name="Enforcements" value="Enforcements Elbow" data-ID="ElbowEnforcements">
+                                            <label class="css-label lite-x-red" for="YKKZipperOptionalItem"></label>
+                                        </div>
+                                    </div>
+                                    <div class="OptionalItem  EnforcementItem lastOne">
+                                        <div class="InnerOptionalsText GeneralBodyTextStyle">
+                                            <p style="color: white !important; margin-top: 4px;">Knee Pad Holders</p>
+                                        </div>
+                                        <div class="RedX">
+                                            <input id="YKKPressButtonOptionalItem" class="css-checkbox OptionalsChkBx2" type="checkbox" name="Enforcements" value="Knee Pad Holders" data-ID="KneePad">
+                                            <label class="css-label lite-x-red" for="YKKPressButtonOptionalItem"></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="WinterTab" class="InnerContent">
+                            <h2 class="AnyHeaderOpt2">NOTE</h2>
+                            <div class="NoteText GeneralBodyTextStyle OptGen2">
+                                <p><span class="red">Silverred</span> uses a very flexible and high quality insulation material that allows you to find the right fit for any region and time of year.</p>
+                                <br />
+                                <h2 class="AnyHeaderOpt2">Winter</h2>
+                                <div style="width: 85%;" class="OptGen2">
+                                    <div class="WinterSpecItem">
+                                        <div class="ColorSquare ColorSquareWinter winter firstSectionWinter"></div>
+                                        <div class="InnerWinterText GeneralBodyTextStyle">
+                                            <p style="color: white !important;">Winter Cold</p>
+                                            <p class="moveUp2Px">+10&deg;C > 0&deg;C</p>
+                                        </div>
+                                        <div class="RedX WinterX">
+                                            <input id="winter1" class="css-checkbox WinterCheckbox" type="checkbox" name="Winter" value="+10&deg;C > 0&deg;C">
+                                            <label class="css-label lite-x-red" for="winter1"></label>
+                                        </div>
+                                    </div>
+                                    <div class="WinterSpecItem">
+                                        <div class="ColorSquare ColorSquareWinter winter secondSectionWinter"></div>
+                                        <div class="InnerWinterText GeneralBodyTextStyle">
+                                            <p style="color: white !important;">Winter Sub-Zero</p>
+                                            <p class="moveUp2Px">0&deg;C > -10&deg;C</p>
+                                        </div>
+                                        <div class="RedX WinterX">
+                                            <input id="Winter2" class="css-checkbox WinterCheckbox" type="checkbox" name="Winter" value="0&deg;C > -10&deg;C">
+                                            <label class="css-label lite-x-red" for="Winter2"></label>
+                                        </div>
+                                    </div>
+                                    <div class="WinterSpecItem">
+                                        <div class="ColorSquare ColorSquareWinter winter thirdSectionWinter"></div>
+                                        <div class="InnerWinterText GeneralBodyTextStyle">
+                                            <p style="color: white !important;">Winter Severe</p>
+                                            <p class="moveUp2Px">-10&deg;C > -25&deg;C</p>
+                                        </div>
+                                        <div class="RedX WinterX">
+                                            <input id="Winter3" class="css-checkbox WinterCheckbox" type="checkbox" name="Winter" value="-10&deg;C > -25&deg;C">
+                                            <label class="css-label lite-x-red" for="Winter3"></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div id="OptionalsNextBack" class="NextBackButtons">
+                        <div class="Back"></div>
+                        <div class="Next"></div>
+                    </div>
+                </div>
+
+
+                <div id="Logos" class="MainContentPage dontDisplay">
+
+                    <div id="LogosTabs">
+                        <ul class="tabs">
+                            <li style="width: 88px;" title="Chest"><a style="width: 88px;" href="#" title="LogosBodyTab" id="LogosFirst">BODY</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div id="LogosContent" class="SubContent">
+
+                        <div id="LogosBodyTab" class="InnerContent">
+
+                            <h2 class="anyLogoHeader">Select Placement</h2>
+                            <div class="NoteText GeneralBodyTextStyle anyLogoText">
+
+                                <div class="LogosPlacementItem theNone" value="none" id="LogoNone">
+                                    <div class="InnerPocketsText GeneralBodyTextStyle">
+                                        <p style="color: white !important;">None</p>
+                                    </div>
+                                </div>
+                                <div class="LogosPlacementItem">
+                                    <div class="InnerPocketsText GeneralBodyTextStyle">
+                                        <p style="color: white !important;">Left Chest</p>
+                                    </div>
+                                    <div class="SmallDDContainer">
+                                        <select class="SmallDD" arrayIndex="0" placement="Left Chest" data-ID="LogoLeftChest">
+                                            <option value="-1" selected disabled="disabled">Finish Type</option>
+                                            <option value="Badge">Badge</option>
+                                            <option value="Embriodery">Embriodery</option>
+                                            <option value="Print">Print</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="LogosPlacementItem" value="LeftChestPocket">
+                                    <div class="InnerPocketsText GeneralBodyTextStyle">
+                                        <p style="color: white !important;">Left Chest on pocket </p>
+                                    </div>
+                                    <div class="SmallDDContainer">
+                                        <select class="SmallDD" arrayIndex="1" placement="Left Chest on pocket" data-ID="LogoLeftChestPocket" data-pocket="left">
+                                            <option value="-1" selected disabled="disabled">Finish Type</option>
+                                            <option value="Badge">Badge</option>
+                                            <option value="Embriodery">Embriodery</option>
+                                            <option value="Print">Print</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="LogosPlacementItem">
+                                    <div class="InnerPocketsText GeneralBodyTextStyle">
+                                        <p style="color: white !important;">Right Chest</p>
+                                    </div>
+                                    <div class="SmallDDContainer">
+                                        <select class="SmallDD" arrayIndex="2" placement="Right Chest" data-ID="LogoRightChest">
+                                            <option value="-1" selected disabled="disabled">Finish Type</option>
+                                            <option value="Badge">Badge</option>
+                                            <option value="Embriodery">Embriodery</option>
+                                            <option value="Print">Print</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="LogosPlacementItem">
+                                    <div class="InnerPocketsText GeneralBodyTextStyle">
+                                        <p style="color: white !important;">Right Chest on Pocket</p>
+                                    </div>
+                                    <div class="SmallDDContainer">
+                                        <select class="SmallDD" arrayIndex="3" placement="Right Chest on pocket" data-ID="LogoRightChestPocket" data-pocket="right">
+                                            <option value="-1" selected disabled="disabled">Finish Type</option>
+                                            <option value="Badge">Badge</option>
+                                            <option value="Embriodery">Embriodery</option>
+                                            <option value="Print">Print</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="LogosPlacementItem">
+                                    <div class="InnerPocketsText GeneralBodyTextStyle">
+                                        <p style="color: white !important;">Back</p>
+                                    </div>
+                                    <div class="SmallDDContainer">
+                                        <select class="SmallDD" arrayIndex="4" placement="Back" data-ID="LogoBack">
+                                            <option value="-1" selected disabled="disabled">Finish Type</option>
+                                            <option value="Badge">Badge</option>
+                                            <option value="Embriodery">Embriodery</option>
+                                            <option value="Print">Print</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="LogosPlacementItem">
+                                    <div class="InnerPocketsText GeneralBodyTextStyle">
+                                        <p style="color: white !important;">Sleeve Left</p>
+                                    </div>
+                                    <div class="SmallDDContainer">
+                                        <select class="SmallDD" arrayIndex="5" placement="Sleeve Left" data-ID="LogoLeftSleeve">
+                                            <option value="-1" selected disabled="disabled">Finish Type</option>
+                                            <option value="Badge">Badge</option>
+                                            <option value="Embriodery">Embriodery</option>
+                                            <option value="Print">Print</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="LogosPlacementItem">
+                                    <div class="InnerPocketsText GeneralBodyTextStyle">
+                                        <p style="color: white !important;">Sleeve Right</p>
+                                    </div>
+                                    <div class="SmallDDContainer">
+                                        <select class="SmallDD" arrayIndex="6" placement="Sleeve Right" data-ID="LogoRightSleeve">
+                                            <option value="-1" selected disabled="disabled">Finish Type</option>
+                                            <option value="Badge">Badge</option>
+                                            <option value="Embriodery">Embriodery</option>
+                                            <option value="Print">Print</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div id="LogosNextBack" class="NextBackButtons">
+                        <div class="Back"></div>
+                        <div class="Next"></div>
+                    </div>
+                </div>
+
+
+                <div id="Finish" class="MainContentPage dontDisplay">
+                    <div id="FinishTabs">
+                        <ul class="tabs">
+                            <li style="width: 88px;" title="Contact"><a style="width: 88px;" href="#" title="ContantDetailsTab" id="FinishFirst">CONTACT</a></li>
+                            <li style="width: 88px;" title="Contact"><a style="width: 88px;" href="#" title="OrdersTab">QUOTATION</a></li>
+                        </ul>
+                    </div>
+                    <div id="FinishContent" class="SubContent">
+
+                        <div id="ContantDetailsTab" style="height: 300px" class="InnerContent">
+                            <div class="textBoxContainer">
+                                <input type="text" class="DarkTextBox Regular" value="Full Name" title="Full Name" /><div class="asterid"><span>*</span></div>
+                            </div>
+                            <div class="textBoxContainer">
+                                <input type="text" class="DarkTextBox Regular" value="Company Name" title="Company Name" /><div class="asterid"><span>*</span></div>
+                            </div>
+                            <div class="textBoxContainer">
+                                <input type="text" class="DarkTextBox Regular" value="Mobile" title="Mobile" /><div class="asterid"><span>*</span></div>
+                            </div>
+                            <div class="textBoxContainer">
+                                <input type="text" class="DarkTextBox Regular" value="Landline" title="Landline" />
+                            </div>
+                            <div class="textBoxContainer">
+                                <input type="text" class="DarkTextBox Regular" value="E-Mail ID" title="E-Mail ID" /><div class="asterid"><span>*</span></div>
+                            </div>
+
+                            <h2 class="AnyFinishHeader">Delivery Address</h2>
+                            <div class="NoteText GeneralBodyTextStyle AnyFinishText" style="width: 226px">
+                            </div>
+
+                            <div class="textBoxContainer">
+                                <input type="text" class="DarkTextBox Regular" value="Delivery Address" title="Delivery Address" /><div class="asterid"><span>*</span></div>
+                            </div>
+                            <div class="textBoxContainer">
+                                <input type="text" class="DarkTextBox Regular" value="City" title="City" />
+                            </div>
+                            <div class="textBoxContainer">@Umbraco.RenderMacro("RVCountriesDropdown")</div>
+
+                            <h2 class="AnyFinishHeader">Delivery Date</h2>
+                            <div class="NoteText GeneralBodyTextStyle AnyFinishText" style="width: 226px">
+                            </div>
+                            <div class="textBoxContainer textBoxContainer">
+                                <input type="text" class="DarkTextBox" value="Date" title="Date" id="DayText" />
+                            </div>
+
+
+                            <div class="textBoxContainer textBoxContainer" style="height: 65px;">
+                                <textarea class="DarkTextBox" title="Comments" id="CommentsText">Comments</textarea>
+                            </div>
+
+                            <div id="FinishFinalButtonSet">
+                                <div class="CheckContainer">
+                                    <div class="CustomCheckbox finishCheckBox" id="Sample"></div>
+                                    <p>Request a sample.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="OrdersTab" class="InnerContent">
+                            <h2 id="OrdersShirtsPants" class="AnyFinishHeader">Approximate Quantity</h2>
+                            <div class="NoteText GeneralBodyTextStyle AnyFinishText" style="width: 226px">
+                            </div>
+                            <div id="Draggables1">
+                                <div class="DraggerSection">
+                                    <div class="textBoxContainer OrderTextBox">
+                                        <section class="DropDownContainer">
+                                            <div class="dropdown dropdown-dark" style="background: none;">
+                                                <select class="dropdown-select Order" title="Approximate Quantity" style="color: #BBBDBF; font-size: 14px; padding: 3px 0 0;">
+                                                    <option value="-1" selected disabled="disabled">Size</option>
+                                                    <option value="XS">XS</option>
+                                                    <option value="S">S</option>
+                                                    <option value="M">M</option>
+                                                    <option value="L">L</option>
+                                                    <option value="XL">XL</option>
+                                                    <option value="XXL">2XL</option>
+                                                    <option value="XXXL">3XL</option>
+                                                    <option value="XXXXL">4XL</option>
+                                                    <option value="XXXXXL">5XL</option>
+                                                </select>
+                                            </div>
+                                        </section>
+                                    </div>
+                                    <input type="text" data-slider="true" data-slider-range="0, 1000" data-slider-step="5">
+                                </div>
+                            </div>
+                            <div class="CombinedOrder">
+                                <h2 class="AnyFinishHeader">Pants</h2>
+                                <div class="NoteText GeneralBodyTextStyle AnyFinishText" style="width: 226px">
+                                </div>
+                                <div id="Draggables2">
+                                    <div class="DraggerSection">
+                                        <div class="textBoxContainer OrderTextBox">
+                                            <section class="DropDownContainer">
+                                                <div class="dropdown dropdown-dark" style="background: none;">
+                                                    <select class="dropdown-select Order" title="Approximate Quantity" style="color: #BBBDBF; font-size: 14px; padding: 3px 0 0;">
+                                                        <option value="-1" selected disabled="disabled">Size</option>
+                                                        <option value="XS">XS</option>
+                                                        <option value="S">S</option>
+                                                        <option value="M">M</option>
+                                                        <option value="L">L</option>
+                                                        <option value="XL">XL</option>
+                                                        <option value="XXL">2XL</option>
+                                                        <option value="XXXL">3XL</option>
+                                                        <option value="XXXXL">4XL</option>
+                                                        <option value="XXXXXL">5XL</option>
+                                                    </select>
+                                                </div>
+                                            </section>
+                                        </div>
+                                        <input type="text" data-slider="true" data-slider-range="0, 1000" data-slider-step="5">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div id="moreOrders"></div>
+                        </div>
+
+
+                        <input type="submit" id="finishButton" value="" />
+                        <div id="UploadLogo" class="dontDisplay">
+                            <div class="RedTab" id="UploadLogoTab">
+                                <p>UPLOAD YOUR LOGO</p>
+                            </div>
+                            <div id="LogoUploader">
+                                <input type="file" title="Upload" accept="image/*" id="Logo" />
+                                <div id="fakeUploader">
+                                    <p id="LogoName">Choose a File</p>
+                                </div>
+                                <img src="" id="preview" style="display: none" />
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+        <object id="theSVG" type="image/svg+xml"></object>
+       
+
+        <canvas id="canvas" style="width: 3000px; height: 3000px; display: none"></canvas>
+        <img id="theImage" style="display: none" />
+        
+    </div>
+
+    <div id="my_modal" style="display: none">
+        The Hi Vi leg element adds durable visibility to the lower part of the coverall and could function as a replacement for reflective strips. 
+    </div>
+
+    <div id="FullLoader">
+        <div id="loaderImage"></div>
+        <div>
+            <p></p>
+        </div>
+    </div>
+
+
+
+
+    <script type="text/javascript" src="js/lib/canvas.min.js"></script>
+    <script type="text/javascript">
+        var cSpeed = 9;
+        var cWidth = 40;
+        var cHeight = 40;
+        var cTotalFrames = 24;
+        var cFrameWidth = 40;
+        var cImageSrc = '/img/Customizer/sprites.png';
+
+        var cImageTimeout = false;
+
+        function startAnimation() {
+
+            document.getElementById('loaderImage').innerHTML = '<canvas id="canvas1" width="' + cWidth + '" height="' + cHeight + '"><p>Your browser does not support the canvas element.</p></canvas>';
+
+            //FPS = Math.round(100/(maxSpeed+2-speed));
+            FPS = Math.round(100 / cSpeed);
+            SECONDS_BETWEEN_FRAMES = 1 / FPS;
+            g_GameObjectManager = null;
+            g_run = genImage;
+
+            g_run.width = cTotalFrames * cFrameWidth;
+            genImage.onload = function () { cImageTimeout = setTimeout(fun, 0) };
+            initCanvas();
+        }
+
+
+        function imageLoader(s, fun)//Pre-loads the sprites image
+        {
+            clearTimeout(cImageTimeout);
+            cImageTimeout = 0;
+            genImage = new Image();
+            genImage.onload = function () { cImageTimeout = setTimeout(fun, 0) };
+            genImage.onerror = new Function('alert(\'Could not load the image\')');
+            genImage.src = s;
+        }
+
+        //The following code starts the animation
+        new imageLoader(cImageSrc, 'startAnimation()');
+    </script>
+
+
+    <script data-main="../js/main" src="../js/lib/require.js"></script>
+
+    
+</body>
+</html>
+

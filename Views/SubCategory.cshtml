@@ -1,0 +1,81 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = null;
+}
+
+
+
+@using Newtonsoft.Json
+@using Formatting = System.Xml.Formatting
+
+
+@{
+    
+    //string req = Request["SubCatID"];
+
+    //string IntroHeader = Model.Content.GetPropertyValue("IntroductionHeader").ToString();
+    //string IntroBody = Model.Content.GetPropertyValue("IntroductionBody").ToString();
+    //string ProductInfoHeader = Model.Content.GetPropertyValue("ProductInformationHeader").ToString();
+    //string ProductInfoBody = Model.Content.GetPropertyValue("ProductInformationBody").ToString();
+
+    List<DAMP.PropertyEditorValueConverter.Model> ImageList = new List<DAMP.PropertyEditorValueConverter.Model>();
+    List<Object> Products = new List<Object>();
+
+    //Products.Add(
+    //    new { 
+    //        ProdInfo = new [] { IntroHeader, IntroBody,  ProductInfoHeader, ProductInfoBody, @Model.Content.Name 
+    //        }
+    //    });
+    
+    
+    foreach (var Product in Model.Content.Children)
+    {
+        string ProductNumber = Product.GetPropertyValue("prodNumb").ToString();
+        DAMP.PropertyEditorValueConverter.Model PreviewImagesModel = (DAMP.PropertyEditorValueConverter.Model)Product.GetPropertyValue("previewImages");
+        DAMP.PropertyEditorValueConverter.Model FullImagesModel = (DAMP.PropertyEditorValueConverter.Model)Product.GetPropertyValue("fullScreenImages");
+       
+        
+        int ProdID = Convert.ToInt32(Product.Id);
+            
+        //List<string> BlackImageURLs = new List<string>();
+        List<string> PreviewImageURLs = new List<string>();
+        List<string> FullImageURLs = new List<string>();
+
+        foreach (var PreviewItem in PreviewImagesModel)
+        {
+            PreviewImageURLs.Add(PreviewItem.File);
+        }
+        foreach (var FullSCreenItem in FullImagesModel)
+        {
+            FullImageURLs.Add(FullSCreenItem.File);
+        }
+
+        if (PreviewImageURLs.Count == 3 && FullImageURLs.Count == 3)
+        {
+            Products.Add(new
+            {
+                ProductID = ProdID,
+                BlackPreview = "/imagegen.ashx?image=" + PreviewImageURLs[0].ToString() + "&ColorMode=Grayscale",
+                ColoredPreviews = new[] {
+                    PreviewImageURLs[0].ToString(),
+                    PreviewImageURLs[1].ToString(),
+                    PreviewImageURLs[2].ToString()
+                },
+                FullScreens = new[] {
+                    FullImageURLs[0].ToString(),
+                    FullImageURLs[1].ToString(),
+                    FullImageURLs[2].ToString()
+                },
+                ProductNumber = ProductNumber
+            });
+        }
+        
+        
+    }
+
+    string json = JsonConvert.SerializeObject(Products);
+    
+
+    Response.ContentType = "application/json";
+    }
+@Html.Raw(json)

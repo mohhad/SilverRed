@@ -1,0 +1,1079 @@
+﻿body {
+    height: 100%;
+    width: 100%;
+    background: url(../../img/SilverRed/diagmonds.png) repeat;
+    overflow: scroll;
+    direction:ltr;
+}
+
+.Border {
+    border: 1px solid white;
+}
+
+#MaleFemaleCategory {
+    width: 882px;
+    min-width: 620px;
+    height: 58px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+#MaleContainer {
+    width: 364px;
+    text-align: right;
+    height: 100%;
+    display: inline-block;
+}
+
+#MaleCategory {
+    background: url(../../img/SilverRed/Product-Page_Male-Icon.png);
+    width: 56px;
+    height: 65px;
+    float: right;
+}
+
+    #MaleCategory:hover {
+        background: url(../../img/SilverRed/Product-Page_Male-Icon-Highlight.png) !important;
+    }
+
+.Opac {
+    width: 280px;
+    height: 157px;
+    position: absolute;
+    opacity: 0.70;
+    -moz-transition: 0.5s all linear;
+    -o-transition: 0.5s all linear;
+    -webkit-transition: 0.5s all linear;
+    transition: 0.5s all linear;
+    background-color: black;
+}
+
+    .Opac:hover {
+        opacity: 0;
+    }
+
+#FemaleContainer {
+    width: 348px;
+    text-align: left;
+    height: 100%;
+    display: inline-block;
+}
+
+#FemaleCategory {
+    background: url(../../img/SilverRed/Product-Page_Female-Icon.png);
+    width: 56px;
+    height: 65px;
+    margin-left: 167px;
+}
+
+    #FemaleCategory:hover {
+        background: url(../../img/SilverRed/Product-Page_Female-Icon-Highlight.png) !important;
+    }
+
+#MaleFemaleSubCat {
+    width: 950px;
+    height: 85px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#MaleSubCatContainer {
+    width: 100%;
+    height: 100%;
+}
+
+#FemaleSubCatContainer {
+    width: 100%;
+    height: 220px;
+    display: none;
+}
+
+#MaleSubCatItemsContainer {
+    width: 105%;
+    min-width: 600px;
+    margin: 0 auto;
+    height: 50px;
+}
+
+#MaleShoesContainer {
+    width: 56%;
+    min-width: 498px;
+    margin: 0 auto;
+    height: 50px;
+}
+
+#FemaleSubCatItemsContainer {
+    width: 50%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.MaleItem {
+    /*width:169px;*/
+    display: inline-block;
+    height: 60px;
+}
+
+#Winter {
+    margin-left: 159px;
+}
+
+#Jackets {
+    margin-left: 157px;
+}
+
+#Pants {
+    margin-left: 158px;
+}
+
+#Shirts {
+    margin-left: 159px;
+}
+
+.ProdIcon {
+    display: block;
+    margin: auto;
+    height: 50px;
+    width: 64px;
+}
+
+.VerticalWhiteLine {
+    height: 10px;
+    width: 1px;
+    border-right: 1px solid white;
+    margin: 0 auto;
+}
+
+#WhiteLineContainer {
+    width: 900px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.whiteLineHorizontalMale {
+    width: 920px;
+    margin: auto;
+    height: 76px;
+}
+
+#ShoesMale {
+    background: url(../img/SilverRed/Line_Male_Shoes.png) top left no-repeat;
+    background-position: center;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+#ProductsMale {
+    background: url(../img/SilverRed/Line_Male.png) top left no-repeat;
+    background-position: center;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.whiteLineHorizontalFemale {
+    width: 920px;
+    margin: auto;
+    display: none;
+    height: 76px;
+}
+
+#ShoesFemale {
+    background: url(../img/SilverRed/Line_Female_Shoes.png) top left no-repeat;
+    background-position: center;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+#ProductsFemale {
+    background: url(../img/SilverRed/Line_Female.png) top left no-repeat;
+    background-position: center;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.SubCatTitle {
+    color: white;
+    font-size: 12px;
+    font-family: Gill Sans MT, gill_sans_mtregular, Arial, sans-serif;
+    padding-left: 4px;
+}
+
+#Shirts .SubCatTitle {
+    margin-left: 14px;
+}
+
+#Pants .SubCatTitle {
+    margin-left: 14px;
+}
+
+#Winter .SubCatTitle {
+    margin-left: 11px;
+}
+
+#Jackets .SubCatTitle {
+    margin-left: 6px;
+}
+
+#Coveralls .ProdIcon {
+    background: url("../../img/SilverRed/Product-Page_Coverall-Icon.png") no-repeat scroll center center transparent;
+}
+
+#Jackets .ProdIcon {
+    background: url(../../img/SilverRedProducts-Jacket-Icon-No-Highlight.png) no-repeat scroll center center transparent;
+}
+
+#Shirts .ProdIcon {
+    background: url(../../img/SilverRed/Product-Page_Shirts-Icon.png) no-repeat scroll center center transparent;
+}
+
+#Pants .ProdIcon {
+    background: url(../../img/SilverRed/Product-Page_Jackets-and-Pants-Icon.png) no-repeat scroll center center transparent;
+}
+
+#Winter .ProdIcon {
+    background: url(../../img/SilverRed/Product-Page_Winter-Icon.png) no-repeat scroll center center transparent;
+}
+
+#OilGas .ProdIcon {
+    background: url(../../img/SilverRed/Oil-Gas-Icon-No-Highlight.png) no-repeat scroll center center transparent;
+}
+
+#General .ProdIcon {
+    background: url(../../img/SilverRed/General-Icon-No-Highlight.png) no-repeat scroll center center transparent;
+}
+
+#Coveralls .ProdIcon:hover {
+    background: url(../../img/SilverRed/Product-Page_Coverall-Icon-Highlight.png) no-repeat scroll center center transparent !important;
+}
+
+#Jackets .ProdIcon:hover {
+    background: url(../../img/SilverRed/Products-Jacket-Icon-Highlight.png) no-repeat scroll center center transparent !important;
+}
+
+#Shirts .ProdIcon:hover {
+    background: url(../../img/SilverRed/Product-Page_Shirts-Icon-Highlight.png) no-repeat scroll center center transparent !important;
+}
+
+#Pants .ProdIcon:hover {
+    background: url(../../img/SilverRed/Product-Page_Jackets-and-Pants-Icon-Highlight.png) no-repeat scroll center center transparent !important;
+}
+
+#Winter .ProdIcon:hover {
+    background: url(../../img/SilverRed/Product-Page_Winter-Icon-Highlight.png) no-repeat scroll center center transparent !important;
+}
+
+#OilGas .ProdIcon:hover {
+    background: url(../../img/SilverRed/Oil-Gas-Icon-Highlight.png) no-repeat scroll center center transparent !important;
+}
+
+#General .ProdIcon:hover {
+    background: url(../../img/SilverRed/General-Icon-Highlight.png) no-repeat scroll center center transparent !important;
+}
+
+
+#mainProductLayout {
+    width: 85%;
+    height: 60%;
+    margin: 0 auto;
+    padding-bottom: 150px;
+}
+
+#ProductImagesMain {
+    width: 59%;
+    display: inline-block;
+    height: 100%;
+    position: relative;
+}
+
+
+
+#ProductImages {
+    width: 580px;
+    height: 100%;
+    height: 200px;
+    float: right;
+    margin-top: 25px;
+    margin-right: 20px;
+    min-height: 900px;
+}
+
+
+#ProductOverview {
+    width: 60%;
+    min-width: 300px;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+#ProductOverviewMain {
+    width: 39%;
+    float: right;
+    display: none;
+}
+
+#ProductOverviewTitle {
+    width: 339px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-family: Gill Sans MT, gill_sans_mtregular, Arial, sans-serif;
+    font-size: 20px;
+}
+
+#ProductOverviewTitleContainer {
+    width: 80%;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.informationText p {
+    color: #858585;
+    font-family: Gill Sans MT, gill_sans_mtregular, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+#ProdFeatures {
+    margin-left: 28px;
+}
+
+    #ProdFeatures li {
+        color: #858585;
+        font-family: Gill Sans MT, gill_sans_mtregular, Arial, sans-serif;
+        font-size: 15px;
+        font-weight: normal;
+    }
+
+.informationText span {
+    font-family: Gill Sans MT, gill_sans_mtregular, Arial, sans-serif;
+    color: white;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.FooterLinks a{
+    text-decoration: none;
+    font-family: Gill Sans MT, gill_sans_mtregular, Arial, sans-serif;
+    font-size: 18px;
+}
+
+.SeeFullScreen {
+    width: 100%;
+    height: 100%;
+}
+
+/*#FullscreenImageView {
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(../img/SilverRed/SilverRed_Homepage-Image-1.jpg) no-repeat;
+}*/
+
+#ProdInfoBody p {
+    background-color: #3C3C3B;
+    color: #858585;
+    font-family: Gill Sans MT, gill_sans_mtregular, Arial, sans-serif;
+    font-size: 13pt;
+    font-weight: normal;
+}
+
+#ProductOverviewContent {
+    background-color: #3C3C3B;
+    width: 339px;
+    color: #858585;
+    font-family: Gill Sans MT, gill_sans_mtregular, Arial, sans-serif;
+    font-size: 13pt;
+    font-weight: normal;
+}
+
+.Header {
+    font-family: Gill Sans MT, gill_sans_mtregular, Arial, sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 23px;
+}
+
+#ProductOverviewContentContainer {
+    width: 85%;
+    height: 100%;
+    max-width: 340px;
+    margin: 0 auto;
+    /*overflow-y:scroll;
+    overflow-x:hidden;*/
+}
+
+
+    #ProductOverviewContentContainer #IntroBody {
+        color: #858585;
+        font-family: Gill Sans MT, gill_sans_mtregular, Arial, sans-serif;
+        font-size: 15px;
+        font-weight: normal;
+    }
+
+    #ProductOverviewContentContainer #ProdInfoHeader {
+        color: #858585;
+        font-family: Gill Sans MT, gill_sans_mtregular, Arial, sans-serif;
+        font-size: 13pt;
+        font-weight: normal;
+    }
+
+#ProdImage1 {
+    background: url(../../img/SilverRed/SilverRed_Product_Dummy_1.png);
+}
+
+#ProdImage2 {
+    background: url(../../img/SilverRed/SilverRed_Product_Dummy_2.png);
+}
+
+#ProdImage3 {
+    background: url(../../img/SilverRed/SilverRed_Product_Dummy_1.png);
+}
+
+#ProdImage4 {
+    background: url(../../img/SilverRed/SilverRed_Product_Dummy_2.png);
+}
+
+#ProdImage5 {
+    background: url(../../img/SilverRed/SilverRed_Product_Dummy_1.png);
+}
+
+#ProdImage6 {
+    background: url(../../img/SilverRed/SilverRed_Product_Dummy_2.png);
+}
+
+#ProdImage7 {
+    background: url(../../img/SilverRed/SilverRed_Product_Dummy_1.png);
+}
+
+#ProdImage8 {
+    background: url(../../img/SilverRed/SilverRed_Product_Dummy_2.png);
+}
+
+.ProductImage {
+    width: 280px;
+    height: 157px;
+    display: inline-block;
+    float: left;
+}
+
+.theNumber {
+    width: 66px;
+    height: 35px;
+    margin-top: 72px;
+    font-family: Gill Sans MT, gill_sans_mtregular, Arial, sans-serif;
+    font-size: 20px;
+    margin-left: 116px;
+}
+
+.TitleSpan {
+    font-family: Gill Sans MT, gill_sans_mtregular, Arial, sans-serif;
+    font-size: 17px;
+    text-decoration: underline;
+    color: white;
+}
+
+.NumberSpan {
+    color: red;
+    font-family: Novecentowide-demibold;
+    font-size: 12px;
+}
+
+.OverViewTitle {
+    font-family: Novecentowide-demibold;
+    font-size: 12px;
+    color: white;
+}
+
+.ExpandableProduct {
+    width: 280px;
+    height: 157px;
+    overflow: hidden;
+    display: inline-block;
+    float: left;
+    border: 1px solid transparent;
+    border-top: none;
+}
+
+.LargeContainer {
+    width: 571px;
+    height: 316px;
+}
+
+#startScreen {
+    height: 130%;
+}
+
+#SharedLine {
+    background: url(../img/SilverRed/Product_Shared_Line.png) no-repeat center;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 100px;
+    width: 6px;
+    margin-right: 50px;
+    position: absolute;
+    right: 265px;
+    top: -5px;
+    -moz-transition: 0.5s all linear;
+    -o-transition: 0.5s all linear;
+    -webkit-transition: 0.5s all linear;
+    transition: 0.5s all linear;
+}
+
+.grayscale {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+}
+
+.AnimatedLine {
+    position: absolute;
+    height: 35px;
+    top: 47px;
+}
+
+/*Classes to animate the product lines.*/
+
+.SharedLineFirst {
+    clip: rect(0px, 4px, 0px, 0px);
+}
+
+.SharedLineFinal {
+    clip: rect(0px, 4px, 100px, 0px);
+}
+
+
+
+.CoverallLineNone {
+    clip: rect(0px, 3px, 0px, 0px);
+}
+
+.CoverallLineFirstStage {
+    clip: rect(0px, 3px, 33px, 0px);
+}
+
+.CoverallLineFull {
+    clip: rect(0px, 272px, 33px, 0px);
+}
+
+#CoverallLine {
+    background: url(../img/SilverRed/Coverall_Line.png) no-repeat left;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    width: 272px;
+    left: 31px;
+    -moz-transition: 0.5s linear all;
+    -o-transition: 0.5s linear all;
+    -webkit-transition: 0.5s linear all;
+    transition: 0.5s linear all;
+}
+
+#ProdNavContainer {
+    width: 100%;
+    min-width: 1030px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: transparent;
+}
+
+.ProdNavHover {
+    min-width: 510px;
+    min-height: 500px;
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+#StandardProdLine {
+    background: url(../img/ProductNavigation/Image-1.jpg) no-repeat;
+    background-position: top left;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+#CustomizerProd {
+    background: url(../img/ProductNavigation/Image-2.jpg) no-repeat;
+    background-position: top left;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+/*#StandardProdLine:hover {
+    background: url(../img/ProductNavigation/Image-1-Highlight.jpg) no-repeat;
+    background-position: top left;
+    background-size: cover;
+}
+
+#CustomizerProd:hover {
+    background: url(../img/ProductNavigation/Image-2-Highlight.jpg) no-repeat;
+    background-position: top left;
+    background-size: cover;
+}*/
+
+.HexagonLine {
+    width: 100%;
+    height: 4px;
+    background: url(../img/ProductNavigation/White-Line.png) repeat;
+    position: absolute;
+    top: 50%;
+}
+
+.HexagonContainer {
+    width: 147px;
+    height: 174px;
+    position: absolute;
+    left: 36.5%;
+    top: 38%;
+}
+
+#StandardHex {
+    background: url(../img/ProductNavigation/Icon-1.png) no-repeat;
+}
+
+#CustomizerHex {
+    background: url(../img/ProductNavigation/Icon-2.png) no-repeat;
+}
+
+#MainProductContainer {
+    width: 1120px;
+    margin: 0 auto;
+    background: url(../img/SilverRed/Foreground-Texture.jpg) repeat;
+    -webkit-box-shadow: 0 3px 44px black;
+    box-shadow: 0 3px 44px black;
+}
+
+#ProdShoesContainer {
+    width: 100%;
+    min-width: 1030px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: transparent;
+    display: none;
+}
+
+#Clothing {
+    background: url(../img/ProductNavigation/Image-01.jpg) no-repeat;
+    background-position: top left;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+#Shoes {
+    background: url(../img/ProductNavigation/Image-02.jpg) no-repeat;
+    background-position: top left;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+#ClothingHex {
+    background: url(../img/ProductNavigation/Icon-01.png) no-repeat;
+}
+
+#ShoesHex {
+    background: url(../img/ProductNavigation/Icon-02.png) no-repeat;
+}
+
+/*#Clothing:hover {
+    background: url(../img/ProductNavigation/Image-01-Highlight.jpg) no-repeat;
+    background-position: top left;
+    background-size: cover;
+}
+
+#Shoes:hover {
+    background: url(../img/ProductNavigation/Image-02-Highlight.jpg) no-repeat;
+    background-position: top left;
+    background-size: cover;
+}*/
+
+.HoverEffect {
+    position: absolute;
+    opacity: 0;
+    width: 100% !important;
+    -moz-transition: 0.5s all linear;
+    -o-transition: 0.5s all linear;
+    -webkit-transition: 0.5s all linear;
+    transition: 0.5s all linear;
+}
+
+#StandardHover {
+    background: url(../img/ProductNavigation/Image-1-Highlight.jpg) no-repeat;
+    background-position: top left;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+#CustomizerHover {
+    background: url(../img/ProductNavigation/Image-2-Highlight.jpg) no-repeat;
+    background-position: top left;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+#ClothingHover {
+    background: url(../img/ProductNavigation/Image-01-Highlight.jpg) no-repeat;
+    background-position: top left;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+#ShoesHover {
+    background: url(../img/ProductNavigation/Image-02-Highlight.jpg) no-repeat;
+    background-position: top left;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+/*#StandardHover:hover {
+    opacity: 1;
+}
+
+#CustomizerHover:hover {
+    opacity: 1;
+}
+
+#ClothingHover:hover {
+    opacity: 1;
+}
+
+#ShoesHover:hover {
+    opacity: 1;
+}*/
+
+.HoverEffect:hover {
+    opacity: 1;
+}
+
+.HexHoverEffect {
+    position: absolute;
+    opacity: 0;
+    width: 100% !important;
+    -moz-transition: 0.5s all linear;
+    -o-transition: 0.5s all linear;
+    -webkit-transition: 0.5s all linear;
+    transition: 0.5s all linear;
+}
+
+.FaderHex {
+    top: 0px !important;
+    left: 0px !important;
+    opacity: 0;
+    -moz-transition: 0.5s all linear;
+    -o-transition: 0.5s all linear;
+    -webkit-transition: 0.5s all linear;
+    transition: 0.5s all linear;
+}
+
+#StandardHexFade {
+    background: url(../img/ProductNavigation/Icon-1-Highlight.png) no-repeat;
+}
+
+#CustomizerHexFade {
+    background: url(../img/ProductNavigation/Icon-2-HighLight.png) no-repeat;
+}
+
+#ClothingHexFade {
+    background: url(../img/ProductNavigation/Icon-01-Highlight.png) no-repeat;
+}
+
+#ShoesHexFade {
+    background: url(../img/ProductNavigation/Icon-02-Highlight.png) no-repeat;
+}
+
+.ProdNavTextContainer {
+    width: 278px;
+    height: 50px;
+    position: absolute;
+    bottom: -60px;
+    left: -50px;
+    text-align: center;
+}
+
+    .ProdNavTextContainer p {
+        font-family: Gill Sans MT, gill_sans_mtregular, Arial, sans-serif;
+        font-size: 16px;
+        color: #8B8D90;
+    }
+
+    .ProdNavTextContainer h2 {
+        font-family: Gill Sans MT, gill_sans_mtregular, Arial, sans-serif;
+        font-size: 18px;
+    }
+
+.GreyWide {
+    height: 70px;
+    background-color: #6D6E70;
+    display: table;
+    text-align: center;
+    width: 100%;
+}
+
+#FixedHeader:after {
+    content: '';
+    width: 100%;
+    height: 30px;
+    position: fixed;
+    top: 83px;
+    z-index: 9999;
+    background: rgba(0,0,0,1);
+    background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,0)));
+    background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+    background: -o-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+    background: -ms-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0 );
+}
+
+
+.CustHeader {
+    color: white;
+    font-size: 18px;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: Gill Sans MT, gill_sans_mtregular, Arial, sans-serif;
+    min-width: 1030px;
+}
+
+#CustNavContainer {
+    width: 100%;
+    min-width: 1030px;
+    min-height: 650px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: transparent;
+}
+
+.CustNavHover {
+    min-width: 255px;
+    min-height: 300px;
+    width: 25%;
+    float: left;
+    position: relative;
+    -webkit-box-shadow: 10px 2px 25px black;
+    box-shadow: 10px 2px 25px black;
+}
+
+#ShirtsPantsClick {
+    background: url(../img/CustomizerLanding/Shirts-and-Pants-Image-no-highlight.png) no-repeat;
+    background-position: top left;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    z-index: 10;
+}
+
+#JacketsPantsClick {
+    background: url(../img/CustomizerLanding/Jackets-and-Pants-Image-no-highlight.jpg) no-repeat;
+    background-position: top left;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    z-index: 9;
+}
+
+#CoverallClick {
+    background: url(../img/CustomizerLanding/Coverall-Image-no-highlight.jpg) no-repeat;
+    background-position: top left;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    z-index: 8;
+}
+
+#WinterJacketClick {
+    background: url(../img/CustomizerLanding/Winter-Jackets-Image-no-highlight.jpg) no-repeat;
+    background-position: top left;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    z-index: 7;
+}
+
+#ShirtsPantsHover {
+    background: url(../img/CustomizerLanding/Shirts-and-Pants-Image-highlight.png) no-repeat;
+    background-position: top left;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+#JacketsPantsHover {
+    background: url(../img/CustomizerLanding/Jackets-and-Pants-Image-highlight.jpg) no-repeat;
+    background-position: top left;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+#CoverallHover {
+    background: url(../img/CustomizerLanding/Coverall-Image-highlight.jpg) no-repeat;
+    background-position: top left;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+#WinterJacketHover {
+    background: url(../img/CustomizerLanding/Winter-Jackets-Image-highlight.jpg) no-repeat;
+    background-position: top left;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+#CustFooter {
+    height: 178px;
+    width: 100%;
+    min-width: 1030px;
+    z-index: 16;
+    -webkit-box-shadow: 0px -12px 80px black;
+    box-shadow: 0px -12px 80px black;
+}
+
+.CustFooterItem {
+    width: 25%;
+    text-align: center;
+    height: 100%;
+    float: left;
+    -webkit-box-shadow: 10px 2px 25px black;
+    box-shadow: 10px 2px 25px black;
+    position: relative;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.theIcon {
+    width: 69px;
+    height: 78px;
+    margin: 31px auto 0;
+}
+
+.hoverer {
+    opacity: 0;
+    -moz-transition: 0.5s linear all;
+    -o-transition: 0.5s linear all;
+    -webkit-transition: 0.5s linear all;
+    transition: 0.5s linear all;
+}
+
+    .hoverer:hover {
+        opacity: 1;
+    }
+
+
+#ShirtsPantsIcon {
+    background: url(../img/CustomizerLanding/Shirts-and-Pants-no-highlight.png) no-repeat;
+    z-index: 11;
+}
+
+#JacketsPantsIcon {
+    background: url(../img/CustomizerLanding/Jackets-and-Pants-no-highlight.png) no-repeat;
+    z-index: 10;
+}
+
+#CoverallIcon {
+    background: url(../img/CustomizerLanding/Coverall-no-highlight.png) no-repeat;
+    z-index: 9;
+}
+
+#WinterJacketIcon {
+    background: url(../img/CustomizerLanding/Winter-Jackets-no-highlight.png) no-repeat;
+    z-index: 8;
+}
+
+#ShirtsPantsIconHover {
+    background: url(../img/CustomizerLanding/Shirts-and-Pants-highlight.png) no-repeat;
+}
+
+#JacketsPantsIconHover {
+    background: url(../img/CustomizerLanding/Jackets-and-Pants-highlight.png) no-repeat;
+}
+
+#CoverallIconHover {
+    background: url(../img/CustomizerLanding/Coverall-highlight.png) no-repeat;
+}
+
+#WinterJacketIconHover {
+    background: url(../img/CustomizerLanding/Winter-Jackets-highlight.png) no-repeat;
+}
+
+.CustFooterText {
+    width: 225px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+    .CustFooterText p {
+        font-size: 17px;
+    }
+
+.opacityDiv {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-color: black;
+    opacity: 0.4;
+}
+
+#LinkContainer:before {
+    content: '';
+    width: 100%;
+    height: 25px;
+    position: fixed;
+    top: 130px;
+    z-index: 9999;
+    opacity: 0.4;
+    background: rgba(0,0,0,1);
+    background: -moz-linear-gradient(bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+    background: -webkit-gradient(left bottom, left bottom, color-stop(0%, rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,0)));
+    background: -webkit-linear-gradient(bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+    background: -o-linear-gradient(bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+    background: -ms-linear-gradient(bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+    background: linear-gradient(to top, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0 );
+}
+
+a:-webkit-any-link{
+    text-decoration:none !important;
+}

@@ -1,0 +1,86 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = null;
+}
+
+
+@*<div id="ContactUsScreen">*@
+    <div class="Seperator"></div>
+    <div id="ContactUsScreenContainer">
+        <div id="ContactScreenWrapper">
+            <div id="ContactUsScreenMain">
+                <div class="DrawLine" id="LeftSideLine"></div>
+                <div id="ContactUsDetails">
+                    <h3>
+                        <span>CONTACT US</span>
+                    </h3>
+                    <p>
+                        Office<br />
+                        +971 4 801 9243
+                       
+                       
+
+                        <br />
+                        <br />
+                        E-mail<br />
+                        Info@Silver-red.com
+                       
+                    </p>
+                </div>
+                <div id="ContactUsFindUs">
+                    <h3>
+                        <span>FIND US</span>
+                    </h3>
+                    <p>
+                        Al Serkal Avenue<br />
+                        Al Quoz
+                        <br />
+                        Dubai UAE
+                       
+                        <br />
+                        <br />
+                        <br />
+                        P.O. Box 212 880
+                       
+                    </p>
+                    @*<p>
+                        JLT Cluster I<br />
+                        Platinum Tower
+                        <br />
+                        Office 803
+                       
+                        <br />
+                        <br />
+                        <br />
+                        P.O. Box 212 880
+                       
+                    </p>*@
+                    <div class="DrawLine" id="RightSideLine"></div>
+                </div>
+                <div id="ContactUsGoogleMap">
+                    <div id="ContactUsGoogleMapHover"></div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+@*</div>*@
+
+<div id="ContactUsGoToTop"></div>
+
+<script>
+    $('#ContactUsGoToTop').click(function () {
+        currentScreen = 0;
+        setupScrollHandler();
+        performScroll();
+    });
+
+
+    $('#ContactUsGoogleMapHover').click(function () {
+        currentScreen = 5;
+        GetContent();
+    });
+</script>

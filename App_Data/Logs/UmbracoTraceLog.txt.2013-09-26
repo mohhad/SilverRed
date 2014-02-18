@@ -1,0 +1,189 @@
+2013-09-26 09:35:59,570 [101] INFO  umbraco.BusinessLogic.Log - [Thread 77] Log scrubbed.  Removed all items older than 2013-07-28 09:35:59
+2013-09-26 09:35:59,571 [101] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 77] Application shutdown. Reason: ConfigurationChange
+2013-09-26 10:18:18,236 [333] INFO  Umbraco.Core.PluginManager - [Thread 332] Determining hash of code files on disk
+2013-09-26 10:18:18,244 [333] INFO  Umbraco.Core.PluginManager - [Thread 332] Hash determined (took 6ms)
+2013-09-26 10:18:18,249 [333] INFO  Umbraco.Core.PluginManager - [Thread 332] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-09-26 10:18:18,935 [333] INFO  Umbraco.Core.PluginManager - [Thread 332] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 685ms)
+2013-09-26 10:18:18,971 [333] INFO  Umbraco.Core.PluginManager - [Thread 332] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-09-26 10:18:18,977 [333] INFO  Umbraco.Core.PluginManager - [Thread 332] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 1 (took 6ms)
+2013-09-26 10:18:18,978 [333] INFO  Umbraco.Core.PluginManager - [Thread 332] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-09-26 10:18:18,983 [333] INFO  Umbraco.Core.PluginManager - [Thread 332] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+2013-09-26 10:18:18,983 [333] INFO  Umbraco.Core.PluginManager - [Thread 332] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-09-26 10:18:18,988 [333] INFO  Umbraco.Core.PluginManager - [Thread 332] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 2 (took 4ms)
+2013-09-26 10:18:18,990 [333] INFO  Umbraco.Core.PluginManager - [Thread 332] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-09-26 10:18:18,996 [333] INFO  Umbraco.Core.PluginManager - [Thread 332] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 5ms)
+2013-09-26 10:18:18,997 [333] INFO  Umbraco.Core.PluginManager - [Thread 332] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-09-26 10:18:19,003 [333] INFO  Umbraco.Core.PluginManager - [Thread 332] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2013-09-26 10:18:19,198 [333] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 332] Initializing Examine and binding to business logic events
+2013-09-26 10:18:19,497 [333] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 332] Adding examine event handlers for index providers: 3
+2013-09-26 10:18:19,502 [333] INFO  Umbraco.Core.PluginManager - [Thread 332] Starting resolution types of umbraco.interfaces.IApplication
+2013-09-26 10:18:19,520 [333] INFO  Umbraco.Core.PluginManager - [Thread 332] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 18ms)
+2013-09-26 10:18:19,582 [333] INFO  Umbraco.Core.PluginManager - [Thread 332] Starting resolution types of umbraco.interfaces.ITree
+2013-09-26 10:18:19,612 [333] INFO  Umbraco.Core.PluginManager - [Thread 332] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 30ms)
+2013-09-26 10:18:19,913 [333] INFO  umbraco.content - [Thread 327] Loading content from disk cache...
+2013-09-26 10:18:20,471 [333] INFO  Umbraco.Core.PluginManager - [Thread 327] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2013-09-26 10:18:20,478 [333] INFO  Umbraco.Core.PluginManager - [Thread 327] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 6ms)
+2013-09-26 11:49:56,308 [333] INFO  Umbraco.Core.PluginManager - [Thread 270] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2013-09-26 11:49:56,313 [333] INFO  Umbraco.Core.PluginManager - [Thread 270] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 5ms)
+2013-09-26 11:49:56,408 [333] INFO  Umbraco.Core.PluginManager - [Thread 270] Starting resolution types of umbraco.interfaces.ITree
+2013-09-26 11:49:56,436 [333] INFO  Umbraco.Core.PluginManager - [Thread 270] Completed resolution of types of umbraco.interfaces.ITree, found 37 (took 28ms)
+2013-09-26 11:50:16,683 [333] INFO  Umbraco.Core.PluginManager - [Thread 257] Starting resolution types of umbraco.interfaces.IDataType
+2013-09-26 11:50:16,721 [333] INFO  Umbraco.Core.PluginManager - [Thread 257] Completed resolution of types of umbraco.interfaces.IDataType, found 37 (took 37ms)
+2013-09-26 11:55:51,083 [333] INFO  umbraco.cms.businesslogic.web.Document - [Thread 224] New document 1256
+2013-09-26 11:56:02,144 [333] INFO  Umbraco.Core.PluginManager - [Thread 225] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2013-09-26 11:56:02,154 [333] INFO  Umbraco.Core.PluginManager - [Thread 225] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 9ms)
+2013-09-26 11:58:15,550 [333] INFO  Umbraco.Core.PluginManager - [Thread 225] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2013-09-26 11:58:15,578 [333] INFO  Umbraco.Core.PluginManager - [Thread 225] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 21 (took 27ms)
+2013-09-26 11:59:50,181 [333] INFO  Umbraco.Core.PluginManager - [Thread 270] Starting resolution types of umbraco.cms.businesslogic.media.IMediaFactory
+2013-09-26 11:59:50,187 [333] INFO  Umbraco.Core.PluginManager - [Thread 270] Completed resolution of types of umbraco.cms.businesslogic.media.IMediaFactory, found 2 (took 6ms)
+2013-09-26 11:59:51,305 [333] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 270] Success uploading to parent 1046
+2013-09-26 12:00:03,729 [333] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 217] Success uploading to parent 1257
+2013-09-26 12:00:05,362 [333] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 270] Success uploading to parent 1257
+2013-09-26 12:00:06,297 [333] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 231] Success uploading to parent 1257
+2013-09-26 12:00:07,267 [333] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 253] Success uploading to parent 1257
+2013-09-26 12:00:08,324 [333] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 267] Success uploading to parent 1257
+2013-09-26 12:00:56,757 [333] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 224] Success uploading to parent 1264
+2013-09-26 12:00:58,221 [333] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 231] Success uploading to parent 1264
+2013-09-26 12:00:59,381 [333] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 253] Success uploading to parent 1264
+2013-09-26 12:01:00,682 [333] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 265] Success uploading to parent 1264
+2013-09-26 12:01:01,627 [333] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 224] Success uploading to parent 1264
+2013-09-26 12:02:31,110 [333] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 264] Content 'P1' with Id '1256' has been published.
+2013-09-26 12:02:31,450 [333] ERROR umbraco.presentation.nodeFactory.UmbracoSiteMapProvider - [Thread 264] Error adding node 1188 to SiteMapProvider in loadNodes()
+System.InvalidOperationException: Multiple nodes with the same URL '/' were found. XmlSiteMapProvider requires that sitemap nodes have unique URLs.
+   at System.Web.StaticSiteMapProvider.AddNode(SiteMapNode node, SiteMapNode parentNode)
+   at umbraco.presentation.nodeFactory.UmbracoSiteMapProvider.loadNodes(String parentId, SiteMapNode parentNode)
+2013-09-26 12:02:39,799 [333] INFO  umbraco.cms.businesslogic.web.Document - [Thread 265] New document 1271
+2013-09-26 12:03:18,046 [333] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 212] Content 'P1' with Id '1256' has been published.
+2013-09-26 12:03:45,545 [333] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 268] Content 'P2' with Id '1271' has been published.
+2013-09-26 12:12:38,644 [333] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 250] Success uploading to parent 1272
+2013-09-26 12:12:40,344 [333] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 245] Success uploading to parent 1272
+2013-09-26 12:12:41,780 [333] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 216] Success uploading to parent 1272
+2013-09-26 12:12:42,967 [333] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 231] Success uploading to parent 1272
+2013-09-26 12:12:44,054 [333] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 216] Success uploading to parent 1272
+2013-09-26 12:12:45,168 [333] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 250] Success uploading to parent 1272
+2013-09-26 12:12:46,089 [333] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 217] Success uploading to parent 1272
+2013-09-26 12:12:52,630 [333] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 217] Success uploading to parent 1273
+2013-09-26 12:12:53,537 [333] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 227] Success uploading to parent 1273
+2013-09-26 12:12:54,570 [333] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 250] Success uploading to parent 1273
+2013-09-26 12:12:56,003 [333] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 217] Success uploading to parent 1273
+2013-09-26 12:12:57,536 [333] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 227] Success uploading to parent 1273
+2013-09-26 12:13:16,189 [333] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 217] Success uploading to parent 1275
+2013-09-26 12:13:17,792 [333] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 248] Success uploading to parent 1275
+2013-09-26 12:13:18,629 [333] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 227] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2013-09-26 12:13:18,775 [333] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 209] Success uploading to parent 1275
+2013-09-26 12:13:19,844 [333] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 248] Success uploading to parent 1275
+2013-09-26 12:13:30,247 [333] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 231] Success uploading to parent 1276
+2013-09-26 12:13:30,924 [333] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 250] Index is being optimized, Provider=ExternalIndexer, NodeId=-1
+2013-09-26 12:13:31,200 [333] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 245] Success uploading to parent 1276
+2013-09-26 12:13:32,253 [333] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 216] Success uploading to parent 1276
+2013-09-26 12:14:24,513 [333] INFO  umbraco.cms.businesslogic.web.Document - [Thread 246] New document 1296
+2013-09-26 12:14:29,048 [333] INFO  umbraco.cms.businesslogic.web.Document - [Thread 217] New document 1297
+2013-09-26 12:14:33,619 [333] INFO  umbraco.cms.businesslogic.web.Document - [Thread 209] New document 1298
+2013-09-26 12:14:39,328 [333] INFO  umbraco.cms.businesslogic.web.Document - [Thread 250] New document 1299
+2013-09-26 12:15:18,377 [333] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 246] Content 'WJ 1' with Id '1296' has been published.
+2013-09-26 12:15:41,756 [333] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 243] Content 'WJ 2' with Id '1297' has been published.
+2013-09-26 12:16:07,143 [333] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 261] Content 'WJ 3' with Id '1298' has been published.
+2013-09-26 12:17:09,405 [333] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 212] Success uploading to parent 1046
+2013-09-26 12:18:24,398 [333] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 234] Success uploading to parent 1046
+2013-09-26 12:18:49,605 [333] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 246] Content 'WJ 4' with Id '1299' has been published.
+2013-09-26 12:26:54,806 [333] INFO  umbraco.BasePages.BasePage - [Thread 215] User admin (Id: 0) logged in
+2013-09-26 12:47:41,800 [333] INFO  umbraco.BusinessLogic.Log - [Thread 313] Log scrubbed.  Removed all items older than 2013-07-28 12:47:41
+2013-09-26 12:47:41,801 [333] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 313] Application shutdown. Reason: MaxRecompilationsReached
+2013-09-26 12:47:54,118 [201] INFO  Umbraco.Core.PluginManager - [Thread 315] Determining hash of code files on disk
+2013-09-26 12:47:54,126 [201] INFO  Umbraco.Core.PluginManager - [Thread 315] Hash determined (took 6ms)
+2013-09-26 12:47:54,131 [201] INFO  Umbraco.Core.PluginManager - [Thread 315] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-09-26 12:47:54,360 [201] INFO  Umbraco.Core.PluginManager - [Thread 315] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 228ms)
+2013-09-26 12:47:54,370 [201] INFO  Umbraco.Core.PluginManager - [Thread 315] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-09-26 12:47:54,376 [201] INFO  Umbraco.Core.PluginManager - [Thread 315] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 1 (took 6ms)
+2013-09-26 12:47:54,378 [201] INFO  Umbraco.Core.PluginManager - [Thread 315] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-09-26 12:47:54,382 [201] INFO  Umbraco.Core.PluginManager - [Thread 315] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+2013-09-26 12:47:54,383 [201] INFO  Umbraco.Core.PluginManager - [Thread 315] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-09-26 12:47:54,388 [201] INFO  Umbraco.Core.PluginManager - [Thread 315] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 2 (took 4ms)
+2013-09-26 12:47:54,390 [201] INFO  Umbraco.Core.PluginManager - [Thread 315] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-09-26 12:47:54,396 [201] INFO  Umbraco.Core.PluginManager - [Thread 315] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 6ms)
+2013-09-26 12:47:54,396 [201] INFO  Umbraco.Core.PluginManager - [Thread 315] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-09-26 12:47:54,402 [201] INFO  Umbraco.Core.PluginManager - [Thread 315] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2013-09-26 12:47:54,575 [201] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 315] Initializing Examine and binding to business logic events
+2013-09-26 12:47:54,732 [201] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 315] Adding examine event handlers for index providers: 3
+2013-09-26 12:47:54,735 [201] INFO  Umbraco.Core.PluginManager - [Thread 315] Starting resolution types of umbraco.interfaces.IApplication
+2013-09-26 12:47:54,746 [201] INFO  Umbraco.Core.PluginManager - [Thread 315] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 10ms)
+2013-09-26 12:47:54,781 [201] INFO  Umbraco.Core.PluginManager - [Thread 315] Starting resolution types of umbraco.interfaces.ITree
+2013-09-26 12:47:54,811 [201] INFO  Umbraco.Core.PluginManager - [Thread 315] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 29ms)
+2013-09-26 13:15:37,124 [201] INFO  Umbraco.Core.PluginManager - [Thread 84] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2013-09-26 13:15:37,131 [201] INFO  Umbraco.Core.PluginManager - [Thread 84] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 7ms)
+2013-09-26 13:15:37,193 [201] INFO  umbraco.content - [Thread 84] Loading content from disk cache...
+2013-09-26 13:15:38,459 [201] INFO  Umbraco.Core.PluginManager - [Thread 58] Starting resolution types of umbraco.interfaces.ITree
+2013-09-26 13:15:38,487 [201] INFO  Umbraco.Core.PluginManager - [Thread 58] Completed resolution of types of umbraco.interfaces.ITree, found 37 (took 28ms)
+2013-09-26 13:15:38,530 [201] INFO  Umbraco.Core.PluginManager - [Thread 58] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2013-09-26 13:15:38,536 [201] INFO  Umbraco.Core.PluginManager - [Thread 58] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 6ms)
+2013-09-26 13:15:47,660 [201] INFO  umbraco.cms.businesslogic.web.Document - [Thread 62] New document 1302
+2013-09-26 13:15:54,221 [201] INFO  umbraco.cms.businesslogic.web.Document - [Thread 31] New document 1303
+2013-09-26 13:19:03,721 [201] INFO  Umbraco.Core.PluginManager - [Thread 202] Starting resolution types of umbraco.interfaces.IDataType
+2013-09-26 13:19:03,748 [201] INFO  Umbraco.Core.PluginManager - [Thread 202] Completed resolution of types of umbraco.interfaces.IDataType, found 37 (took 26ms)
+2013-09-26 13:19:03,794 [201] INFO  umbraco.cms.businesslogic.web.Document - [Thread 202] New document 1304
+2013-09-26 13:19:09,749 [201] INFO  umbraco.cms.businesslogic.web.Document - [Thread 62] New document 1305
+2013-09-26 13:19:16,916 [201] INFO  umbraco.cms.businesslogic.web.Document - [Thread 84] New document 1306
+2013-09-26 13:19:22,484 [201] INFO  umbraco.cms.businesslogic.web.Document - [Thread 31] New document 1307
+2013-09-26 13:19:27,678 [201] INFO  umbraco.cms.businesslogic.web.Document - [Thread 18] New document 1308
+2013-09-26 13:19:41,600 [201] INFO  umbraco.cms.businesslogic.web.Document - [Thread 75] New document 1309
+2013-09-26 13:19:46,105 [201] INFO  Umbraco.Core.PluginManager - [Thread 202] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2013-09-26 13:19:46,114 [201] INFO  Umbraco.Core.PluginManager - [Thread 202] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 9ms)
+2013-09-26 13:19:53,431 [201] INFO  Umbraco.Core.PluginManager - [Thread 68] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2013-09-26 13:19:53,444 [201] INFO  Umbraco.Core.PluginManager - [Thread 68] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 21 (took 13ms)
+2013-09-26 13:21:22,916 [201] INFO  Umbraco.Core.PluginManager - [Thread 31] Starting resolution types of umbraco.cms.businesslogic.media.IMediaFactory
+2013-09-26 13:21:22,922 [201] INFO  Umbraco.Core.PluginManager - [Thread 31] Completed resolution of types of umbraco.cms.businesslogic.media.IMediaFactory, found 2 (took 5ms)
+2013-09-26 13:21:23,755 [201] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 31] Success uploading to parent 1310
+2013-09-26 13:21:24,667 [201] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 58] Success uploading to parent 1310
+2013-09-26 13:21:41,203 [201] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 12] Success uploading to parent 1312
+2013-09-26 13:21:42,746 [201] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 36] Success uploading to parent 1312
+2013-09-26 13:21:44,382 [201] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 31] Success uploading to parent 1312
+2013-09-26 13:21:45,204 [201] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 58] Success uploading to parent 1312
+2013-09-26 13:21:46,160 [201] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 202] Success uploading to parent 1312
+2013-09-26 13:21:47,021 [201] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 12] Success uploading to parent 1312
+2013-09-26 13:21:47,770 [201] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 12] Success uploading to parent 1312
+2013-09-26 13:22:43,267 [201] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 18] Success uploading to parent 1313
+2013-09-26 13:22:44,809 [201] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 320] Success uploading to parent 1313
+2013-09-26 13:22:46,384 [201] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 25] Success uploading to parent 1313
+2013-09-26 13:22:47,134 [201] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 62] Success uploading to parent 1313
+2013-09-26 13:22:48,184 [201] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 62] Success uploading to parent 1313
+2013-09-26 13:22:49,088 [201] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 95] Success uploading to parent 1313
+2013-09-26 13:30:06,212 [201] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 226] Success uploading to parent 1314
+2013-09-26 13:30:07,743 [201] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 85] Success uploading to parent 1314
+2013-09-26 13:30:09,422 [201] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 313] Success uploading to parent 1314
+2013-09-26 13:30:10,339 [201] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 226] Success uploading to parent 1314
+2013-09-26 13:30:11,100 [201] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 18] Success uploading to parent 1314
+2013-09-26 13:30:12,142 [201] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 226] Success uploading to parent 1314
+2013-09-26 13:30:12,958 [201] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 313] Success uploading to parent 1314
+2013-09-26 14:12:31,772 [201] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 302] Success uploading to parent 1315
+2013-09-26 14:12:33,201 [201] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 221] Success uploading to parent 1315
+2013-09-26 14:12:34,651 [201] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 84] Success uploading to parent 1315
+2013-09-26 14:12:35,563 [201] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 42] Success uploading to parent 1315
+2013-09-26 14:12:36,318 [201] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 75] Success uploading to parent 1315
+2013-09-26 14:12:36,906 [201] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 287] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2013-09-26 14:12:37,129 [201] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 213] Success uploading to parent 1315
+2013-09-26 14:12:38,046 [201] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 85] Success uploading to parent 1315
+2013-09-26 14:20:33,305 [201] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 84] Success uploading to parent 1316
+2013-09-26 14:20:33,501 [201] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 221] Index is being optimized, Provider=ExternalIndexer, NodeId=-1
+2013-09-26 14:20:34,745 [201] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 84] Success uploading to parent 1316
+2013-09-26 14:20:36,121 [201] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 75] Success uploading to parent 1316
+2013-09-26 14:20:36,970 [201] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 287] Success uploading to parent 1316
+2013-09-26 14:20:37,781 [201] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 302] Success uploading to parent 1316
+2013-09-26 14:20:38,654 [201] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 12] Success uploading to parent 1316
+2013-09-26 14:20:39,481 [201] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 68] Success uploading to parent 1316
+2013-09-26 14:24:10,706 [201] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 12] Success uploading to parent 1317
+2013-09-26 14:24:12,132 [201] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 221] Success uploading to parent 1317
+2013-09-26 14:24:12,970 [201] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 68] Success uploading to parent 1317
+2013-09-26 14:24:13,927 [201] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 22] Success uploading to parent 1317
+2013-09-26 14:24:14,558 [201] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 226] Success uploading to parent 1317
+2013-09-26 14:48:36,256 [201] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 273] Content 'OilGas' with Id '1302' has been published.
+2013-09-26 14:48:37,865 [201] ERROR umbraco.presentation.nodeFactory.UmbracoSiteMapProvider - [Thread 273] Error adding node 1188 to SiteMapProvider in loadNodes()
+System.InvalidOperationException: Multiple nodes with the same URL '/' were found. XmlSiteMapProvider requires that sitemap nodes have unique URLs.
+   at System.Web.StaticSiteMapProvider.AddNode(SiteMapNode node, SiteMapNode parentNode)
+   at umbraco.presentation.nodeFactory.UmbracoSiteMapProvider.loadNodes(String parentId, SiteMapNode parentNode)
+2013-09-26 14:49:09,894 [201] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 36] Content 'O1' with Id '1306' has been published.
+2013-09-26 14:49:34,034 [201] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 7] Content 'O2' with Id '1307' has been published.
+2013-09-26 14:50:05,245 [201] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 62] Content 'O3' with Id '1308' has been published.
+2013-09-26 14:50:32,215 [201] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 62] Content 'O4' with Id '1309' has been published.
+2013-09-26 14:50:56,544 [201] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 288] Content 'General' with Id '1303' has been published.
+2013-09-26 14:50:56,603 [201] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 288] Content 'G2' with Id '1305' has been published.
+2013-09-26 14:50:56,647 [201] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 288] Content 'G1' with Id '1304' has been published.

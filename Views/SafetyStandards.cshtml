@@ -1,0 +1,100 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = null;
+}
+
+@*<div id="SafetyStandardsScreen">*@
+    <div class="Seperator"></div>
+    <div id="SafetyStandardsContainer">
+        <div id="SafetyStandardsWideContent">
+
+            <div id="SafetyStandardsMainScreen">
+                <div id="SafetyStandardsMainContainer">
+                    <div id="SafetyStandardsTextHeader">
+                        <p>
+                            WHEN IT COMES TO HEALTH AND SAFETY AT<br />
+                            <em></em>THE WORKPLACE, <span>DISCIPLINE IS CRUCIAL.</span>
+                        </p>
+                    </div>
+                    <div id="SafetyStandardsTextInner">
+                        <p>
+                            That’s why <span>SilverRed </span>
+                            <br />
+                            believes that providing safe, 
+                                well-fitted and comfortable work 
+                                wear helps companies encourage 
+                                disciplined behavior, which ensures 
+                                that protocols and policies are 
+                                followed at all times.
+                           
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="SafetyStandardsWorkWearScreen">
+                <div id="SafetyStandardsWorkWearContainer">
+                    <div id="SafetyStandardsWorkWearTextHeader">
+                        <p class="Squished">
+                            OUR FIRE RETARDANT GARMENTS PASSES ALL INTERNATIONAL SAFETY STANDARDS.<br />
+                            <br />
+                            THE FORMULATION OF THESE STANDARDS CAN BE WRITTEN IN DIFFERENT WAYS, 
+                                SO PLEASE CHECK OUR SCHEDULE TO FIND THE COMBINATION THAT YOUR COMPANY REQUIRES. 
+                               
+                            @*<a href="#" style="text-decoration:none;"><span class="redSpanHome">Download PDF.</span></a>*@
+                            @{
+                                DAMP.PropertyEditorValueConverter.Model WorkWear = (DAMP.PropertyEditorValueConverter.Model)Model.Content.GetPropertyValue("WorkWear");
+                                var WorkWearPdfFile = WorkWear.Select(x => x.File).FirstOrDefault();
+                                
+
+
+                                <a href="@WorkWearPdfFile" target="_blank" style="text-decoration:none;"><span class="redSpanHome">DOWNLOAD PDF.</span></a>
+ }
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="SafetyStandardsFootWearScreen">
+                <div id="SafetyStandardsFootWearContainer">
+                    <div id="SafetyStandardsFootWearTextHeader">
+                        <p>
+                            OUR FOOT WEAR PASSES ALL INTERNATIONAL SAFETY STANDARDS.
+                            <br />
+                            <br />
+                            THE FORMULATION OF THESE STANDARDS CAN BE WRITTEN IN DIFFERENT WAYS, 
+                                SO PLEASE CHECK OUR SCHEDULE TO FIND THE COMBINATION THAT YOUR COMPANY REQUIRES.
+                               
+                            @*<a href="#" style="text-decoration:none;"><span class="redSpanHome">Download PDF.</span></a>*@
+                            @{
+                                DAMP.PropertyEditorValueConverter.Model FootWear = (DAMP.PropertyEditorValueConverter.Model)Model.Content.GetPropertyValue("FootWear");
+                                var FootWearpdfFile = FootWear.Select(x => x.File).FirstOrDefault();
+                                
+
+
+                                <a href="@FootWearpdfFile" target="_blank" style="text-decoration:none;"><span class="redSpanHome">DOWNLOAD PDF.</span></a>
+ }
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <div id="SafetyStandardsButtons">
+        <a href="#" onclick="SafetyStandardsGoToPosition('#SafetyStandardsMainScreen')">
+            <div id="SafetyStandardsMain" class="SlideShowButton"></div>
+        </a>
+        <a href="#" onclick="SafetyStandardsGoToPosition('#SafetyStandardsWorkWearScreen')">
+            <div id="SafetyStandardsWorkWear" class="SlideShowButton"></div>
+        </a>
+        <a href="#" onclick="SafetyStandardsGoToPosition('#SafetyStandardsFootWearScreen')">
+            <div id="SafetyStandardsFootWear" class="SlideShowButton"></div>
+        </a>
+    </div>
+@*</div>*@

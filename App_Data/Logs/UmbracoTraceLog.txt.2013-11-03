@@ -1,0 +1,7 @@
+2013-11-03 01:06:32,366 [31] INFO  umbraco.content - [Thread 52] Loading content from disk cache...
+2013-11-03 01:06:34,726 [31] INFO  Umbraco.Core.PluginManager - [Thread 52] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2013-11-03 01:06:34,745 [31] INFO  Umbraco.Core.PluginManager - [Thread 52] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 19ms)
+2013-11-03 01:06:43,517 [31] INFO  Umbraco.Core.PluginManager - [Thread 38] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2013-11-03 01:06:43,523 [31] INFO  Umbraco.Core.PluginManager - [Thread 38] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 6ms)
+2013-11-03 17:23:09,053 [31] INFO  umbraco.BusinessLogic.Log - [Thread 76] Log scrubbed.  Removed all items older than 2013-09-04 17:23:09
+2013-11-03 17:23:09,054 [31] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 76] Application shutdown. Reason: CodeDirChangeOrDirectoryRename

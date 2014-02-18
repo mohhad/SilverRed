@@ -1,0 +1,60 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Home.cshtml";
+    ViewBag.title = "SilverRed Work Wear, We Supply and Customize";
+}
+
+<link href="../css/StylesForTextEditor.css" rel="stylesheet" type="text/css" />
+@*<link href="../css/default.css" rel="stylesheet" type="text/css" />*@
+
+<div id="startScreen">
+    <div class="Seperator"></div>
+    <div id="StartScreenContainer">
+        <div id="StartScreenSubContainer">
+            <div id="StartScreenText">
+                @Html.Raw(Model.Content.GetPropertyValue("homeScreenText").ToString())
+            </div>
+        </div>
+    </div>
+</div>
+<div id="WhyUsScreen"></div>
+<div id="SafetyStandardsScreen"></div>
+<div id="OfficialSupplierScreen"></div>
+<div id="ContactUsScreen"></div>
+<div id="GoogleMapScreen"></div>
+
+<script type="text/javascript" src="~/Scripts/jquery-1.10.2.min.js"></script>
+
+<script src="~/Scripts/plugins.js"></script>
+<script type="text/javascript" src="~/Scripts/jquery.easing.min.js"></script>
+<script type="text/javascript" src="~/Scripts/supersized.3.2.7.min.js"></script>
+<script type="text/javascript" src="~/Scripts/supersized.shutter.min.js"></script>
+<script type="text/javascript" src="~/Scripts/CustomSlideShow.js"></script>
+<script type="text/javascript" src="~/Scripts/jquery.jscrollpane.min.js"></script>
+<link type="text/css" href="~/css/jquery-ui.css" rel="stylesheet" />
+<script type="text/javascript" src="~/Scripts/jquery-ui-1.10.3.custom.min.js"></script>
+       
+<script src="~/Scripts/script.js"></script>
+
+<script type="text/javascript">
+
+    $(function ($) {
+
+        $.supersized({
+
+            // Functionality
+            slide_interval: 5000,		// Length between transitions
+            transition: 6, 			// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+            transition_speed: 500,	// Speed of transition
+
+            // Components							
+            slide_links: 'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
+            slides: [			// Slideshow Images
+                { image: '../img/SilverRed/SilverRed_Homepage-Image-1.jpg', title: '', thumb: '', url: '' },
+                { image: '../img/SilverRed/SilverRed_Homepage-Image-2.jpg', title: '', thumb: '', url: '' },
+                { image: '../img/SilverRed/SilverRed_Homepage-Image-3.jpg', title: '', thumb: '', url: '' }
+            ]
+
+        });
+    });
+</script>

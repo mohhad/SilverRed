@@ -1,0 +1,39 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = null;
+}
+
+<div id="GoogleMapScreen">
+    <div class="Seperator"></div>
+    <div id="GoogleMapWrapper">
+        <div id="GoogleMapsContainer">
+            <div id="GoogleMap">
+            </div>
+        </div>
+    </div>
+    <div class="BottomSeperator"></div>
+</div>
+
+
+ <script type="text/javascript">
+        function initialize() {
+            var latlng = new google.maps.LatLng(25.141225, 55.226165);
+            var settings = {
+                zoom: 15,
+                center: latlng,
+                mapTypeControl: true,
+                mapTypeControlOptions: { style: google.maps.MapTypeControlStyle.DROPDOWN_MENU },
+                navigationControl: true,
+                navigationControlOptions: { style: google.maps.NavigationControlStyle.SMALL },
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+            var map = new google.maps.Map(document.getElementById("GoogleMap"), settings);
+            var companyMarker = new google.maps.Marker({
+                position: latlng,
+                map: map,
+                title: "Al Serkal"
+            });
+        }
+
+        initialize();
+</script>

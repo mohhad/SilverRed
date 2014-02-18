@@ -1,0 +1,685 @@
+2013-09-04 13:56:50,951 [386] INFO  umbraco.BusinessLogic.Log - [Thread 194] Log scrubbed.  Removed all items older than 2013-07-06 13:56:50
+2013-09-04 13:56:50,952 [386] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 194] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2013-09-04 14:07:49,534 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2013-09-04 14:07:49,541 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 4ms)
+2013-09-04 14:07:49,546 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-09-04 14:07:50,195 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 648ms)
+2013-09-04 14:07:50,196 [7] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 1] An unhandled exception occurred
+System.IO.FileNotFoundException: Could not load file or assembly 'System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The system cannot find the file specified.
+File name: 'System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'
+   at System.Reflection.RuntimeAssembly.GetExportedTypes(RuntimeAssembly assembly, ObjectHandleOnStack retTypes)
+   at System.Reflection.RuntimeAssembly.GetExportedTypes()
+   at Umbraco.Core.TypeFinder.GetTypesWithFormattedException(Assembly a)
+   at Umbraco.Core.TypeFinder.GetClasses(Type assignTypeFrom, IEnumerable`1 assemblies, Boolean onlyConcreteClasses, Func`2 additionalFilter)
+   at Umbraco.Core.TypeFinder.FindClassesOfType[T](IEnumerable`1 assemblies, Boolean onlyConcreteClasses)
+   at Umbraco.Core.TypeFinder.FindClassesOfType[T](IEnumerable`1 assemblies)
+   at Umbraco.Core.PluginManager.<ResolveTypes>b__1c[T]()
+   at Umbraco.Core.PluginManager.LoadViaScanningAndUpdateCacheFile[T](TypeList typeList, TypeResolutionKind resolutionKind, Func`1 finder)
+   at Umbraco.Core.PluginManager.ResolveTypes[T](Func`1 finder, TypeResolutionKind resolutionType, Boolean cacheResult)
+   at Umbraco.Core.PluginManager.ResolveTypes[T](Boolean cacheResult)
+   at Umbraco.Core.CoreBootManager.InitializeApplicationEventsResolver()
+   at Umbraco.Web.WebBootManager.InitializeApplicationEventsResolver()
+   at Umbraco.Core.CoreBootManager.Initialize()
+   at Umbraco.Web.WebBootManager.Initialize()
+   at Umbraco.Core.UmbracoApplicationBase.StartApplication(Object sender, EventArgs e)
+   at Umbraco.Core.UmbracoApplicationBase.Application_Start(Object sender, EventArgs e)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+2013-09-04 14:08:00,221 [7] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 9] Application shutdown. Reason: InitializationError
+2013-09-04 14:09:24,874 [20] INFO  Umbraco.Core.PluginManager - [Thread 7] Determining hash of code files on disk
+2013-09-04 14:09:24,881 [20] INFO  Umbraco.Core.PluginManager - [Thread 7] Hash determined (took 4ms)
+2013-09-04 14:09:24,884 [20] INFO  Umbraco.Core.PluginManager - [Thread 7] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-09-04 14:09:24,994 [20] INFO  Umbraco.Core.PluginManager - [Thread 7] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 109ms)
+2013-09-04 14:09:25,054 [20] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 7] An unhandled exception occurred
+System.IO.FileNotFoundException: Could not load file or assembly 'System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The system cannot find the file specified.
+File name: 'System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'
+   at Umbraco.Web.WebBootManager.InitializeResolvers()
+   at Umbraco.Core.CoreBootManager.Initialize()
+   at Umbraco.Web.WebBootManager.Initialize()
+   at Umbraco.Core.UmbracoApplicationBase.StartApplication(Object sender, EventArgs e)
+   at Umbraco.Core.UmbracoApplicationBase.Application_Start(Object sender, EventArgs e)
+
+=== Pre-bind state information ===
+LOG: User = Robot1\MOH
+LOG: DisplayName = System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+ (Fully-specified)
+LOG: Appbase = file:///C:/Users/mohamed/Desktop/NewSilverRedCopy/
+LOG: Initial PrivatePath = C:\Users\mohamed\Desktop\NewSilverRedCopy\bin
+Calling assembly : umbraco, Version=1.0.4902.15217, Culture=neutral, PublicKeyToken=null.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: C:\Users\mohamed\Desktop\NewSilverRedCopy\web.config
+LOG: Using host configuration file: C:\Users\mohamed\Documents\IISExpress\config\aspnet.config
+LOG: Using machine configuration file from C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: Post-policy reference: System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+LOG: Attempting download of new URL file:///C:/Users/mohamed/AppData/Local/Temp/Temporary ASP.NET Files/root/79b0d972/a67732a8/System.Web.Http.DLL.
+LOG: Attempting download of new URL file:///C:/Users/mohamed/AppData/Local/Temp/Temporary ASP.NET Files/root/79b0d972/a67732a8/System.Web.Http/System.Web.Http.DLL.
+LOG: Attempting download of new URL file:///C:/Users/mohamed/Desktop/NewSilverRedCopy/bin/System.Web.Http.DLL.
+LOG: Attempting download of new URL file:///C:/Users/mohamed/Desktop/NewSilverRedCopy/bin/System.Web.Http/System.Web.Http.DLL.
+LOG: Attempting download of new URL file:///C:/Users/mohamed/AppData/Local/Temp/Temporary ASP.NET Files/root/79b0d972/a67732a8/System.Web.Http.EXE.
+LOG: Attempting download of new URL file:///C:/Users/mohamed/AppData/Local/Temp/Temporary ASP.NET Files/root/79b0d972/a67732a8/System.Web.Http/System.Web.Http.EXE.
+LOG: Attempting download of new URL file:///C:/Users/mohamed/Desktop/NewSilverRedCopy/bin/System.Web.Http.EXE.
+LOG: Attempting download of new URL file:///C:/Users/mohamed/Desktop/NewSilverRedCopy/bin/System.Web.Http/System.Web.Http.EXE.
+
+2013-09-04 14:09:35,080 [20] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 18] Application shutdown. Reason: InitializationError
+2013-09-04 14:40:36,778 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2013-09-04 14:40:36,786 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 4ms)
+2013-09-04 14:40:36,791 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-09-04 14:40:36,936 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 144ms)
+2013-09-04 14:40:36,958 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-09-04 14:40:36,964 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 1 (took 6ms)
+2013-09-04 14:40:36,965 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-09-04 14:40:36,970 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+2013-09-04 14:40:36,971 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-09-04 14:40:36,975 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 2 (took 4ms)
+2013-09-04 14:40:36,979 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-09-04 14:40:36,986 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 6ms)
+2013-09-04 14:40:36,987 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-09-04 14:40:36,992 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2013-09-04 14:40:37,080 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2013-09-04 14:40:37,318 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2013-09-04 14:40:37,322 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2013-09-04 14:40:37,331 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 8ms)
+2013-09-04 14:40:37,382 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2013-09-04 14:40:37,405 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 21ms)
+2013-09-04 14:40:37,525 [7] INFO  umbraco.content - [Thread 8] Loading content from disk cache...
+2013-09-04 14:40:38,904 [7] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2013-09-04 14:40:38,910 [7] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 5ms)
+2013-09-04 14:41:07,035 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2013-09-04 14:41:07,040 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 5ms)
+2013-09-04 15:00:42,423 [7] INFO  umbraco.BusinessLogic.Log - [Thread 47] Log scrubbed.  Removed all items older than 2013-07-06 15:00:42
+2013-09-04 15:00:42,424 [7] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 47] Application shutdown. Reason: CodeDirChangeOrDirectoryRename
+2013-09-04 15:01:46,342 [44] INFO  Umbraco.Core.PluginManager - [Thread 40] Determining hash of code files on disk
+2013-09-04 15:01:46,354 [44] INFO  Umbraco.Core.PluginManager - [Thread 40] Hash determined (took 9ms)
+2013-09-04 15:01:46,361 [44] INFO  Umbraco.Core.PluginManager - [Thread 40] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-09-04 15:01:46,485 [44] INFO  Umbraco.Core.PluginManager - [Thread 40] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 123ms)
+2013-09-04 15:01:46,495 [44] INFO  Umbraco.Core.PluginManager - [Thread 40] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-09-04 15:01:46,502 [44] INFO  Umbraco.Core.PluginManager - [Thread 40] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 1 (took 6ms)
+2013-09-04 15:01:46,503 [44] INFO  Umbraco.Core.PluginManager - [Thread 40] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-09-04 15:01:46,509 [44] INFO  Umbraco.Core.PluginManager - [Thread 40] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 5ms)
+2013-09-04 15:01:46,509 [44] INFO  Umbraco.Core.PluginManager - [Thread 40] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-09-04 15:01:46,514 [44] INFO  Umbraco.Core.PluginManager - [Thread 40] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 2 (took 4ms)
+2013-09-04 15:01:46,516 [44] INFO  Umbraco.Core.PluginManager - [Thread 40] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-09-04 15:01:46,522 [44] INFO  Umbraco.Core.PluginManager - [Thread 40] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 5ms)
+2013-09-04 15:01:46,522 [44] INFO  Umbraco.Core.PluginManager - [Thread 40] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-09-04 15:01:46,528 [44] INFO  Umbraco.Core.PluginManager - [Thread 40] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2013-09-04 15:01:46,701 [44] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 40] Initializing Examine and binding to business logic events
+2013-09-04 15:01:46,848 [44] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 40] Adding examine event handlers for index providers: 3
+2013-09-04 15:01:46,852 [44] INFO  Umbraco.Core.PluginManager - [Thread 40] Starting resolution types of umbraco.interfaces.IApplication
+2013-09-04 15:01:46,861 [44] INFO  Umbraco.Core.PluginManager - [Thread 40] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 9ms)
+2013-09-04 15:01:46,895 [44] INFO  Umbraco.Core.PluginManager - [Thread 40] Starting resolution types of umbraco.interfaces.ITree
+2013-09-04 15:01:46,919 [44] INFO  Umbraco.Core.PluginManager - [Thread 40] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 23ms)
+2013-09-04 15:01:47,004 [44] INFO  umbraco.content - [Thread 43] Loading content from disk cache...
+2013-09-04 15:01:48,106 [44] INFO  Umbraco.Core.PluginManager - [Thread 43] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2013-09-04 15:01:48,113 [44] INFO  Umbraco.Core.PluginManager - [Thread 43] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 6ms)
+2013-09-04 15:02:16,630 [44] INFO  Umbraco.Core.PluginManager - [Thread 48] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2013-09-04 15:02:16,636 [44] INFO  Umbraco.Core.PluginManager - [Thread 48] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 5ms)
+2013-09-04 15:02:55,137 [44] INFO  umbraco.BusinessLogic.Log - [Thread 60] Log scrubbed.  Removed all items older than 2013-07-06 15:02:55
+2013-09-04 15:02:55,139 [44] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 60] Application shutdown. Reason: CodeDirChangeOrDirectoryRename
+2013-09-04 15:04:41,260 [68] INFO  Umbraco.Core.PluginManager - [Thread 70] Determining hash of code files on disk
+2013-09-04 15:04:41,268 [68] INFO  Umbraco.Core.PluginManager - [Thread 70] Hash determined (took 5ms)
+2013-09-04 15:04:41,274 [68] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-09-04 15:04:41,380 [68] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 104ms)
+2013-09-04 15:04:41,390 [68] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-09-04 15:04:41,395 [68] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 1 (took 5ms)
+2013-09-04 15:04:41,397 [68] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-09-04 15:04:41,401 [68] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+2013-09-04 15:04:41,402 [68] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-09-04 15:04:41,406 [68] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 2 (took 4ms)
+2013-09-04 15:04:41,408 [68] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-09-04 15:04:41,414 [68] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 5ms)
+2013-09-04 15:04:41,414 [68] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-09-04 15:04:41,419 [68] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2013-09-04 15:04:41,586 [68] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 70] Initializing Examine and binding to business logic events
+2013-09-04 15:04:41,729 [68] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 70] Adding examine event handlers for index providers: 3
+2013-09-04 15:04:41,733 [68] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of umbraco.interfaces.IApplication
+2013-09-04 15:04:41,742 [68] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 8ms)
+2013-09-04 15:04:41,778 [68] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of umbraco.interfaces.ITree
+2013-09-04 15:04:41,810 [68] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 32ms)
+2013-09-04 15:04:41,894 [68] INFO  umbraco.content - [Thread 76] Loading content from disk cache...
+2013-09-04 15:04:42,942 [68] INFO  Umbraco.Core.PluginManager - [Thread 76] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2013-09-04 15:04:42,948 [68] INFO  Umbraco.Core.PluginManager - [Thread 76] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 5ms)
+2013-09-04 15:05:11,519 [68] INFO  Umbraco.Core.PluginManager - [Thread 64] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2013-09-04 15:05:11,525 [68] INFO  Umbraco.Core.PluginManager - [Thread 64] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 6ms)
+2013-09-04 15:05:18,817 [68] INFO  umbraco.BusinessLogic.Log - [Thread 64] Log scrubbed.  Removed all items older than 2013-07-06 15:05:18
+2013-09-04 15:05:18,818 [68] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 64] Application shutdown. Reason: CodeDirChangeOrDirectoryRename
+2013-09-04 15:05:36,221 [74] INFO  Umbraco.Core.PluginManager - [Thread 41] Determining hash of code files on disk
+2013-09-04 15:05:36,229 [74] INFO  Umbraco.Core.PluginManager - [Thread 41] Hash determined (took 5ms)
+2013-09-04 15:05:36,234 [74] INFO  Umbraco.Core.PluginManager - [Thread 41] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-09-04 15:05:36,340 [74] INFO  Umbraco.Core.PluginManager - [Thread 41] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 105ms)
+2013-09-04 15:05:36,349 [74] INFO  Umbraco.Core.PluginManager - [Thread 41] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-09-04 15:05:36,355 [74] INFO  Umbraco.Core.PluginManager - [Thread 41] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 1 (took 5ms)
+2013-09-04 15:05:36,356 [74] INFO  Umbraco.Core.PluginManager - [Thread 41] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-09-04 15:05:36,361 [74] INFO  Umbraco.Core.PluginManager - [Thread 41] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+2013-09-04 15:05:36,362 [74] INFO  Umbraco.Core.PluginManager - [Thread 41] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-09-04 15:05:36,366 [74] INFO  Umbraco.Core.PluginManager - [Thread 41] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 2 (took 4ms)
+2013-09-04 15:05:36,368 [74] INFO  Umbraco.Core.PluginManager - [Thread 41] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-09-04 15:05:36,374 [74] INFO  Umbraco.Core.PluginManager - [Thread 41] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 5ms)
+2013-09-04 15:05:36,374 [74] INFO  Umbraco.Core.PluginManager - [Thread 41] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-09-04 15:05:36,380 [74] INFO  Umbraco.Core.PluginManager - [Thread 41] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2013-09-04 15:05:36,545 [74] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 41] Initializing Examine and binding to business logic events
+2013-09-04 15:05:36,697 [74] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 41] Adding examine event handlers for index providers: 3
+2013-09-04 15:05:36,704 [74] INFO  Umbraco.Core.PluginManager - [Thread 41] Starting resolution types of umbraco.interfaces.IApplication
+2013-09-04 15:05:36,714 [74] INFO  Umbraco.Core.PluginManager - [Thread 41] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 10ms)
+2013-09-04 15:05:36,752 [74] INFO  Umbraco.Core.PluginManager - [Thread 41] Starting resolution types of umbraco.interfaces.ITree
+2013-09-04 15:05:36,779 [74] INFO  Umbraco.Core.PluginManager - [Thread 41] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 26ms)
+2013-09-04 15:05:36,869 [74] INFO  umbraco.content - [Thread 44] Loading content from disk cache...
+2013-09-04 15:05:38,000 [74] INFO  Umbraco.Core.PluginManager - [Thread 44] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2013-09-04 15:05:38,006 [74] INFO  Umbraco.Core.PluginManager - [Thread 44] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 6ms)
+2013-09-04 15:06:06,468 [74] INFO  Umbraco.Core.PluginManager - [Thread 75] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2013-09-04 15:06:06,474 [74] INFO  Umbraco.Core.PluginManager - [Thread 75] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 6ms)
+2013-09-04 16:08:06,372 [74] INFO  umbraco.BusinessLogic.Log - [Thread 96] Log scrubbed.  Removed all items older than 2013-07-06 16:08:06
+2013-09-04 16:08:06,373 [74] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 96] Application shutdown. Reason: CodeDirChangeOrDirectoryRename
+2013-09-04 16:12:33,314 [25] INFO  Umbraco.Core.PluginManager - [Thread 23] Determining hash of code files on disk
+2013-09-04 16:12:33,326 [25] INFO  Umbraco.Core.PluginManager - [Thread 23] Hash determined (took 8ms)
+2013-09-04 16:12:33,332 [25] INFO  Umbraco.Core.PluginManager - [Thread 23] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-09-04 16:12:33,451 [25] INFO  Umbraco.Core.PluginManager - [Thread 23] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 118ms)
+2013-09-04 16:12:33,461 [25] INFO  Umbraco.Core.PluginManager - [Thread 23] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-09-04 16:12:33,467 [25] INFO  Umbraco.Core.PluginManager - [Thread 23] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 1 (took 5ms)
+2013-09-04 16:12:33,468 [25] INFO  Umbraco.Core.PluginManager - [Thread 23] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-09-04 16:12:33,473 [25] INFO  Umbraco.Core.PluginManager - [Thread 23] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+2013-09-04 16:12:33,473 [25] INFO  Umbraco.Core.PluginManager - [Thread 23] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-09-04 16:12:33,478 [25] INFO  Umbraco.Core.PluginManager - [Thread 23] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 2 (took 4ms)
+2013-09-04 16:12:33,480 [25] INFO  Umbraco.Core.PluginManager - [Thread 23] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-09-04 16:12:33,487 [25] INFO  Umbraco.Core.PluginManager - [Thread 23] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 6ms)
+2013-09-04 16:12:33,487 [25] INFO  Umbraco.Core.PluginManager - [Thread 23] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-09-04 16:12:33,492 [25] INFO  Umbraco.Core.PluginManager - [Thread 23] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2013-09-04 16:12:33,661 [25] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 23] Initializing Examine and binding to business logic events
+2013-09-04 16:12:33,808 [25] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 23] Adding examine event handlers for index providers: 3
+2013-09-04 16:12:33,813 [25] INFO  Umbraco.Core.PluginManager - [Thread 23] Starting resolution types of umbraco.interfaces.IApplication
+2013-09-04 16:12:33,822 [25] INFO  Umbraco.Core.PluginManager - [Thread 23] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 9ms)
+2013-09-04 16:12:33,858 [25] INFO  Umbraco.Core.PluginManager - [Thread 23] Starting resolution types of umbraco.interfaces.ITree
+2013-09-04 16:12:33,881 [25] INFO  Umbraco.Core.PluginManager - [Thread 23] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 22ms)
+2013-09-04 16:12:33,965 [25] INFO  umbraco.content - [Thread 22] Loading content from disk cache...
+2013-09-04 16:12:35,041 [25] INFO  Umbraco.Core.PluginManager - [Thread 22] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2013-09-04 16:12:35,047 [25] INFO  Umbraco.Core.PluginManager - [Thread 22] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 5ms)
+2013-09-04 16:13:03,576 [25] INFO  Umbraco.Core.PluginManager - [Thread 22] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2013-09-04 16:13:03,582 [25] INFO  Umbraco.Core.PluginManager - [Thread 22] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 5ms)
+2013-09-04 16:21:41,429 [25] INFO  umbraco.BusinessLogic.Log - [Thread 81] Log scrubbed.  Removed all items older than 2013-07-06 16:21:41
+2013-09-04 16:21:41,430 [25] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 81] Application shutdown. Reason: ConfigurationChange
+2013-09-04 16:21:47,149 [83] INFO  Umbraco.Core.PluginManager - [Thread 79] Determining hash of code files on disk
+2013-09-04 16:21:47,158 [83] INFO  Umbraco.Core.PluginManager - [Thread 79] Hash determined (took 5ms)
+2013-09-04 16:21:47,162 [83] INFO  Umbraco.Core.PluginManager - [Thread 79] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-09-04 16:21:47,396 [83] INFO  Umbraco.Core.PluginManager - [Thread 79] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 232ms)
+2013-09-04 16:21:47,405 [83] INFO  Umbraco.Core.PluginManager - [Thread 79] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-09-04 16:21:47,411 [83] INFO  Umbraco.Core.PluginManager - [Thread 79] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 1 (took 5ms)
+2013-09-04 16:21:47,412 [83] INFO  Umbraco.Core.PluginManager - [Thread 79] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-09-04 16:21:47,417 [83] INFO  Umbraco.Core.PluginManager - [Thread 79] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+2013-09-04 16:21:47,417 [83] INFO  Umbraco.Core.PluginManager - [Thread 79] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-09-04 16:21:47,422 [83] INFO  Umbraco.Core.PluginManager - [Thread 79] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 2 (took 4ms)
+2013-09-04 16:21:47,424 [83] INFO  Umbraco.Core.PluginManager - [Thread 79] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-09-04 16:21:47,430 [83] INFO  Umbraco.Core.PluginManager - [Thread 79] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 5ms)
+2013-09-04 16:21:47,430 [83] INFO  Umbraco.Core.PluginManager - [Thread 79] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-09-04 16:21:47,436 [83] INFO  Umbraco.Core.PluginManager - [Thread 79] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2013-09-04 16:21:47,605 [83] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 79] Initializing Examine and binding to business logic events
+2013-09-04 16:21:47,752 [83] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 79] Adding examine event handlers for index providers: 3
+2013-09-04 16:21:47,757 [83] INFO  Umbraco.Core.PluginManager - [Thread 79] Starting resolution types of umbraco.interfaces.IApplication
+2013-09-04 16:21:47,766 [83] INFO  Umbraco.Core.PluginManager - [Thread 79] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 9ms)
+2013-09-04 16:21:47,806 [83] INFO  Umbraco.Core.PluginManager - [Thread 79] Starting resolution types of umbraco.interfaces.ITree
+2013-09-04 16:21:47,832 [83] INFO  Umbraco.Core.PluginManager - [Thread 79] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 25ms)
+2013-09-04 16:21:47,927 [83] INFO  umbraco.content - [Thread 17] Loading content from disk cache...
+2013-09-04 16:21:48,340 [83] INFO  Umbraco.Core.PluginManager - [Thread 17] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2013-09-04 16:21:48,346 [83] INFO  Umbraco.Core.PluginManager - [Thread 17] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 5ms)
+2013-09-04 16:22:17,533 [83] INFO  Umbraco.Core.PluginManager - [Thread 17] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2013-09-04 16:22:17,540 [83] INFO  Umbraco.Core.PluginManager - [Thread 17] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 7ms)
+2013-09-04 16:24:41,383 [83] INFO  umbraco.BusinessLogic.Log - [Thread 19] Log scrubbed.  Removed all items older than 2013-07-06 16:24:41
+2013-09-04 16:24:41,383 [83] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 19] Application shutdown. Reason: CodeDirChangeOrDirectoryRename
+2013-09-04 16:25:08,373 [44] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2013-09-04 16:25:08,382 [44] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 5ms)
+2013-09-04 16:25:08,386 [44] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-09-04 16:25:08,496 [44] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 109ms)
+2013-09-04 16:25:08,506 [44] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-09-04 16:25:08,512 [44] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 1 (took 6ms)
+2013-09-04 16:25:08,514 [44] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-09-04 16:25:08,518 [44] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+2013-09-04 16:25:08,519 [44] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-09-04 16:25:08,526 [44] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 2 (took 6ms)
+2013-09-04 16:25:08,528 [44] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-09-04 16:25:08,533 [44] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 5ms)
+2013-09-04 16:25:08,534 [44] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-09-04 16:25:08,539 [44] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2013-09-04 16:25:08,713 [44] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2013-09-04 16:25:08,859 [44] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2013-09-04 16:25:08,865 [44] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2013-09-04 16:25:08,874 [44] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 9ms)
+2013-09-04 16:25:08,910 [44] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2013-09-04 16:25:08,933 [44] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 22ms)
+2013-09-04 16:25:09,025 [44] INFO  umbraco.content - [Thread 89] Loading content from disk cache...
+2013-09-04 16:25:10,110 [44] INFO  Umbraco.Core.PluginManager - [Thread 89] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2013-09-04 16:25:10,116 [44] INFO  Umbraco.Core.PluginManager - [Thread 89] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 6ms)
+2013-09-04 16:25:42,545 [44] INFO  Umbraco.Core.PluginManager - [Thread 80] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2013-09-04 16:25:42,554 [44] INFO  Umbraco.Core.PluginManager - [Thread 80] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 8ms)
+2013-09-04 16:25:51,248 [44] INFO  umbraco.BusinessLogic.Log - [Thread 32] Log scrubbed.  Removed all items older than 2013-07-06 16:25:51
+2013-09-04 16:25:51,253 [44] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 32] Application shutdown. Reason: CodeDirChangeOrDirectoryRename
+2013-09-04 16:26:08,667 [44] INFO  Umbraco.Core.PluginManager - [Thread 70] Determining hash of code files on disk
+2013-09-04 16:26:08,675 [44] INFO  Umbraco.Core.PluginManager - [Thread 70] Hash determined (took 5ms)
+2013-09-04 16:26:08,680 [44] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-09-04 16:26:08,798 [44] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 116ms)
+2013-09-04 16:26:08,808 [44] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-09-04 16:26:08,814 [44] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 1 (took 5ms)
+2013-09-04 16:26:08,816 [44] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-09-04 16:26:08,822 [44] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 5ms)
+2013-09-04 16:26:08,822 [44] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-09-04 16:26:08,827 [44] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 2 (took 4ms)
+2013-09-04 16:26:08,828 [44] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-09-04 16:26:08,834 [44] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 5ms)
+2013-09-04 16:26:08,834 [44] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-09-04 16:26:08,840 [44] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2013-09-04 16:26:09,005 [44] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 70] Initializing Examine and binding to business logic events
+2013-09-04 16:26:09,149 [44] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 70] Adding examine event handlers for index providers: 3
+2013-09-04 16:26:09,156 [44] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of umbraco.interfaces.IApplication
+2013-09-04 16:26:09,165 [44] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 8ms)
+2013-09-04 16:26:09,198 [44] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of umbraco.interfaces.ITree
+2013-09-04 16:26:09,220 [44] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 22ms)
+2013-09-04 16:26:09,303 [44] INFO  umbraco.content - [Thread 81] Loading content from disk cache...
+2013-09-04 16:26:10,354 [44] INFO  Umbraco.Core.PluginManager - [Thread 81] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2013-09-04 16:26:10,360 [44] INFO  Umbraco.Core.PluginManager - [Thread 81] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 5ms)
+2013-09-04 16:26:10,957 [44] INFO  umbraco.BusinessLogic.Log - [Thread 80] Log scrubbed.  Removed all items older than 2013-07-06 16:26:10
+2013-09-04 16:26:10,993 [44] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 80] Application shutdown. Reason: BuildManagerChange
+2013-09-04 16:26:13,019 [99] INFO  Umbraco.Core.PluginManager - [Thread 83] Determining hash of code files on disk
+2013-09-04 16:26:13,027 [99] INFO  Umbraco.Core.PluginManager - [Thread 83] Hash determined (took 5ms)
+2013-09-04 16:26:13,033 [99] INFO  Umbraco.Core.PluginManager - [Thread 83] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-09-04 16:26:13,261 [99] INFO  Umbraco.Core.PluginManager - [Thread 83] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 227ms)
+2013-09-04 16:26:13,270 [99] INFO  Umbraco.Core.PluginManager - [Thread 83] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-09-04 16:26:13,276 [99] INFO  Umbraco.Core.PluginManager - [Thread 83] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 1 (took 5ms)
+2013-09-04 16:26:13,277 [99] INFO  Umbraco.Core.PluginManager - [Thread 83] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-09-04 16:26:13,282 [99] INFO  Umbraco.Core.PluginManager - [Thread 83] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+2013-09-04 16:26:13,282 [99] INFO  Umbraco.Core.PluginManager - [Thread 83] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-09-04 16:26:13,287 [99] INFO  Umbraco.Core.PluginManager - [Thread 83] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 2 (took 4ms)
+2013-09-04 16:26:13,289 [99] INFO  Umbraco.Core.PluginManager - [Thread 83] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-09-04 16:26:13,294 [99] INFO  Umbraco.Core.PluginManager - [Thread 83] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 5ms)
+2013-09-04 16:26:13,294 [99] INFO  Umbraco.Core.PluginManager - [Thread 83] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-09-04 16:26:13,300 [99] INFO  Umbraco.Core.PluginManager - [Thread 83] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2013-09-04 16:26:13,466 [99] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 83] Initializing Examine and binding to business logic events
+2013-09-04 16:26:13,614 [99] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 83] Adding examine event handlers for index providers: 3
+2013-09-04 16:26:13,618 [99] INFO  Umbraco.Core.PluginManager - [Thread 83] Starting resolution types of umbraco.interfaces.IApplication
+2013-09-04 16:26:13,628 [99] INFO  Umbraco.Core.PluginManager - [Thread 83] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 8ms)
+2013-09-04 16:26:13,662 [99] INFO  Umbraco.Core.PluginManager - [Thread 83] Starting resolution types of umbraco.interfaces.ITree
+2013-09-04 16:26:13,684 [99] INFO  Umbraco.Core.PluginManager - [Thread 83] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 21ms)
+2013-09-04 16:27:54,987 [99] INFO  umbraco.content - [Thread 25] Loading content from disk cache...
+2013-09-04 16:27:55,794 [99] INFO  Umbraco.Core.PluginManager - [Thread 25] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2013-09-04 16:27:55,800 [99] INFO  Umbraco.Core.PluginManager - [Thread 25] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 5ms)
+2013-09-04 16:28:45,561 [99] INFO  Umbraco.Core.PluginManager - [Thread 91] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2013-09-04 16:28:45,571 [99] INFO  Umbraco.Core.PluginManager - [Thread 91] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 9ms)
+2013-09-04 16:31:46,211 [99] INFO  umbraco.BusinessLogic.Log - [Thread 100] Log scrubbed.  Removed all items older than 2013-07-06 16:31:46
+2013-09-04 16:31:46,212 [99] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 100] Application shutdown. Reason: CodeDirChangeOrDirectoryRename
+2013-09-04 16:32:15,058 [24] INFO  Umbraco.Core.PluginManager - [Thread 83] Determining hash of code files on disk
+2013-09-04 16:32:15,066 [24] INFO  Umbraco.Core.PluginManager - [Thread 83] Hash determined (took 5ms)
+2013-09-04 16:32:15,071 [24] INFO  Umbraco.Core.PluginManager - [Thread 83] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-09-04 16:32:15,178 [24] INFO  Umbraco.Core.PluginManager - [Thread 83] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 106ms)
+2013-09-04 16:32:15,187 [24] INFO  Umbraco.Core.PluginManager - [Thread 83] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-09-04 16:32:15,193 [24] INFO  Umbraco.Core.PluginManager - [Thread 83] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 1 (took 5ms)
+2013-09-04 16:32:15,194 [24] INFO  Umbraco.Core.PluginManager - [Thread 83] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-09-04 16:32:15,199 [24] INFO  Umbraco.Core.PluginManager - [Thread 83] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 5ms)
+2013-09-04 16:32:15,200 [24] INFO  Umbraco.Core.PluginManager - [Thread 83] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-09-04 16:32:15,205 [24] INFO  Umbraco.Core.PluginManager - [Thread 83] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 2 (took 4ms)
+2013-09-04 16:32:15,207 [24] INFO  Umbraco.Core.PluginManager - [Thread 83] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-09-04 16:32:15,212 [24] INFO  Umbraco.Core.PluginManager - [Thread 83] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 5ms)
+2013-09-04 16:32:15,212 [24] INFO  Umbraco.Core.PluginManager - [Thread 83] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-09-04 16:32:15,218 [24] INFO  Umbraco.Core.PluginManager - [Thread 83] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2013-09-04 16:32:15,393 [24] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 83] Initializing Examine and binding to business logic events
+2013-09-04 16:32:15,552 [24] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 83] Adding examine event handlers for index providers: 3
+2013-09-04 16:32:15,558 [24] INFO  Umbraco.Core.PluginManager - [Thread 83] Starting resolution types of umbraco.interfaces.IApplication
+2013-09-04 16:32:15,567 [24] INFO  Umbraco.Core.PluginManager - [Thread 83] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 9ms)
+2013-09-04 16:32:15,604 [24] INFO  Umbraco.Core.PluginManager - [Thread 83] Starting resolution types of umbraco.interfaces.ITree
+2013-09-04 16:32:15,626 [24] INFO  Umbraco.Core.PluginManager - [Thread 83] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 22ms)
+2013-09-04 16:32:15,709 [24] INFO  umbraco.content - [Thread 87] Loading content from disk cache...
+2013-09-04 16:32:16,755 [24] INFO  Umbraco.Core.PluginManager - [Thread 87] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2013-09-04 16:32:16,761 [24] INFO  Umbraco.Core.PluginManager - [Thread 87] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 5ms)
+2013-09-04 16:32:45,297 [24] INFO  Umbraco.Core.PluginManager - [Thread 22] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2013-09-04 16:32:45,305 [24] INFO  Umbraco.Core.PluginManager - [Thread 22] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 7ms)
+2013-09-04 16:37:21,914 [24] INFO  umbraco.BusinessLogic.Log - [Thread 53] Log scrubbed.  Removed all items older than 2013-07-06 16:37:21
+2013-09-04 16:37:21,915 [24] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 53] Application shutdown. Reason: CodeDirChangeOrDirectoryRename
+2013-09-04 16:37:27,598 [91] INFO  Umbraco.Core.PluginManager - [Thread 41] Determining hash of code files on disk
+2013-09-04 16:37:27,606 [91] INFO  Umbraco.Core.PluginManager - [Thread 41] Hash determined (took 5ms)
+2013-09-04 16:37:27,611 [91] INFO  Umbraco.Core.PluginManager - [Thread 41] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-09-04 16:37:27,719 [91] INFO  Umbraco.Core.PluginManager - [Thread 41] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 107ms)
+2013-09-04 16:37:27,728 [91] INFO  Umbraco.Core.PluginManager - [Thread 41] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-09-04 16:37:27,735 [91] INFO  Umbraco.Core.PluginManager - [Thread 41] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 1 (took 6ms)
+2013-09-04 16:37:27,736 [91] INFO  Umbraco.Core.PluginManager - [Thread 41] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-09-04 16:37:27,741 [91] INFO  Umbraco.Core.PluginManager - [Thread 41] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+2013-09-04 16:37:27,741 [91] INFO  Umbraco.Core.PluginManager - [Thread 41] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-09-04 16:37:27,746 [91] INFO  Umbraco.Core.PluginManager - [Thread 41] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 2 (took 4ms)
+2013-09-04 16:37:27,748 [91] INFO  Umbraco.Core.PluginManager - [Thread 41] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-09-04 16:37:27,754 [91] INFO  Umbraco.Core.PluginManager - [Thread 41] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 5ms)
+2013-09-04 16:37:27,755 [91] INFO  Umbraco.Core.PluginManager - [Thread 41] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-09-04 16:37:27,760 [91] INFO  Umbraco.Core.PluginManager - [Thread 41] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2013-09-04 16:37:27,930 [91] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 41] Initializing Examine and binding to business logic events
+2013-09-04 16:37:28,078 [91] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 41] Adding examine event handlers for index providers: 3
+2013-09-04 16:37:28,083 [91] INFO  Umbraco.Core.PluginManager - [Thread 41] Starting resolution types of umbraco.interfaces.IApplication
+2013-09-04 16:37:28,092 [91] INFO  Umbraco.Core.PluginManager - [Thread 41] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 9ms)
+2013-09-04 16:37:28,126 [91] INFO  Umbraco.Core.PluginManager - [Thread 41] Starting resolution types of umbraco.interfaces.ITree
+2013-09-04 16:37:28,148 [91] INFO  Umbraco.Core.PluginManager - [Thread 41] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 21ms)
+2013-09-04 16:37:28,232 [91] INFO  umbraco.content - [Thread 101] Loading content from disk cache...
+2013-09-04 16:37:31,532 [91] INFO  Umbraco.Core.PluginManager - [Thread 101] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2013-09-04 16:37:31,538 [91] INFO  Umbraco.Core.PluginManager - [Thread 101] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 5ms)
+2013-09-04 16:37:57,862 [91] INFO  Umbraco.Core.PluginManager - [Thread 99] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2013-09-04 16:37:57,868 [91] INFO  Umbraco.Core.PluginManager - [Thread 99] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 5ms)
+2013-09-04 16:38:26,670 [91] INFO  umbraco.BusinessLogic.Log - [Thread 92] Log scrubbed.  Removed all items older than 2013-07-06 16:38:26
+2013-09-04 16:38:26,671 [91] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 92] Application shutdown. Reason: CodeDirChangeOrDirectoryRename
+2013-09-04 16:38:55,026 [78] INFO  Umbraco.Core.PluginManager - [Thread 40] Determining hash of code files on disk
+2013-09-04 16:38:55,033 [78] INFO  Umbraco.Core.PluginManager - [Thread 40] Hash determined (took 4ms)
+2013-09-04 16:38:55,039 [78] INFO  Umbraco.Core.PluginManager - [Thread 40] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-09-04 16:38:55,135 [78] INFO  Umbraco.Core.PluginManager - [Thread 40] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 95ms)
+2013-09-04 16:38:55,146 [78] INFO  Umbraco.Core.PluginManager - [Thread 40] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-09-04 16:38:55,152 [78] INFO  Umbraco.Core.PluginManager - [Thread 40] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 1 (took 5ms)
+2013-09-04 16:38:55,152 [78] INFO  Umbraco.Core.PluginManager - [Thread 40] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-09-04 16:38:55,157 [78] INFO  Umbraco.Core.PluginManager - [Thread 40] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+2013-09-04 16:38:55,157 [78] INFO  Umbraco.Core.PluginManager - [Thread 40] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-09-04 16:38:55,161 [78] INFO  Umbraco.Core.PluginManager - [Thread 40] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 2 (took 4ms)
+2013-09-04 16:38:55,162 [78] INFO  Umbraco.Core.PluginManager - [Thread 40] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-09-04 16:38:55,167 [78] INFO  Umbraco.Core.PluginManager - [Thread 40] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 5ms)
+2013-09-04 16:38:55,167 [78] INFO  Umbraco.Core.PluginManager - [Thread 40] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-09-04 16:38:55,173 [78] INFO  Umbraco.Core.PluginManager - [Thread 40] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2013-09-04 16:38:55,257 [78] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 40] Initializing Examine and binding to business logic events
+2013-09-04 16:38:55,392 [78] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 40] Adding examine event handlers for index providers: 3
+2013-09-04 16:38:55,397 [78] INFO  Umbraco.Core.PluginManager - [Thread 40] Starting resolution types of umbraco.interfaces.IApplication
+2013-09-04 16:38:55,406 [78] INFO  Umbraco.Core.PluginManager - [Thread 40] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 8ms)
+2013-09-04 16:38:55,441 [78] INFO  Umbraco.Core.PluginManager - [Thread 40] Starting resolution types of umbraco.interfaces.ITree
+2013-09-04 16:38:55,462 [78] INFO  Umbraco.Core.PluginManager - [Thread 40] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 20ms)
+2013-09-04 16:40:13,628 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2013-09-04 16:40:13,636 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 4ms)
+2013-09-04 16:40:13,642 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-09-04 16:40:13,790 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 147ms)
+2013-09-04 16:40:13,802 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-09-04 16:40:13,807 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 1 (took 5ms)
+2013-09-04 16:40:13,808 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-09-04 16:40:13,813 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+2013-09-04 16:40:13,813 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-09-04 16:40:13,818 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 2 (took 4ms)
+2013-09-04 16:40:13,823 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-09-04 16:40:13,831 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 8ms)
+2013-09-04 16:40:13,831 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-09-04 16:40:13,837 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2013-09-04 16:40:13,933 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2013-09-04 16:40:14,158 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2013-09-04 16:40:14,162 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2013-09-04 16:40:14,172 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 10ms)
+2013-09-04 16:40:14,223 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2013-09-04 16:40:14,245 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 21ms)
+2013-09-04 16:40:14,356 [7] INFO  umbraco.content - [Thread 8] Loading content from disk cache...
+2013-09-04 16:40:15,765 [7] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2013-09-04 16:40:15,771 [7] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 5ms)
+2013-09-04 16:40:48,992 [7] INFO  Umbraco.Core.PluginManager - [Thread 17] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2013-09-04 16:40:48,998 [7] INFO  Umbraco.Core.PluginManager - [Thread 17] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 6ms)
+2013-09-04 16:41:07,356 [7] INFO  umbraco.BusinessLogic.Log - [Thread 15] Log scrubbed.  Removed all items older than 2013-07-06 16:41:07
+2013-09-04 16:41:07,357 [7] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 15] Application shutdown. Reason: CodeDirChangeOrDirectoryRename
+2013-09-04 16:41:34,218 [20] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2013-09-04 16:41:34,227 [20] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 5ms)
+2013-09-04 16:41:34,232 [20] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-09-04 16:41:34,340 [20] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 107ms)
+2013-09-04 16:41:34,350 [20] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-09-04 16:41:34,356 [20] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 1 (took 5ms)
+2013-09-04 16:41:34,357 [20] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-09-04 16:41:34,361 [20] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+2013-09-04 16:41:34,362 [20] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-09-04 16:41:34,366 [20] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 2 (took 4ms)
+2013-09-04 16:41:34,368 [20] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-09-04 16:41:34,374 [20] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 5ms)
+2013-09-04 16:41:34,374 [20] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-09-04 16:41:34,379 [20] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2013-09-04 16:41:34,546 [20] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2013-09-04 16:41:34,688 [20] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2013-09-04 16:41:34,694 [20] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2013-09-04 16:41:34,703 [20] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 8ms)
+2013-09-04 16:41:34,739 [20] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2013-09-04 16:41:34,763 [20] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 23ms)
+2013-09-04 16:41:34,844 [20] INFO  umbraco.content - [Thread 16] Loading content from disk cache...
+2013-09-04 16:41:35,910 [20] INFO  Umbraco.Core.PluginManager - [Thread 16] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2013-09-04 16:41:35,916 [20] INFO  Umbraco.Core.PluginManager - [Thread 16] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 5ms)
+2013-09-04 16:42:04,458 [20] INFO  Umbraco.Core.PluginManager - [Thread 16] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2013-09-04 16:42:04,465 [20] INFO  Umbraco.Core.PluginManager - [Thread 16] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 6ms)
+2013-09-04 16:50:10,988 [20] INFO  umbraco.BusinessLogic.Log - [Thread 35] Log scrubbed.  Removed all items older than 2013-07-06 16:50:10
+2013-09-04 16:50:10,990 [20] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 35] Application shutdown. Reason: CodeDirChangeOrDirectoryRename
+2013-09-04 16:50:17,639 [28] INFO  Umbraco.Core.PluginManager - [Thread 25] Determining hash of code files on disk
+2013-09-04 16:50:17,647 [28] INFO  Umbraco.Core.PluginManager - [Thread 25] Hash determined (took 5ms)
+2013-09-04 16:50:17,653 [28] INFO  Umbraco.Core.PluginManager - [Thread 25] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-09-04 16:50:17,761 [28] INFO  Umbraco.Core.PluginManager - [Thread 25] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 108ms)
+2013-09-04 16:50:17,771 [28] INFO  Umbraco.Core.PluginManager - [Thread 25] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-09-04 16:50:17,777 [28] INFO  Umbraco.Core.PluginManager - [Thread 25] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 1 (took 5ms)
+2013-09-04 16:50:17,778 [28] INFO  Umbraco.Core.PluginManager - [Thread 25] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-09-04 16:50:17,783 [28] INFO  Umbraco.Core.PluginManager - [Thread 25] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+2013-09-04 16:50:17,783 [28] INFO  Umbraco.Core.PluginManager - [Thread 25] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-09-04 16:50:17,788 [28] INFO  Umbraco.Core.PluginManager - [Thread 25] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 2 (took 4ms)
+2013-09-04 16:50:17,790 [28] INFO  Umbraco.Core.PluginManager - [Thread 25] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-09-04 16:50:17,796 [28] INFO  Umbraco.Core.PluginManager - [Thread 25] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 6ms)
+2013-09-04 16:50:17,796 [28] INFO  Umbraco.Core.PluginManager - [Thread 25] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-09-04 16:50:17,802 [28] INFO  Umbraco.Core.PluginManager - [Thread 25] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2013-09-04 16:50:17,969 [28] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 25] Initializing Examine and binding to business logic events
+2013-09-04 16:50:18,114 [28] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 25] Adding examine event handlers for index providers: 3
+2013-09-04 16:50:18,121 [28] INFO  Umbraco.Core.PluginManager - [Thread 25] Starting resolution types of umbraco.interfaces.IApplication
+2013-09-04 16:50:18,130 [28] INFO  Umbraco.Core.PluginManager - [Thread 25] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 9ms)
+2013-09-04 16:50:18,165 [28] INFO  Umbraco.Core.PluginManager - [Thread 25] Starting resolution types of umbraco.interfaces.ITree
+2013-09-04 16:50:18,188 [28] INFO  Umbraco.Core.PluginManager - [Thread 25] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 22ms)
+2013-09-04 16:50:50,705 [28] INFO  umbraco.content - [Thread 26] Loading content from disk cache...
+2013-09-04 16:50:51,797 [28] INFO  Umbraco.Core.PluginManager - [Thread 26] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2013-09-04 16:50:51,803 [28] INFO  Umbraco.Core.PluginManager - [Thread 26] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 6ms)
+2013-09-04 16:51:47,903 [28] INFO  Umbraco.Core.PluginManager - [Thread 29] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2013-09-04 16:51:47,909 [28] INFO  Umbraco.Core.PluginManager - [Thread 29] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 5ms)
+2013-09-04 16:56:42,675 [28] INFO  umbraco.BusinessLogic.Log - [Thread 35] Log scrubbed.  Removed all items older than 2013-07-06 16:56:42
+2013-09-04 16:56:42,676 [28] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 35] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2013-09-04 16:58:01,769 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2013-09-04 16:58:01,777 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 5ms)
+2013-09-04 16:58:01,782 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-09-04 16:58:02,049 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 265ms)
+2013-09-04 16:58:02,060 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-09-04 16:58:02,067 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 1 (took 7ms)
+2013-09-04 16:58:02,068 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-09-04 16:58:02,074 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 5ms)
+2013-09-04 16:58:02,074 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-09-04 16:58:02,080 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 2 (took 5ms)
+2013-09-04 16:58:02,084 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-09-04 16:58:02,090 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 5ms)
+2013-09-04 16:58:02,091 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-09-04 16:58:02,096 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2013-09-04 16:58:02,274 [6] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2013-09-04 16:58:02,497 [6] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2013-09-04 16:58:02,501 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2013-09-04 16:58:02,511 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 10ms)
+2013-09-04 16:58:02,559 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2013-09-04 16:58:02,582 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 23ms)
+2013-09-04 16:58:02,711 [6] INFO  umbraco.content - [Thread 8] Loading content from disk cache...
+2013-09-04 16:58:03,450 [6] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2013-09-04 16:58:03,456 [6] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 5ms)
+2013-09-04 17:26:07,731 [6] INFO  Umbraco.Core.PluginManager - [Thread 57] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2013-09-04 17:26:07,738 [6] INFO  Umbraco.Core.PluginManager - [Thread 57] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 6ms)
+2013-09-04 17:39:43,399 [6] INFO  umbraco.BusinessLogic.Log - [Thread 22] Log scrubbed.  Removed all items older than 2013-07-06 17:39:43
+2013-09-04 17:39:43,399 [6] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 22] Application shutdown. Reason: CodeDirChangeOrDirectoryRename
+2013-09-04 17:43:36,230 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2013-09-04 17:43:36,239 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 6ms)
+2013-09-04 17:43:36,244 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-09-04 17:43:36,524 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 279ms)
+2013-09-04 17:43:36,534 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-09-04 17:43:36,540 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 1 (took 5ms)
+2013-09-04 17:43:36,541 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-09-04 17:43:36,546 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+2013-09-04 17:43:36,546 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-09-04 17:43:36,551 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 2 (took 5ms)
+2013-09-04 17:43:36,558 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-09-04 17:43:36,568 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 9ms)
+2013-09-04 17:43:36,569 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-09-04 17:43:36,580 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 10ms)
+2013-09-04 17:43:36,762 [6] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2013-09-04 17:43:36,992 [6] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2013-09-04 17:43:36,996 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2013-09-04 17:43:37,005 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 9ms)
+2013-09-04 17:43:37,053 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2013-09-04 17:43:37,077 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 23ms)
+2013-09-04 17:43:37,213 [6] INFO  umbraco.content - [Thread 8] Loading content from disk cache...
+2013-09-04 17:43:37,961 [6] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2013-09-04 17:43:37,967 [6] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 6ms)
+2013-09-04 17:43:39,908 [6] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2013-09-04 17:43:39,914 [6] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 6ms)
+2013-09-04 17:44:09,005 [6] INFO  umbraco.BusinessLogic.Log - [Thread 10] Log scrubbed.  Removed all items older than 2013-07-06 17:44:08
+2013-09-04 17:44:09,007 [6] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 10] Application shutdown. Reason: CodeDirChangeOrDirectoryRename
+2013-09-04 17:48:12,098 [40] INFO  Umbraco.Core.PluginManager - [Thread 36] Determining hash of code files on disk
+2013-09-04 17:48:12,107 [40] INFO  Umbraco.Core.PluginManager - [Thread 36] Hash determined (took 6ms)
+2013-09-04 17:48:12,111 [40] INFO  Umbraco.Core.PluginManager - [Thread 36] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-09-04 17:48:12,222 [40] INFO  Umbraco.Core.PluginManager - [Thread 36] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 110ms)
+2013-09-04 17:48:12,231 [40] INFO  Umbraco.Core.PluginManager - [Thread 36] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-09-04 17:48:12,237 [40] INFO  Umbraco.Core.PluginManager - [Thread 36] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 1 (took 5ms)
+2013-09-04 17:48:12,239 [40] INFO  Umbraco.Core.PluginManager - [Thread 36] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-09-04 17:48:12,243 [40] INFO  Umbraco.Core.PluginManager - [Thread 36] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+2013-09-04 17:48:12,244 [40] INFO  Umbraco.Core.PluginManager - [Thread 36] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-09-04 17:48:12,248 [40] INFO  Umbraco.Core.PluginManager - [Thread 36] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 2 (took 4ms)
+2013-09-04 17:48:12,250 [40] INFO  Umbraco.Core.PluginManager - [Thread 36] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-09-04 17:48:12,257 [40] INFO  Umbraco.Core.PluginManager - [Thread 36] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 7ms)
+2013-09-04 17:48:12,258 [40] INFO  Umbraco.Core.PluginManager - [Thread 36] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-09-04 17:48:12,263 [40] INFO  Umbraco.Core.PluginManager - [Thread 36] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2013-09-04 17:48:12,434 [40] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 36] Initializing Examine and binding to business logic events
+2013-09-04 17:48:12,597 [40] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 36] Adding examine event handlers for index providers: 3
+2013-09-04 17:48:12,600 [40] INFO  Umbraco.Core.PluginManager - [Thread 36] Starting resolution types of umbraco.interfaces.IApplication
+2013-09-04 17:48:12,610 [40] INFO  Umbraco.Core.PluginManager - [Thread 36] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 9ms)
+2013-09-04 17:48:12,643 [40] INFO  Umbraco.Core.PluginManager - [Thread 36] Starting resolution types of umbraco.interfaces.ITree
+2013-09-04 17:48:12,666 [40] INFO  Umbraco.Core.PluginManager - [Thread 36] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 23ms)
+2013-09-04 17:48:12,752 [40] INFO  umbraco.content - [Thread 29] Loading content from disk cache...
+2013-09-04 17:48:13,898 [40] INFO  Umbraco.Core.PluginManager - [Thread 29] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2013-09-04 17:48:13,904 [40] INFO  Umbraco.Core.PluginManager - [Thread 29] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 6ms)
+2013-09-04 17:48:42,348 [40] INFO  Umbraco.Core.PluginManager - [Thread 39] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2013-09-04 17:48:42,355 [40] INFO  Umbraco.Core.PluginManager - [Thread 39] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 7ms)
+2013-09-04 17:48:43,797 [40] INFO  umbraco.BusinessLogic.Log - [Thread 38] Log scrubbed.  Removed all items older than 2013-07-06 17:48:43
+2013-09-04 17:48:43,799 [40] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 38] Application shutdown. Reason: CodeDirChangeOrDirectoryRename
+2013-09-04 17:48:52,090 [45] INFO  Umbraco.Core.PluginManager - [Thread 44] Determining hash of code files on disk
+2013-09-04 17:48:52,099 [45] INFO  Umbraco.Core.PluginManager - [Thread 44] Hash determined (took 5ms)
+2013-09-04 17:48:52,103 [45] INFO  Umbraco.Core.PluginManager - [Thread 44] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-09-04 17:48:52,212 [45] INFO  Umbraco.Core.PluginManager - [Thread 44] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 108ms)
+2013-09-04 17:48:52,222 [45] INFO  Umbraco.Core.PluginManager - [Thread 44] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-09-04 17:48:52,227 [45] INFO  Umbraco.Core.PluginManager - [Thread 44] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 1 (took 5ms)
+2013-09-04 17:48:52,229 [45] INFO  Umbraco.Core.PluginManager - [Thread 44] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-09-04 17:48:52,233 [45] INFO  Umbraco.Core.PluginManager - [Thread 44] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+2013-09-04 17:48:52,234 [45] INFO  Umbraco.Core.PluginManager - [Thread 44] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-09-04 17:48:52,238 [45] INFO  Umbraco.Core.PluginManager - [Thread 44] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 2 (took 4ms)
+2013-09-04 17:48:52,240 [45] INFO  Umbraco.Core.PluginManager - [Thread 44] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-09-04 17:48:52,246 [45] INFO  Umbraco.Core.PluginManager - [Thread 44] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 6ms)
+2013-09-04 17:48:52,247 [45] INFO  Umbraco.Core.PluginManager - [Thread 44] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-09-04 17:48:52,252 [45] INFO  Umbraco.Core.PluginManager - [Thread 44] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2013-09-04 17:48:52,420 [45] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 44] Initializing Examine and binding to business logic events
+2013-09-04 17:48:52,567 [45] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 44] Adding examine event handlers for index providers: 3
+2013-09-04 17:48:52,573 [45] INFO  Umbraco.Core.PluginManager - [Thread 44] Starting resolution types of umbraco.interfaces.IApplication
+2013-09-04 17:48:52,583 [45] INFO  Umbraco.Core.PluginManager - [Thread 44] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 9ms)
+2013-09-04 17:48:52,616 [45] INFO  Umbraco.Core.PluginManager - [Thread 44] Starting resolution types of umbraco.interfaces.ITree
+2013-09-04 17:48:52,640 [45] INFO  Umbraco.Core.PluginManager - [Thread 44] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 23ms)
+2013-09-04 17:49:14,571 [45] INFO  umbraco.content - [Thread 29] Loading content from disk cache...
+2013-09-04 17:49:15,712 [45] INFO  Umbraco.Core.PluginManager - [Thread 29] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2013-09-04 17:49:15,718 [45] INFO  Umbraco.Core.PluginManager - [Thread 29] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 5ms)
+2013-09-04 17:49:22,343 [45] INFO  Umbraco.Core.PluginManager - [Thread 43] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2013-09-04 17:49:22,349 [45] INFO  Umbraco.Core.PluginManager - [Thread 43] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 5ms)
+2013-09-04 17:50:11,091 [45] INFO  umbraco.BusinessLogic.Log - [Thread 20] Log scrubbed.  Removed all items older than 2013-07-06 17:50:11
+2013-09-04 17:50:11,093 [45] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 20] Application shutdown. Reason: CodeDirChangeOrDirectoryRename
+2013-09-04 17:50:21,307 [52] INFO  Umbraco.Core.PluginManager - [Thread 51] Determining hash of code files on disk
+2013-09-04 17:50:21,316 [52] INFO  Umbraco.Core.PluginManager - [Thread 51] Hash determined (took 5ms)
+2013-09-04 17:50:21,320 [52] INFO  Umbraco.Core.PluginManager - [Thread 51] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-09-04 17:50:21,428 [52] INFO  Umbraco.Core.PluginManager - [Thread 51] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 107ms)
+2013-09-04 17:50:21,438 [52] INFO  Umbraco.Core.PluginManager - [Thread 51] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-09-04 17:50:21,444 [52] INFO  Umbraco.Core.PluginManager - [Thread 51] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 1 (took 5ms)
+2013-09-04 17:50:21,445 [52] INFO  Umbraco.Core.PluginManager - [Thread 51] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-09-04 17:50:21,450 [52] INFO  Umbraco.Core.PluginManager - [Thread 51] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+2013-09-04 17:50:21,450 [52] INFO  Umbraco.Core.PluginManager - [Thread 51] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-09-04 17:50:21,455 [52] INFO  Umbraco.Core.PluginManager - [Thread 51] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 2 (took 4ms)
+2013-09-04 17:50:21,457 [52] INFO  Umbraco.Core.PluginManager - [Thread 51] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-09-04 17:50:21,462 [52] INFO  Umbraco.Core.PluginManager - [Thread 51] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 5ms)
+2013-09-04 17:50:21,463 [52] INFO  Umbraco.Core.PluginManager - [Thread 51] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-09-04 17:50:21,468 [52] INFO  Umbraco.Core.PluginManager - [Thread 51] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2013-09-04 17:50:21,639 [52] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 51] Initializing Examine and binding to business logic events
+2013-09-04 17:50:21,790 [52] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 51] Adding examine event handlers for index providers: 3
+2013-09-04 17:50:21,794 [52] INFO  Umbraco.Core.PluginManager - [Thread 51] Starting resolution types of umbraco.interfaces.IApplication
+2013-09-04 17:50:21,804 [52] INFO  Umbraco.Core.PluginManager - [Thread 51] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 9ms)
+2013-09-04 17:50:21,840 [52] INFO  Umbraco.Core.PluginManager - [Thread 51] Starting resolution types of umbraco.interfaces.ITree
+2013-09-04 17:50:21,864 [52] INFO  Umbraco.Core.PluginManager - [Thread 51] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 23ms)
+2013-09-04 17:50:38,356 [52] INFO  umbraco.BusinessLogic.Log - [Thread 16] Log scrubbed.  Removed all items older than 2013-07-06 17:50:38
+2013-09-04 17:50:38,357 [52] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 16] Application shutdown. Reason: CodeDirChangeOrDirectoryRename
+2013-09-04 17:51:56,016 [47] INFO  Umbraco.Core.PluginManager - [Thread 48] Determining hash of code files on disk
+2013-09-04 17:51:56,025 [47] INFO  Umbraco.Core.PluginManager - [Thread 48] Hash determined (took 6ms)
+2013-09-04 17:51:56,030 [47] INFO  Umbraco.Core.PluginManager - [Thread 48] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-09-04 17:51:56,139 [47] INFO  Umbraco.Core.PluginManager - [Thread 48] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 108ms)
+2013-09-04 17:51:56,149 [47] INFO  Umbraco.Core.PluginManager - [Thread 48] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-09-04 17:51:56,155 [47] INFO  Umbraco.Core.PluginManager - [Thread 48] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 1 (took 5ms)
+2013-09-04 17:51:56,156 [47] INFO  Umbraco.Core.PluginManager - [Thread 48] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-09-04 17:51:56,161 [47] INFO  Umbraco.Core.PluginManager - [Thread 48] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+2013-09-04 17:51:56,161 [47] INFO  Umbraco.Core.PluginManager - [Thread 48] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-09-04 17:51:56,166 [47] INFO  Umbraco.Core.PluginManager - [Thread 48] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 2 (took 4ms)
+2013-09-04 17:51:56,168 [47] INFO  Umbraco.Core.PluginManager - [Thread 48] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-09-04 17:51:56,174 [47] INFO  Umbraco.Core.PluginManager - [Thread 48] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 5ms)
+2013-09-04 17:51:56,174 [47] INFO  Umbraco.Core.PluginManager - [Thread 48] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-09-04 17:51:56,179 [47] INFO  Umbraco.Core.PluginManager - [Thread 48] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2013-09-04 17:51:56,355 [47] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 48] Initializing Examine and binding to business logic events
+2013-09-04 17:51:56,507 [47] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 48] Adding examine event handlers for index providers: 3
+2013-09-04 17:51:56,514 [47] INFO  Umbraco.Core.PluginManager - [Thread 48] Starting resolution types of umbraco.interfaces.IApplication
+2013-09-04 17:51:56,524 [47] INFO  Umbraco.Core.PluginManager - [Thread 48] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 9ms)
+2013-09-04 17:51:56,561 [47] INFO  Umbraco.Core.PluginManager - [Thread 48] Starting resolution types of umbraco.interfaces.ITree
+2013-09-04 17:51:56,584 [47] INFO  Umbraco.Core.PluginManager - [Thread 48] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 23ms)
+2013-09-04 18:01:52,309 [47] INFO  umbraco.BusinessLogic.Log - [Thread 68] Log scrubbed.  Removed all items older than 2013-07-06 18:01:52
+2013-09-04 18:01:52,311 [47] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 68] Application shutdown. Reason: CodeDirChangeOrDirectoryRename
+2013-09-04 18:02:31,552 [81] INFO  Umbraco.Core.PluginManager - [Thread 48] Determining hash of code files on disk
+2013-09-04 18:02:31,561 [81] INFO  Umbraco.Core.PluginManager - [Thread 48] Hash determined (took 6ms)
+2013-09-04 18:02:31,566 [81] INFO  Umbraco.Core.PluginManager - [Thread 48] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-09-04 18:02:31,674 [81] INFO  Umbraco.Core.PluginManager - [Thread 48] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 105ms)
+2013-09-04 18:02:31,684 [81] INFO  Umbraco.Core.PluginManager - [Thread 48] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-09-04 18:02:31,690 [81] INFO  Umbraco.Core.PluginManager - [Thread 48] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 1 (took 5ms)
+2013-09-04 18:02:31,692 [81] INFO  Umbraco.Core.PluginManager - [Thread 48] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-09-04 18:02:31,696 [81] INFO  Umbraco.Core.PluginManager - [Thread 48] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+2013-09-04 18:02:31,697 [81] INFO  Umbraco.Core.PluginManager - [Thread 48] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-09-04 18:02:31,701 [81] INFO  Umbraco.Core.PluginManager - [Thread 48] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 2 (took 4ms)
+2013-09-04 18:02:31,703 [81] INFO  Umbraco.Core.PluginManager - [Thread 48] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-09-04 18:02:31,709 [81] INFO  Umbraco.Core.PluginManager - [Thread 48] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 5ms)
+2013-09-04 18:02:31,709 [81] INFO  Umbraco.Core.PluginManager - [Thread 48] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-09-04 18:02:31,715 [81] INFO  Umbraco.Core.PluginManager - [Thread 48] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2013-09-04 18:02:31,891 [81] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 48] Initializing Examine and binding to business logic events
+2013-09-04 18:02:32,038 [81] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 48] Adding examine event handlers for index providers: 3
+2013-09-04 18:02:32,042 [81] INFO  Umbraco.Core.PluginManager - [Thread 48] Starting resolution types of umbraco.interfaces.IApplication
+2013-09-04 18:02:32,052 [81] INFO  Umbraco.Core.PluginManager - [Thread 48] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 9ms)
+2013-09-04 18:02:32,089 [81] INFO  Umbraco.Core.PluginManager - [Thread 48] Starting resolution types of umbraco.interfaces.ITree
+2013-09-04 18:02:32,112 [81] INFO  Umbraco.Core.PluginManager - [Thread 48] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 23ms)
+2013-09-04 18:29:46,492 [81] INFO  umbraco.BusinessLogic.Log - [Thread 117] Log scrubbed.  Removed all items older than 2013-07-06 18:29:46
+2013-09-04 18:29:46,492 [81] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 117] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2013-09-04 18:32:15,372 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2013-09-04 18:32:15,381 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 6ms)
+2013-09-04 18:32:15,386 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-09-04 18:32:15,648 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 262ms)
+2013-09-04 18:32:15,659 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-09-04 18:32:15,665 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 1 (took 5ms)
+2013-09-04 18:32:15,666 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-09-04 18:32:15,671 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 5ms)
+2013-09-04 18:32:15,671 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-09-04 18:32:15,676 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 2 (took 4ms)
+2013-09-04 18:32:15,682 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-09-04 18:32:15,687 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 5ms)
+2013-09-04 18:32:15,688 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-09-04 18:32:15,694 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2013-09-04 18:32:15,875 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2013-09-04 18:32:16,097 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2013-09-04 18:32:16,101 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2013-09-04 18:32:16,111 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 10ms)
+2013-09-04 18:32:16,158 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2013-09-04 18:32:16,185 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 26ms)
+2013-09-04 18:32:17,100 [7] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 8] An unhandled exception occurred
+System.InvalidOperationException: Failed to handle request. ---> System.InvalidOperationException: Unable to handle request. ---> System.Web.HttpCompileException: c:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\DefaultWsdlHelpGenerator.aspx(1369): error CS0104: 'ResourceManager' is an ambiguous reference between 'System.Resources.ResourceManager' and 'Ext.Net.ResourceManager'
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.PageParser.GetCompiledPageInstance(VirtualPath virtualPath, String inputFile, HttpContext context)
+   at System.Web.UI.PageParser.GetCompiledPageInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.Services.Protocols.DocumentationServerProtocol.GetCompiledPageInstance(String virtualPath, String inputFile, HttpContext context)
+   at System.Web.Services.Protocols.DocumentationServerProtocol.Initialize()
+   at System.Web.Services.Protocols.ServerProtocolFactory.Create(Type type, HttpContext context, HttpRequest request, HttpResponse response, Boolean& abortProcessing)
+   --- End of inner exception stack trace ---
+   at System.Web.Services.Protocols.ServerProtocolFactory.Create(Type type, HttpContext context, HttpRequest request, HttpResponse response, Boolean& abortProcessing)
+   at System.Web.Services.Protocols.WebServiceHandlerFactory.CoreGetHandler(Type type, HttpContext context, HttpRequest request, HttpResponse response)
+   --- End of inner exception stack trace ---
+   at System.Web.Services.Protocols.WebServiceHandlerFactory.CoreGetHandler(Type type, HttpContext context, HttpRequest request, HttpResponse response)
+   at System.Web.Services.Protocols.WebServiceHandlerFactory.GetHandler(HttpContext context, String verb, String url, String filePath)
+   at System.Web.Script.Services.ScriptHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String pathTranslated)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-09-04 18:33:21,651 [7] INFO  umbraco.content - [Thread 6] Loading content from disk cache...
+2013-09-04 18:33:45,818 [7] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2013-09-04 18:33:45,824 [7] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 6ms)
+2013-09-04 18:33:51,459 [7] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2013-09-04 18:33:51,466 [7] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 6ms)

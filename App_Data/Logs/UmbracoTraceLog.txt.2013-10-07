@@ -1,0 +1,439 @@
+2013-10-07 09:33:52,420 [26] INFO  umbraco.BusinessLogic.Log - [Thread 97] Log scrubbed.  Removed all items older than 2013-08-08 09:33:52
+2013-10-07 09:33:52,454 [26] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 97] Application shutdown. Reason: CodeDirChangeOrDirectoryRename
+2013-10-07 09:34:09,320 [25] INFO  Umbraco.Core.PluginManager - [Thread 79] Determining hash of code files on disk
+2013-10-07 09:34:09,337 [25] INFO  Umbraco.Core.PluginManager - [Thread 79] Hash determined (took 11ms)
+2013-10-07 09:34:09,342 [25] INFO  Umbraco.Core.PluginManager - [Thread 79] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-10-07 09:34:09,454 [25] INFO  Umbraco.Core.PluginManager - [Thread 79] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 111ms)
+2013-10-07 09:34:09,474 [25] INFO  Umbraco.Core.PluginManager - [Thread 79] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-10-07 09:34:09,480 [25] INFO  Umbraco.Core.PluginManager - [Thread 79] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 1 (took 5ms)
+2013-10-07 09:34:09,481 [25] INFO  Umbraco.Core.PluginManager - [Thread 79] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-10-07 09:34:09,487 [25] INFO  Umbraco.Core.PluginManager - [Thread 79] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 6ms)
+2013-10-07 09:34:09,488 [25] INFO  Umbraco.Core.PluginManager - [Thread 79] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-10-07 09:34:09,498 [25] INFO  Umbraco.Core.PluginManager - [Thread 79] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 2 (took 9ms)
+2013-10-07 09:34:09,502 [25] INFO  Umbraco.Core.PluginManager - [Thread 79] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-10-07 09:34:09,513 [25] INFO  Umbraco.Core.PluginManager - [Thread 79] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 11ms)
+2013-10-07 09:34:09,513 [25] INFO  Umbraco.Core.PluginManager - [Thread 79] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-10-07 09:34:09,520 [25] INFO  Umbraco.Core.PluginManager - [Thread 79] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 6ms)
+2013-10-07 09:34:09,696 [25] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 79] Initializing Examine and binding to business logic events
+2013-10-07 09:34:09,880 [25] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 79] Adding examine event handlers for index providers: 3
+2013-10-07 09:34:09,887 [25] INFO  Umbraco.Core.PluginManager - [Thread 79] Starting resolution types of umbraco.interfaces.IApplication
+2013-10-07 09:34:09,897 [25] INFO  Umbraco.Core.PluginManager - [Thread 79] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 10ms)
+2013-10-07 09:34:09,943 [25] INFO  Umbraco.Core.PluginManager - [Thread 79] Starting resolution types of umbraco.interfaces.ITree
+2013-10-07 09:34:09,972 [25] INFO  Umbraco.Core.PluginManager - [Thread 79] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 28ms)
+2013-10-07 09:54:25,527 [25] INFO  umbraco.content - [Thread 45] Loading content from disk cache...
+2013-10-07 09:54:27,442 [25] INFO  Umbraco.Core.PluginManager - [Thread 45] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2013-10-07 09:54:27,449 [25] INFO  Umbraco.Core.PluginManager - [Thread 45] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 6ms)
+2013-10-07 09:54:39,796 [25] INFO  Umbraco.Core.PluginManager - [Thread 47] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2013-10-07 09:54:39,802 [25] INFO  Umbraco.Core.PluginManager - [Thread 47] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 6ms)
+2013-10-07 10:08:53,477 [25] INFO  umbraco.BasePages.BasePage - [Thread 91] User admin (Id: 0) logged in
+2013-10-07 10:08:53,577 [25] INFO  Umbraco.Core.PluginManager - [Thread 32] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2013-10-07 10:08:53,583 [25] INFO  Umbraco.Core.PluginManager - [Thread 32] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 5ms)
+2013-10-07 10:08:53,664 [25] INFO  Umbraco.Core.PluginManager - [Thread 32] Starting resolution types of umbraco.interfaces.ITree
+2013-10-07 10:08:53,691 [25] INFO  Umbraco.Core.PluginManager - [Thread 32] Completed resolution of types of umbraco.interfaces.ITree, found 37 (took 27ms)
+2013-10-07 10:09:51,336 [25] INFO  Umbraco.Core.PluginManager - [Thread 22] Starting resolution types of umbraco.interfaces.IDataType
+2013-10-07 10:09:51,361 [25] INFO  Umbraco.Core.PluginManager - [Thread 22] Completed resolution of types of umbraco.interfaces.IDataType, found 37 (took 25ms)
+2013-10-07 10:10:38,005 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'JK 1' with Id '1196' has been published.
+2013-10-07 10:10:38,131 [25] INFO  Umbraco.Core.PluginManager - [Thread 22] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2013-10-07 10:10:38,143 [25] INFO  Umbraco.Core.PluginManager - [Thread 22] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 21 (took 12ms)
+2013-10-07 10:10:38,528 [25] ERROR umbraco.presentation.nodeFactory.UmbracoSiteMapProvider - [Thread 22] Error adding node 1188 to SiteMapProvider in loadNodes()
+System.InvalidOperationException: Multiple nodes with the same URL '/' were found. XmlSiteMapProvider requires that sitemap nodes have unique URLs.
+   at System.Web.StaticSiteMapProvider.AddNode(SiteMapNode node, SiteMapNode parentNode)
+   at umbraco.presentation.nodeFactory.UmbracoSiteMapProvider.loadNodes(String parentId, SiteMapNode parentNode)
+2013-10-07 10:25:57,416 [25] INFO  umbraco.cms.businesslogic.web.Document - [Thread 78] New document 1363
+2013-10-07 11:07:23,842 [25] INFO  umbraco.BusinessLogic.Log - [Thread 80] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Error | User: 0 | NodeId: -1 | Comment: Exception: Object reference not set to an instance of an object. - StackTrace:    at DigibizAdvancedMediaPicker.DigibizAdvancedMediaPicker.ConvertXML(XDocument xmlDocument)
+2013-10-07 11:07:23,908 [25] INFO  umbraco.BusinessLogic.Log - [Thread 6] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Error | User: 0 | NodeId: -1 | Comment: Exception: Object reference not set to an instance of an object. - StackTrace:    at DigibizAdvancedMediaPicker.DigibizAdvancedMediaPicker.ConvertXML(XDocument xmlDocument)
+2013-10-07 11:07:39,372 [25] INFO  umbraco.BasePages.BasePage - [Thread 104] User admin (Id: 0) logged in
+2013-10-07 11:07:58,858 [25] INFO  Umbraco.Core.PluginManager - [Thread 45] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2013-10-07 11:07:58,868 [25] INFO  Umbraco.Core.PluginManager - [Thread 45] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 9ms)
+2013-10-07 11:10:15,860 [25] INFO  Umbraco.Core.PluginManager - [Thread 19] Starting resolution types of umbraco.cms.businesslogic.media.IMediaFactory
+2013-10-07 11:10:15,865 [25] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of umbraco.cms.businesslogic.media.IMediaFactory, found 2 (took 5ms)
+2013-10-07 11:10:17,185 [25] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 19] Success uploading to parent 1364
+2013-10-07 11:10:18,240 [25] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 15] Success uploading to parent 1364
+2013-10-07 11:10:19,981 [25] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 117] Success uploading to parent 1364
+2013-10-07 11:10:21,712 [25] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 19] Success uploading to parent 1364
+2013-10-07 11:10:23,151 [25] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 95] Success uploading to parent 1364
+2013-10-07 11:10:24,063 [25] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 120] Success uploading to parent 1364
+2013-10-07 11:10:25,236 [25] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 94] Success uploading to parent 1364
+2013-10-07 11:12:35,288 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 15] Content 'C9' with Id '1363' has been published.
+2013-10-07 11:12:58,611 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 45] Content 'C9' with Id '1363' has been published.
+2013-10-07 11:45:36,105 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 43] Content 'C9' with Id '1363' has been unpublished.
+2013-10-07 11:45:41,825 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 43] Content 'C9' with Id '1363' has been unpublished.
+2013-10-07 11:56:19,418 [25] INFO  umbraco.content - [Thread 100] Loading content from database...
+2013-10-07 11:56:22,619 [25] INFO  umbraco.content - [Thread 32] Loading content from database...
+2013-10-07 11:56:25,533 [25] INFO  umbraco.content - [Thread 119] Loading content from database...
+2013-10-07 11:56:28,540 [25] INFO  umbraco.content - [Thread 41] Loading content from database...
+2013-10-07 11:59:16,815 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 27] Content 'C1' with Id '1201' has been published.
+2013-10-07 12:38:41,207 [25] INFO  umbraco.BusinessLogic.Log - [Thread 46] Log scrubbed.  Removed all items older than 2013-08-08 12:38:41
+2013-10-07 12:38:41,208 [25] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 46] Application shutdown. Reason: MaxRecompilationsReached
+2013-10-07 12:38:45,075 [109] INFO  Umbraco.Core.PluginManager - [Thread 82] Determining hash of code files on disk
+2013-10-07 12:38:45,084 [109] INFO  Umbraco.Core.PluginManager - [Thread 82] Hash determined (took 6ms)
+2013-10-07 12:38:45,182 [109] INFO  Umbraco.Core.PluginManager - [Thread 82] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-10-07 12:38:45,435 [109] INFO  Umbraco.Core.PluginManager - [Thread 82] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 252ms)
+2013-10-07 12:38:45,445 [109] INFO  Umbraco.Core.PluginManager - [Thread 82] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-10-07 12:38:45,451 [109] INFO  Umbraco.Core.PluginManager - [Thread 82] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 1 (took 6ms)
+2013-10-07 12:38:45,452 [109] INFO  Umbraco.Core.PluginManager - [Thread 82] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-10-07 12:38:45,460 [109] INFO  Umbraco.Core.PluginManager - [Thread 82] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 7ms)
+2013-10-07 12:38:45,461 [109] INFO  Umbraco.Core.PluginManager - [Thread 82] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-10-07 12:38:45,471 [109] INFO  Umbraco.Core.PluginManager - [Thread 82] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 2 (took 10ms)
+2013-10-07 12:38:45,475 [109] INFO  Umbraco.Core.PluginManager - [Thread 82] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-10-07 12:38:45,486 [109] INFO  Umbraco.Core.PluginManager - [Thread 82] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 10ms)
+2013-10-07 12:38:45,487 [109] INFO  Umbraco.Core.PluginManager - [Thread 82] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-10-07 12:38:45,494 [109] INFO  Umbraco.Core.PluginManager - [Thread 82] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 7ms)
+2013-10-07 12:38:45,676 [109] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 82] Initializing Examine and binding to business logic events
+2013-10-07 12:38:45,833 [109] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 82] Adding examine event handlers for index providers: 3
+2013-10-07 12:38:45,841 [109] INFO  Umbraco.Core.PluginManager - [Thread 82] Starting resolution types of umbraco.interfaces.IApplication
+2013-10-07 12:38:45,852 [109] INFO  Umbraco.Core.PluginManager - [Thread 82] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 10ms)
+2013-10-07 12:38:45,889 [109] INFO  Umbraco.Core.PluginManager - [Thread 82] Starting resolution types of umbraco.interfaces.ITree
+2013-10-07 12:38:45,922 [109] INFO  Umbraco.Core.PluginManager - [Thread 82] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 32ms)
+2013-10-07 12:38:46,012 [109] INFO  umbraco.content - [Thread 18] Loading content from disk cache...
+2013-10-07 12:38:48,208 [109] INFO  Umbraco.Core.PluginManager - [Thread 80] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2013-10-07 12:38:48,215 [109] INFO  Umbraco.Core.PluginManager - [Thread 80] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 6ms)
+2013-10-07 13:10:10,903 [109] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 14] An unhandled exception occurred
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_Views_Item_cshtml.Execute() in c:\Users\mohamed\Desktop\NewSilverRedCopy\Views\Item.cshtml:line 12
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at StackExchange.Profiling.MVCHelpers.WrappedView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__19()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 13:10:53,626 [109] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 69] An unhandled exception occurred
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_Views_Item_cshtml.Execute() in c:\Users\mohamed\Desktop\NewSilverRedCopy\Views\Item.cshtml:line 12
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at StackExchange.Profiling.MVCHelpers.WrappedView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__19()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 13:12:35,988 [109] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 110] An unhandled exception occurred
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_Views_Item_cshtml.Execute() in c:\Users\mohamed\Desktop\NewSilverRedCopy\Views\Item.cshtml:line 12
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at StackExchange.Profiling.MVCHelpers.WrappedView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__19()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 13:13:08,363 [109] INFO  Umbraco.Core.PluginManager - [Thread 24] Starting resolution types of umbraco.interfaces.IDataType
+2013-10-07 13:13:08,388 [109] INFO  Umbraco.Core.PluginManager - [Thread 24] Completed resolution of types of umbraco.interfaces.IDataType, found 37 (took 25ms)
+2013-10-07 13:13:08,392 [109] INFO  Umbraco.Core.PluginManager - [Thread 24] Starting resolution types of umbraco.interfaces.ITree
+2013-10-07 13:13:08,419 [109] INFO  Umbraco.Core.PluginManager - [Thread 24] Completed resolution of types of umbraco.interfaces.ITree, found 37 (took 26ms)
+2013-10-07 13:13:08,674 [109] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 24] Content 'C1' with Id '1201' has been published.
+2013-10-07 13:13:08,746 [109] INFO  Umbraco.Core.PluginManager - [Thread 24] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2013-10-07 13:13:08,863 [109] INFO  Umbraco.Core.PluginManager - [Thread 24] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 21 (took 117ms)
+2013-10-07 13:13:08,993 [109] ERROR umbraco.presentation.nodeFactory.UmbracoSiteMapProvider - [Thread 24] Error adding node 1188 to SiteMapProvider in loadNodes()
+System.InvalidOperationException: Multiple nodes with the same URL '/' were found. XmlSiteMapProvider requires that sitemap nodes have unique URLs.
+   at System.Web.StaticSiteMapProvider.AddNode(SiteMapNode node, SiteMapNode parentNode)
+   at umbraco.presentation.nodeFactory.UmbracoSiteMapProvider.loadNodes(String parentId, SiteMapNode parentNode)
+2013-10-07 13:13:09,025 [109] INFO  Umbraco.Core.PluginManager - [Thread 24] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2013-10-07 13:13:09,036 [109] INFO  Umbraco.Core.PluginManager - [Thread 24] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 10ms)
+2013-10-07 13:40:37,839 [109] INFO  umbraco.BusinessLogic.Log - [Thread 53] Log scrubbed.  Removed all items older than 2013-08-08 13:40:37
+2013-10-07 13:40:37,840 [109] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 53] Application shutdown. Reason: ConfigurationChange
+2013-10-07 14:22:31,597 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2013-10-07 14:22:31,606 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 6ms)
+2013-10-07 14:22:31,611 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-10-07 14:22:31,932 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 320ms)
+2013-10-07 14:22:31,942 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-10-07 14:22:31,948 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 1 (took 5ms)
+2013-10-07 14:22:31,949 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-10-07 14:22:31,954 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+2013-10-07 14:22:31,954 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-10-07 14:22:31,959 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 2 (took 5ms)
+2013-10-07 14:22:31,965 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-10-07 14:22:31,971 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 5ms)
+2013-10-07 14:22:31,971 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-10-07 14:22:31,977 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2013-10-07 14:22:32,197 [6] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2013-10-07 14:22:32,443 [6] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2013-10-07 14:22:32,446 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2013-10-07 14:22:32,457 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 10ms)
+2013-10-07 14:22:32,503 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2013-10-07 14:22:32,533 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 30ms)
+2013-10-07 14:22:32,689 [6] INFO  umbraco.content - [Thread 8] Loading content from disk cache...
+2013-10-07 14:22:33,046 [6] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2013-10-07 14:22:33,053 [6] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 6ms)
+2013-10-07 14:23:20,214 [6] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2013-10-07 14:23:20,220 [6] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 6ms)
+2013-10-07 14:23:20,305 [6] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of umbraco.interfaces.ITree
+2013-10-07 14:23:20,333 [6] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of umbraco.interfaces.ITree, found 37 (took 28ms)
+2013-10-07 14:24:58,764 [6] INFO  Umbraco.Core.PluginManager - [Thread 18] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2013-10-07 14:24:58,777 [6] INFO  Umbraco.Core.PluginManager - [Thread 18] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 21 (took 12ms)
+2013-10-07 14:28:14,031 [6] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of umbraco.interfaces.IDataType
+2013-10-07 14:28:14,061 [6] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of umbraco.interfaces.IDataType, found 37 (took 30ms)
+2013-10-07 14:29:31,373 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 26] Content 'C1' with Id '1201' has been published.
+2013-10-07 14:29:31,690 [6] ERROR umbraco.presentation.nodeFactory.UmbracoSiteMapProvider - [Thread 26] Error adding node 1188 to SiteMapProvider in loadNodes()
+System.InvalidOperationException: Multiple nodes with the same URL '/' were found. XmlSiteMapProvider requires that sitemap nodes have unique URLs.
+   at System.Web.StaticSiteMapProvider.AddNode(SiteMapNode node, SiteMapNode parentNode)
+   at umbraco.presentation.nodeFactory.UmbracoSiteMapProvider.loadNodes(String parentId, SiteMapNode parentNode)
+2013-10-07 14:30:52,049 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'C1' with Id '1201' has been published.
+2013-10-07 14:31:55,891 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 27] Content 'C1' with Id '1201' has been published.
+2013-10-07 14:32:15,331 [6] INFO  umbraco.BusinessLogic.Log - [Thread 18] Log scrubbed.  Removed all items older than 2013-08-08 14:32:15
+2013-10-07 14:32:15,332 [6] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 18] Application shutdown. Reason: ConfigurationChange
+2013-10-07 11:39:11,999 [59] INFO  Umbraco.Core.PluginManager - [Thread 57] Determining hash of code files on disk
+2013-10-07 11:39:12,217 [59] INFO  Umbraco.Core.PluginManager - [Thread 57] Hash determined (took 201ms)
+2013-10-07 11:39:12,280 [59] INFO  Umbraco.Core.PluginManager - [Thread 57] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-10-07 11:39:15,431 [59] INFO  Umbraco.Core.PluginManager - [Thread 57] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 3134ms)
+2013-10-07 11:39:15,680 [59] INFO  Umbraco.Core.PluginManager - [Thread 57] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-10-07 11:39:15,758 [59] INFO  Umbraco.Core.PluginManager - [Thread 57] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 1 (took 83ms)
+2013-10-07 11:39:15,774 [59] INFO  Umbraco.Core.PluginManager - [Thread 57] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-10-07 11:39:15,946 [59] INFO  Umbraco.Core.PluginManager - [Thread 57] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 161ms)
+2013-10-07 11:39:15,946 [59] INFO  Umbraco.Core.PluginManager - [Thread 57] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-10-07 11:39:16,180 [59] INFO  Umbraco.Core.PluginManager - [Thread 57] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 2 (took 242ms)
+2013-10-07 11:39:16,195 [59] INFO  Umbraco.Core.PluginManager - [Thread 57] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-10-07 11:39:16,226 [59] INFO  Umbraco.Core.PluginManager - [Thread 57] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 24ms)
+2013-10-07 11:39:16,226 [59] INFO  Umbraco.Core.PluginManager - [Thread 57] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-10-07 11:39:16,336 [59] INFO  Umbraco.Core.PluginManager - [Thread 57] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 107ms)
+2013-10-07 11:39:17,646 [59] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 57] Initializing Examine and binding to business logic events
+2013-10-07 11:39:20,969 [59] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 57] Adding examine event handlers for index providers: 3
+2013-10-07 11:39:21,156 [59] INFO  Umbraco.Core.PluginManager - [Thread 57] Starting resolution types of umbraco.interfaces.IApplication
+2013-10-07 11:39:22,045 [59] INFO  Umbraco.Core.PluginManager - [Thread 57] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 891ms)
+2013-10-07 11:39:24,682 [59] INFO  Umbraco.Core.PluginManager - [Thread 57] Starting resolution types of umbraco.interfaces.ITree
+2013-10-07 11:39:24,853 [59] INFO  Umbraco.Core.PluginManager - [Thread 57] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 169ms)
+2013-10-07 11:39:30,142 [59] INFO  umbraco.content - [Thread 75] Loading content from disk cache...
+2013-10-07 11:39:42,778 [59] INFO  Umbraco.Core.PluginManager - [Thread 75] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2013-10-07 11:39:42,918 [59] INFO  Umbraco.Core.PluginManager - [Thread 75] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 142ms)
+2013-10-07 11:39:47,816 [59] INFO  umbraco.BasePages.BasePage - [Thread 66] User admin (Id: 0) logged in
+2013-10-07 11:39:48,300 [59] INFO  Umbraco.Core.PluginManager - [Thread 22] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2013-10-07 11:39:48,472 [59] INFO  Umbraco.Core.PluginManager - [Thread 22] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 173ms)
+2013-10-07 11:39:50,515 [59] INFO  Umbraco.Core.PluginManager - [Thread 22] Starting resolution types of umbraco.interfaces.ITree
+2013-10-07 11:39:51,607 [59] INFO  Umbraco.Core.PluginManager - [Thread 22] Completed resolution of types of umbraco.interfaces.ITree, found 37 (took 1087ms)
+2013-10-07 11:40:06,240 [59] INFO  Umbraco.Core.PluginManager - [Thread 79] Starting resolution types of umbraco.interfaces.IDataType
+2013-10-07 11:40:06,380 [59] INFO  Umbraco.Core.PluginManager - [Thread 79] Completed resolution of types of umbraco.interfaces.IDataType, found 37 (took 135ms)
+2013-10-07 11:43:06,374 [59] INFO  Umbraco.Core.PluginManager - [Thread 22] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2013-10-07 11:43:06,592 [59] INFO  Umbraco.Core.PluginManager - [Thread 22] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 21 (took 210ms)
+2013-10-07 11:43:15,562 [59] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 80] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at umbraco.controls.ContentTypeControlNew.LoadContentType()
+   at umbraco.controls.ContentTypeControlNew.OnInit(EventArgs e)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.AsyncPageProcessRequestBeforeAsyncPointCancellableCallback(Object state)
+   at System.Web.HttpContext.InvokeCancellableCallback(WaitCallback callback, Object state)
+   at System.Web.UI.Page.LegacyAsyncPageBeginProcessRequest(HttpContext context, AsyncCallback callback, Object extraData)
+   at System.Web.UI.Page.AsyncPageBeginProcessRequest(HttpContext context, AsyncCallback callback, Object extraData)
+   at ASP.umbraco_settings_editnodetypenew_aspx.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object data) in c:\windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\b9cd0f3b\9b7fcc2f\App_Web_editnodetypenew.aspx.a5729980.zudr-p4p.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 11:44:11,488 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 46] Content 'C1' with Id '1201' has been published.
+2013-10-07 11:44:26,355 [59] ERROR umbraco.presentation.nodeFactory.UmbracoSiteMapProvider - [Thread 46] Error adding node 1188 to SiteMapProvider in loadNodes()
+System.InvalidOperationException: Multiple nodes with the same URL '/' were found. XmlSiteMapProvider requires that sitemap nodes have unique URLs.
+   at System.Web.StaticSiteMapProvider.AddNode(SiteMapNode node, SiteMapNode parentNode)
+   at umbraco.presentation.nodeFactory.UmbracoSiteMapProvider.loadNodes(String parentId, SiteMapNode parentNode)
+2013-10-07 11:53:23,542 [59] INFO  umbraco.BasePages.BasePage - [Thread 22] User Jules (Id: 1) logged in
+2013-10-07 11:53:37,941 [59] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 26] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.presentation.plugins.tinymce3.GzipModule.ProcessRequest(HttpContext context)
+   at umbraco.presentation.plugins.tinymce3.tinymce3tinymceCompress.Page_Load(Object sender, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_plugins_tinymce3_tinymce3tinymcecompress_aspx.ProcessRequest(HttpContext context) in c:\windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\b9cd0f3b\9b7fcc2f\App_Web_tinymce3tinymcecompress.aspx.43b758d9._kxh5hgh.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 11:55:10,246 [59] INFO  Umbraco.Core.PluginManager - [Thread 51] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2013-10-07 11:55:10,589 [59] INFO  Umbraco.Core.PluginManager - [Thread 51] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 349ms)
+2013-10-07 13:33:55,698 [59] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 52] An unhandled exception occurred
+System.InvalidOperationException: Request format is unrecognized for URL unexpectedly ending in '/UpdateSortOrder'.
+   at System.Web.Services.Protocols.WebServiceHandlerFactory.CoreGetHandler(Type type, HttpContext context, HttpRequest request, HttpResponse response)
+   at System.Web.Services.Protocols.WebServiceHandlerFactory.GetHandler(HttpContext context, String verb, String url, String filePath)
+   at System.Web.Script.Services.ScriptHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String pathTranslated)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 13:57:35,254 [59] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 46] An unhandled exception occurred
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_Views_Item_cshtml.Execute() in d:\inetpub\vhosts\robotandspark.co.uk\testsilverred\Views\Item.cshtml:line 12
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at StackExchange.Profiling.MVCHelpers.WrappedView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__19()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 13:59:53,407 [59] INFO  Umbraco.Core.PluginManager - [Thread 51] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2013-10-07 13:59:54,312 [59] INFO  Umbraco.Core.PluginManager - [Thread 51] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 912ms)
+2013-10-07 16:34:06,439 [59] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 104] An unhandled exception occurred
+System.InvalidOperationException: Request format is unrecognized for URL unexpectedly ending in '/testing'.
+   at System.Web.Services.Protocols.WebServiceHandlerFactory.CoreGetHandler(Type type, HttpContext context, HttpRequest request, HttpResponse response)
+   at System.Web.Services.Protocols.WebServiceHandlerFactory.GetHandler(HttpContext context, String verb, String url, String filePath)
+   at System.Web.Script.Services.ScriptHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String pathTranslated)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 16:56:49,632 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 101] Content 'C1' with Id '1201' has been published.
+2013-10-07 16:57:07,244 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 60] Content 'C1' with Id '1201' has been published.
+2013-10-07 16:57:09,600 [59] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 71] Content 'C1' with Id '1201' has been published.
+2013-10-07 16:58:47,037 [59] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 56] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Web.HttpException (0x800704CD): The remote host closed the connection. The error code is 0x800704CD.
+   at System.Web.Hosting.IIS7WorkerRequest.RaiseCommunicationError(Int32 result, Boolean throwOnDisconnect)
+   at System.Web.Hosting.IIS7WorkerRequest.ExplicitFlush()
+   at System.Web.HttpResponse.Flush(Boolean finalFlush, Boolean async)
+   at System.Web.HttpResponse.Flush()
+   at System.Web.HttpWriter.WriteFromStream(Byte[] data, Int32 offset, Int32 size)
+   at System.Web.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.Compression.DeflateStream.WriteDeflaterOutput(Boolean isAsync)
+   at System.IO.Compression.DeflateStream.PurgeBuffers(Boolean disposing)
+   at System.IO.Compression.DeflateStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Compression.GZipStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at umbraco.presentation.plugins.tinymce3.GzipCompressor.Compress(Stream to_stream)
+   at umbraco.presentation.plugins.tinymce3.GzipModule.ProcessRequest(HttpContext context)
+   at umbraco.presentation.plugins.tinymce3.tinymce3tinymceCompress.Page_Load(Object sender, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_plugins_tinymce3_tinymce3tinymcecompress_aspx.ProcessRequest(HttpContext context) in c:\windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\b9cd0f3b\9b7fcc2f\App_Web_tinymce3tinymcecompress.aspx.43b758d9._kxh5hgh.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-07 17:01:26,516 [59] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 34] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Web.HttpException (0x800704CD): The remote host closed the connection. The error code is 0x800704CD.
+   at System.Web.Hosting.IIS7WorkerRequest.RaiseCommunicationError(Int32 result, Boolean throwOnDisconnect)
+   at System.Web.Hosting.IIS7WorkerRequest.ExplicitFlush()
+   at System.Web.HttpResponse.Flush(Boolean finalFlush, Boolean async)
+   at System.Web.HttpResponse.Flush()
+   at System.Web.HttpWriter.WriteFromStream(Byte[] data, Int32 offset, Int32 size)
+   at System.Web.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.Compression.DeflateStream.PurgeBuffers(Boolean disposing)
+   at System.IO.Compression.DeflateStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Compression.GZipStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at umbraco.presentation.plugins.tinymce3.GzipCompressor.Compress(Stream to_stream)
+   at umbraco.presentation.plugins.tinymce3.GzipModule.ProcessRequest(HttpContext context)
+   at umbraco.presentation.plugins.tinymce3.tinymce3tinymceCompress.Page_Load(Object sender, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_plugins_tinymce3_tinymce3tinymcecompress_aspx.ProcessRequest(HttpContext context) in c:\windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\b9cd0f3b\9b7fcc2f\App_Web_tinymce3tinymcecompress.aspx.43b758d9._kxh5hgh.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)

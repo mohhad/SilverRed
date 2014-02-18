@@ -1,0 +1,177 @@
+2013-10-21 09:13:49,923 [11] INFO  Umbraco.Core.PluginManager - [Thread 14] Determining hash of code files on disk
+2013-10-21 09:13:49,955 [11] INFO  Umbraco.Core.PluginManager - [Thread 14] Hash determined (took 24ms)
+2013-10-21 09:13:49,986 [11] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-10-21 09:13:52,123 [11] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 17 (took 2141ms)
+2013-10-21 09:13:52,232 [11] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-10-21 09:13:52,263 [11] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 1 (took 34ms)
+2013-10-21 09:13:52,263 [11] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-10-21 09:13:52,295 [11] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 22ms)
+2013-10-21 09:13:52,295 [11] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-10-21 09:13:52,310 [11] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 2 (took 22ms)
+2013-10-21 09:13:52,357 [11] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-10-21 09:13:52,388 [11] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 25ms)
+2013-10-21 09:13:52,388 [11] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-10-21 09:13:52,419 [11] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 38ms)
+2013-10-21 09:13:53,153 [11] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 14] Initializing Examine and binding to business logic events
+2013-10-21 09:13:57,443 [11] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 14] Adding examine event handlers for index providers: 3
+2013-10-21 09:13:57,458 [11] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of umbraco.interfaces.IApplication
+2013-10-21 09:13:57,489 [11] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 27ms)
+2013-10-21 09:13:57,661 [11] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of umbraco.interfaces.ITree
+2013-10-21 09:13:57,786 [11] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 132ms)
+2013-10-21 09:28:39,375 [11] INFO  umbraco.BasePages.BasePage - [Thread 28] User admin (Id: 0) logged in
+2013-10-21 09:28:43,446 [11] INFO  Umbraco.Core.PluginManager - [Thread 12] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2013-10-21 09:28:44,476 [11] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 1024ms)
+2013-10-21 09:28:46,707 [11] INFO  Umbraco.Core.PluginManager - [Thread 12] Starting resolution types of umbraco.interfaces.ITree
+2013-10-21 09:28:46,941 [11] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of umbraco.interfaces.ITree, found 37 (took 243ms)
+2013-10-21 09:29:01,995 [11] INFO  Umbraco.Core.PluginManager - [Thread 33] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2013-10-21 09:29:02,244 [11] INFO  Umbraco.Core.PluginManager - [Thread 33] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 253ms)
+2013-10-21 10:39:23,456 [11] INFO  umbraco.BasePages.BasePage - [Thread 17] User Jules (Id: 1) logged in
+2013-10-21 10:41:30,284 [11] INFO  Umbraco.Core.PluginManager - [Thread 48] Starting resolution types of umbraco.interfaces.IDataType
+2013-10-21 10:41:31,251 [11] INFO  Umbraco.Core.PluginManager - [Thread 48] Completed resolution of types of umbraco.interfaces.IDataType, found 37 (took 959ms)
+2013-10-21 10:41:33,887 [11] INFO  umbraco.BusinessLogic.Log - [Thread 33] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Error | User: 0 | NodeId: -1 | Comment: Exception: Object reference not set to an instance of an object. - StackTrace:    at DigibizAdvancedMediaPicker.DigibizAdvancedMediaPicker.ConvertXML(XDocument xmlDocument)
+2013-10-21 10:41:34,012 [11] INFO  umbraco.BusinessLogic.Log - [Thread 33] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Error | User: 0 | NodeId: -1 | Comment: Exception: Object reference not set to an instance of an object. - StackTrace:    at DigibizAdvancedMediaPicker.DigibizAdvancedMediaPicker.ConvertXML(XDocument xmlDocument)
+2013-10-21 10:41:34,137 [11] INFO  umbraco.content - [Thread 48] Loading content from disk cache...
+2013-10-21 10:41:36,446 [11] INFO  umbraco.BusinessLogic.Log - [Thread 9] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Error | User: 0 | NodeId: -1 | Comment: Exception: Object reference not set to an instance of an object. - StackTrace:    at DigibizAdvancedMediaPicker.DigibizAdvancedMediaPicker.ConvertXML(XDocument xmlDocument)
+2013-10-21 10:41:36,493 [11] INFO  umbraco.BusinessLogic.Log - [Thread 62] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Error | User: 0 | NodeId: -1 | Comment: Exception: Object reference not set to an instance of an object. - StackTrace:    at DigibizAdvancedMediaPicker.DigibizAdvancedMediaPicker.ConvertXML(XDocument xmlDocument)
+2013-10-21 10:41:39,254 [11] INFO  umbraco.BusinessLogic.Log - [Thread 51] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Error | User: 0 | NodeId: -1 | Comment: Exception: Object reference not set to an instance of an object. - StackTrace:    at DigibizAdvancedMediaPicker.DigibizAdvancedMediaPicker.ConvertXML(XDocument xmlDocument)
+2013-10-21 10:41:39,285 [11] INFO  umbraco.BusinessLogic.Log - [Thread 33] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Error | User: 0 | NodeId: -1 | Comment: Exception: Object reference not set to an instance of an object. - StackTrace:    at DigibizAdvancedMediaPicker.DigibizAdvancedMediaPicker.ConvertXML(XDocument xmlDocument)
+2013-10-21 10:41:39,784 [11] INFO  umbraco.BusinessLogic.Log - [Thread 33] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Error | User: 0 | NodeId: -1 | Comment: Exception: Object reference not set to an instance of an object. - StackTrace:    at DigibizAdvancedMediaPicker.DigibizAdvancedMediaPicker.ConvertXML(XDocument xmlDocument)
+2013-10-21 10:41:39,815 [11] INFO  umbraco.BusinessLogic.Log - [Thread 52] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Error | User: 0 | NodeId: -1 | Comment: Exception: Object reference not set to an instance of an object. - StackTrace:    at DigibizAdvancedMediaPicker.DigibizAdvancedMediaPicker.ConvertXML(XDocument xmlDocument)
+2013-10-21 10:41:40,330 [11] INFO  umbraco.BusinessLogic.Log - [Thread 48] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Error | User: 0 | NodeId: -1 | Comment: Exception: Object reference not set to an instance of an object. - StackTrace:    at DigibizAdvancedMediaPicker.DigibizAdvancedMediaPicker.ConvertXML(XDocument xmlDocument)
+2013-10-21 10:41:40,346 [11] INFO  umbraco.BusinessLogic.Log - [Thread 52] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Error | User: 0 | NodeId: -1 | Comment: Exception: Object reference not set to an instance of an object. - StackTrace:    at DigibizAdvancedMediaPicker.DigibizAdvancedMediaPicker.ConvertXML(XDocument xmlDocument)
+2013-10-21 10:55:46,710 [11] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 5] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Web.HttpException (0x800704CD): The remote host closed the connection. The error code is 0x800704CD.
+   at System.Web.Hosting.IIS7WorkerRequest.RaiseCommunicationError(Int32 result, Boolean throwOnDisconnect)
+   at System.Web.Hosting.IIS7WorkerRequest.ExplicitFlush()
+   at System.Web.HttpResponse.Flush(Boolean finalFlush, Boolean async)
+   at System.Web.HttpResponse.Flush()
+   at System.Web.HttpWriter.WriteFromStream(Byte[] data, Int32 offset, Int32 size)
+   at System.Web.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.Compression.DeflateStream.PurgeBuffers(Boolean disposing)
+   at System.IO.Compression.DeflateStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Compression.GZipStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at umbraco.presentation.plugins.tinymce3.GzipCompressor.Compress(Stream to_stream)
+   at umbraco.presentation.plugins.tinymce3.GzipModule.ProcessRequest(HttpContext context)
+   at umbraco.presentation.plugins.tinymce3.tinymce3tinymceCompress.Page_Load(Object sender, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_plugins_tinymce3_tinymce3tinymcecompress_aspx.ProcessRequest(HttpContext context) in c:\windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\b9cd0f3b\9b7fcc2f\App_Web_tinymce3tinymcecompress.aspx.43b758d9._kxh5hgh.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-21 11:13:09,431 [11] INFO  umbraco.cms.businesslogic.web.Document - [Thread 62] New document 1372
+2013-10-21 11:14:38,258 [11] INFO  Umbraco.Core.PluginManager - [Thread 34] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2013-10-21 11:14:39,989 [11] INFO  Umbraco.Core.PluginManager - [Thread 34] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 1725ms)
+2013-10-21 11:15:32,733 [11] INFO  Umbraco.Core.PluginManager - [Thread 73] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2013-10-21 11:15:33,544 [11] INFO  Umbraco.Core.PluginManager - [Thread 73] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 21 (took 812ms)
+2013-10-21 11:45:50,276 [11] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 53] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Web.HttpException (0x800704CD): The remote host closed the connection. The error code is 0x800704CD.
+   at System.Web.Hosting.IIS7WorkerRequest.RaiseCommunicationError(Int32 result, Boolean throwOnDisconnect)
+   at System.Web.Hosting.IIS7WorkerRequest.ExplicitFlush()
+   at System.Web.HttpResponse.Flush(Boolean finalFlush, Boolean async)
+   at System.Web.HttpResponse.Flush()
+   at System.Web.HttpWriter.WriteFromStream(Byte[] data, Int32 offset, Int32 size)
+   at System.Web.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.Compression.DeflateStream.PurgeBuffers(Boolean disposing)
+   at System.IO.Compression.DeflateStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Compression.GZipStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at umbraco.presentation.plugins.tinymce3.GzipCompressor.Compress(Stream to_stream)
+   at umbraco.presentation.plugins.tinymce3.GzipModule.ProcessRequest(HttpContext context)
+   at umbraco.presentation.plugins.tinymce3.tinymce3tinymceCompress.Page_Load(Object sender, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_plugins_tinymce3_tinymce3tinymcecompress_aspx.ProcessRequest(HttpContext context) in c:\windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\b9cd0f3b\9b7fcc2f\App_Web_tinymce3tinymcecompress.aspx.43b758d9._kxh5hgh.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-21 11:45:56,064 [11] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 28] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Web.HttpException (0x800704CD): The remote host closed the connection. The error code is 0x800704CD.
+   at System.Web.Hosting.IIS7WorkerRequest.RaiseCommunicationError(Int32 result, Boolean throwOnDisconnect)
+   at System.Web.Hosting.IIS7WorkerRequest.ExplicitFlush()
+   at System.Web.HttpResponse.Flush(Boolean finalFlush, Boolean async)
+   at System.Web.HttpResponse.Flush()
+   at System.Web.HttpWriter.WriteFromStream(Byte[] data, Int32 offset, Int32 size)
+   at System.Web.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.Compression.DeflateStream.WriteDeflaterOutput(Boolean isAsync)
+   at System.IO.Compression.DeflateStream.PurgeBuffers(Boolean disposing)
+   at System.IO.Compression.DeflateStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Compression.GZipStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at umbraco.presentation.plugins.tinymce3.GzipCompressor.Compress(Stream to_stream)
+   at umbraco.presentation.plugins.tinymce3.GzipModule.ProcessRequest(HttpContext context)
+   at umbraco.presentation.plugins.tinymce3.tinymce3tinymceCompress.Page_Load(Object sender, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_plugins_tinymce3_tinymce3tinymcecompress_aspx.ProcessRequest(HttpContext context) in c:\windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\b9cd0f3b\9b7fcc2f\App_Web_tinymce3tinymcecompress.aspx.43b758d9._kxh5hgh.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-21 11:46:00,058 [11] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 56] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Web.HttpException (0x800704CD): The remote host closed the connection. The error code is 0x800704CD.
+   at System.Web.Hosting.IIS7WorkerRequest.RaiseCommunicationError(Int32 result, Boolean throwOnDisconnect)
+   at System.Web.Hosting.IIS7WorkerRequest.ExplicitFlush()
+   at System.Web.HttpResponse.Flush(Boolean finalFlush, Boolean async)
+   at System.Web.HttpResponse.Flush()
+   at System.Web.HttpWriter.WriteFromStream(Byte[] data, Int32 offset, Int32 size)
+   at System.Web.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.Compression.DeflateStream.WriteDeflaterOutput(Boolean isAsync)
+   at System.IO.Compression.DeflateStream.PurgeBuffers(Boolean disposing)
+   at System.IO.Compression.DeflateStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Compression.GZipStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at umbraco.presentation.plugins.tinymce3.GzipCompressor.Compress(Stream to_stream)
+   at umbraco.presentation.plugins.tinymce3.GzipModule.ProcessRequest(HttpContext context)
+   at umbraco.presentation.plugins.tinymce3.tinymce3tinymceCompress.Page_Load(Object sender, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_plugins_tinymce3_tinymce3tinymcecompress_aspx.ProcessRequest(HttpContext context) in c:\windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\b9cd0f3b\9b7fcc2f\App_Web_tinymce3tinymcecompress.aspx.43b758d9._kxh5hgh.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-10-21 11:49:41,375 [11] INFO  umbraco.cms.businesslogic.web.Document - [Thread 21] New document 1375
+2013-10-21 11:49:43,232 [11] INFO  umbraco.cms.businesslogic.web.Document - [Thread 66] New document 1376
+2013-10-21 11:50:01,952 [11] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 47] Content 'S4 (1)' with Id '1376' has been unpublished.
+2013-10-21 11:54:22,410 [11] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 58] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2013-10-21 13:55:39,136 [11] INFO  umbraco.BasePages.BasePage - [Thread 13] User Jules (Id: 1) logged in
+2013-10-21 13:55:40,181 [11] INFO  umbraco.BasePages.BasePage - [Thread 83] User Jules (Id: 1) logged in
+2013-10-21 19:02:32,472 [11] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 24] An unhandled exception occurred
+System.InvalidOperationException: Request format is unrecognized for URL unexpectedly ending in '/ValidateUser'.
+   at System.Web.Services.Protocols.WebServiceHandlerFactory.CoreGetHandler(Type type, HttpContext context, HttpRequest request, HttpResponse response)
+   at System.Web.Services.Protocols.WebServiceHandlerFactory.GetHandler(HttpContext context, String verb, String url, String filePath)
+   at System.Web.Script.Services.ScriptHandlerFactory.GetHandler(HttpContext context, String requestType, String url, String pathTranslated)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
